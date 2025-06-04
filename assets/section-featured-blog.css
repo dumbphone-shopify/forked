@@ -47,8 +47,8 @@
 
 .blog__button:hover {
   transform:scale(1.05);
-  background-color: var(--color-accent);
-  color: var(--color-accent-foreground);
+   background-color: var(--color-accent);
+  color: var(--color-accent-foreground); 
   
 }
 
