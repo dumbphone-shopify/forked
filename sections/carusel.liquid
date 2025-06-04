@@ -157,16 +157,17 @@
  
 }
 
-.section-dark .carousel-slide a.button:hover {
+  
+.carousel-slide a.button:hover {
   
   transform:scale(1.05);
  }
-  
-  
-.section-light .carousel-slide a.button:hover {
-  
-  transform:scale(1.05);
- }
+
+
+  .section-dark .carousel-slide a.button:hover{
+     background-color:rgb(var(--color-button-text));
+color: #FFFDF8;
+  }
   
   /* hiding the scrollbar for .glider */
   .glider {
@@ -249,7 +250,8 @@ const rgb = bgColor.match(/\d+/g).map(Number);
 const isWhite = rgb.every(channel => channel > 240); // true if R, G, and B > 240 (almost white)
 
 if (isWhite) {
-   section.classList.add('section--light');  // background is white (or near white)
+  console.log(section.classList); 
+  section.classList.add('section--light');  // background is white (or near white)
 } else {
   section.classList.add('section--dark');   // background is not white
 }
