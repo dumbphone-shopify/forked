@@ -1302,8 +1302,7 @@ button.shopify-payment-button__button--unbranded {
 
 .button:not([disabled]):hover{
    transform: scale(1.05);
-   --color-button:   var(--color-secondary-button-text);
-  --color-button-text: var(--color-secondary-button);
+   
 }
 
 
