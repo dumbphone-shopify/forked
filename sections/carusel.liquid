@@ -232,11 +232,13 @@
 
   window.addEventListener('load', () =>{
 
-    let allSectionBGC = document.querySelectorAll(".section-color").style.backgroundColor;
+   let allSections = document.querySelectorAll(".section-color");
 
-    forEach.allSectionBGC(bgColor =>{
-       console.log(allSectionBGC);
-    });
+allSections.forEach(section => {
+  
+  const bgColor = getComputedStyle(section).backgroundColor;
+  console.log(bgColor);  
+});
    
 
     
