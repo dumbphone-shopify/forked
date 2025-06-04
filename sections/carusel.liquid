@@ -160,9 +160,12 @@
     transform:scale(1.05);
  }
 
-.section--dark a.button:hover {
+.section--colered a.button:hover {
   background-color: rgb(var(--color-button-text));
   color: #FFFDF8;
+}
+  .section--white .section--colered a.button:hover {
+  transform:scale(1.05);
 }
 
   
@@ -249,10 +252,10 @@ const brightness = (rgb[0] * 299 + rgb[1] * 587 + rgb[2] * 114) / 1000;
 
 if (brightness < 200) {
   console.log(section.classList); 
-  section.classList.add('section--dark');  
+  section.classList.add('section--white');  
   console.log(section.classList);
 } else {
-  section.classList.add('section--dark');  
+  section.classList.add('section--colered');  
 }
   
 });
