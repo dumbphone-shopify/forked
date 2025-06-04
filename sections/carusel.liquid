@@ -176,7 +176,7 @@
 
 {% comment %} her henter jeg glider css inde i assets {% endcomment %}
 {{ 'glider.min.css' | asset_url | stylesheet_tag }}
-<div class="color-{{ section.settings.color_scheme }} section-{{ section.id }}-padding section-color">
+<div class="color-{{ section.settings.color_scheme }} section-{{ section.id }}-padding">
   {% comment %} <div class="page-width glider__container" id="{{section.id}}"> {% endcomment %}
   {% comment %} Disabled the page-width to add a dynamic padding based on the page-width under .glider__container  {% endcomment %}
   <div class="glider__container" id="{{section.id}}">
@@ -232,7 +232,7 @@
 
   window.addEventListener('load', () =>{
 
-   let allSections = document.querySelectorAll(".section-color");
+   let allSections = document.querySelectorAll(".carousel-slide");
 
 allSections.forEach(section => {
   
