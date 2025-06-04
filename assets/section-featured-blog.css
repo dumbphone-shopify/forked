@@ -47,8 +47,6 @@
 
 .blog__button:hover {
   transform:scale(1.05);
- background-color:rgb(var(--color-button-text));
-color: #FFFDF8;
   
 }
 
