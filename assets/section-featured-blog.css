@@ -47,8 +47,7 @@
 
 .blog__button:hover {
   transform:scale(1.05);
-   --color-button: var(--color-secondary-button);
-  --color-button-text: var(--color-secondary-button-text);
+ 
   
 }
 
