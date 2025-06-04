@@ -42,12 +42,12 @@
 
 .blog__button {
   margin-top: 3rem;
-  transition: all 0.3s ease;
+  transition: all 0.3 ease;
 }
 
 .blog__button:hover {
   transform:scale(1.05);
- background-color:rgb(var(--color-button-text));
+   background-color:rgb(var(--color-button-text));
     color: white;
   
 }
