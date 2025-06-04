@@ -237,15 +237,17 @@
   window.addEventListener('load', () =>{
 
 document.querySelectorAll('.section-color').forEach((section) => {
-  const bgColor = getComputedStyle(section).backgroundColor;
-  const rgb = bgColor.match(/\d+/g).map(Number);
-  const brightness = (rgb[0] * 299 + rgb[1] * 587 + rgb[2] * 114) / 1000;
-  
-  if (brightness < 180) {
-    section.classList.add('section--dark');
-  } else{
-     section.classList.add('section--light');
-  }
+const bgColor = getComputedStyle(section).backgroundColor; // e.g. "rgb(255, 255, 255)"
+const rgb = bgColor.match(/\d+/g).map(Number); // [255, 255, 255]
+
+// Define a threshold to allow for near white colors
+const isWhite = rgb.every(channel => channel > 240); // true if R, G, and B > 240 (almost white)
+
+if (isWhite) {
+  section.classList.add('section--light');  // background is white (or near white)
+} else {
+  section.classList.add('section--dark');   // background is not white
+}
 });
 
     
