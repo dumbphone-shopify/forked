@@ -253,6 +253,7 @@ const brightness = (rgb[0] * 299 + rgb[1] * 587 + rgb[2] * 114) / 1000;
 if (brightness < 200) {
   console.log(section.classList); 
   section.classList.add('section--dark');  
+  console.log(section.classList);
 } else {
   section.classList.add('section--light');  
 }
