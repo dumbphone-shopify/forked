@@ -3611,12 +3611,14 @@ details-disclosure > details {
     --border-offset: 0px; /* Prevent the border from growing on buttons when this effect is on. */
   }
 
+  /* costum secondery hover */
   .button--secondary {
   transition: transform 0.2s ease;
 }
 
 .button--secondary:hover {
-  transform: scale(1.05);
+  transform: scale(1.05) translateX(1%);
+
 }
 }
 
