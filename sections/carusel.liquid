@@ -240,20 +240,17 @@
 allSections.forEach(section => {
   
   const bgColor = getComputedStyle(section).backgroundColor;
-  console.log(bgColor);  
+  console.log('bgColor:', bgColor);
+  const rgb = bgColor.match(/\d+/g).map(Number);
+  console.log('Parsed RGB:', rgb);
+  const isWhite = rgb.every(channel => channel > 240);
+  console.log('Is white:', isWhite);
 
-const rgb = bgColor.match(/\d+/g).map(Number);
-
-const brightness = (rgb[0] * 299 + rgb[1] * 587 + rgb[2] * 114) / 1000;
- // true if R, G, and B > 240 (almost white)
-
-if (brightness < 200) {
-  console.log(section.classList); 
-  section.classList.add('section--white');  
-  console.log(section.classList);
-} else {
-  section.classList.add('section--colered');  
-}
+  if (isWhite) {
+    section.classList.add('section--light');
+  } else {
+    section.classList.add('section--dark');
+  }
   
 });
    
