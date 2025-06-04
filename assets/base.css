@@ -1295,6 +1295,11 @@ button.shopify-payment-button__button--unbranded {
       rgba(var(--color-button), var(--alpha-button-background));
  
 }
+
+.button{
+  transition: all 0.3s ease;
+}
+
 .button:not([disabled]):hover{
    transform: scale(1.05);
 }
