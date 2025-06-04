@@ -232,8 +232,12 @@
 
   window.addEventListener('load', () =>{
 
-    let bgColor = document.querySelector(".section-color").style.backgroundColor;
-    console.log(bgColor);
+    let allSectionBGC = document.querySelectorAll(".section-color").style.backgroundColor;
+
+    allSectionBGC.forEach(bgColor =>{
+       console.log(allSectionBGC);
+    });
+   
 
     
   new Glider(document.querySelector('.glider'),{
