@@ -231,6 +231,10 @@
        glider.js "https://github.com/NickPiscitelli/Glider.js/tree/master" {% endcomment %}
 
   window.addEventListener('load', () =>{
+
+let bgColor = document.getElementById("section").style.backgroundColor;
+    console.log(bgColor);
+
     
   new Glider(document.querySelector('.glider'),{
       slidesToShow: 1, // or 2, or any float (e.g., 1.3)
