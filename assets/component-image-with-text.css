@@ -388,7 +388,7 @@
 }
 
 .button:hover{
-  tranform:translateY(5%);
+  tranform:translateX(5%);
 }
 
 .image-with-text__content .button + .image-with-text__text {
