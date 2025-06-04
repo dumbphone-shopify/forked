@@ -247,9 +247,10 @@ allSections.forEach(section => {
 
 const rgb = bgColor.match(/\d+/g).map(Number);
 
-const isWhite = rgb.every(channel => channel > 240); // true if R, G, and B > 240 (almost white)
+const brightness = (rgb[0] * 299 + rgb[1] * 587 + rgb[2] * 114) / 1000;
+ // true if R, G, and B > 240 (almost white)
 
-if (isWhite) {
+if (brightness < 200) {
   console.log(section.classList); 
   section.classList.add('section--light');  // background is white (or near white)
 } else {
