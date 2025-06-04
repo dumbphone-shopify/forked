@@ -248,9 +248,9 @@ const brightness = (rgb[0] * 299 + rgb[1] * 587 + rgb[2] * 114) / 1000;
  // true if R, G, and B > 240 (almost white)
 
 if (brightness < 160) {
-  console.log(section.classList); 
+ 
   section.classList.add('section--white');  
-  console.log(section.classList);
+ 
 } else {
   section.classList.add('section--colered');  
 }
