@@ -42,13 +42,13 @@
 
 .blog__button {
   margin-top: 3rem;
-  transition: all 0.3 ease;
+  transition: all 0.3s ease;
 }
 
 .blog__button:hover {
   transform:scale(1.05);
-   background-color:rgb(var(--color-button-text));
-    color: #FFFDF8;
+ background-color:rgb(var(--color-button-text));
+color: #FFFDF8;
   
 }
 
