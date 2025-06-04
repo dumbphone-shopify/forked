@@ -154,20 +154,17 @@
 
   .carousel-slide a.button {
   transition: all 0.3s ease;
+ }
  
-}
-
-  
 .carousel-slide a.button:hover {
-  
-  transform:scale(1.05);
+    transform:scale(1.05);
  }
 
-
- .section--dark .button:hover {
-  background-color: rgb(100, 150, 200); /* temporary test */
+.section--dark a.button:hover {
+  background-color: rgb(var(--color-button-text));
   color: #FFFDF8;
 }
+
   
   /* hiding the scrollbar for .glider */
   .glider {
