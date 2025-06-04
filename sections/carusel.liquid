@@ -243,8 +243,9 @@ allSections.forEach(section => {
   console.log(bgColor);  
 
 const rgb = bgColor.match(/\d+/g).map(Number);
-// takes all accuring numbers from the bgColor srting and then map them from string to numbers https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match
-  
+// takes all accuring numbers from the bgColor srting and then map them from string to numbers
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match
+    
 console.log(rgb)
 const brightness = (rgb[0] * 299 + rgb[1] * 587 + rgb[2] * 114) / 1000;
 // calculates the perceived brightness in luminance of the color based on its red, green, and blue components
