@@ -157,7 +157,10 @@
  
 }
 
-
+.section--light  .carousel-slide a.button:hover{
+   transform:scale(1.05);
+}
+  
 .section--dark .carousel-slide a.button:hover {
    background-color:rgb(var(--color-button-text));
     color: #FFFDF8;
@@ -240,7 +243,9 @@ document.querySelectorAll('.section-color').forEach((section) => {
   
   if (brightness < 180) {
     section.classList.add('section--dark');
-  } 
+  } else{
+     section.classList.add('section--light');
+  }
 });
 
     
