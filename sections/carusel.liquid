@@ -156,7 +156,7 @@
   transition: all 0.3s ease;
  }
  
-.carousel-slide a.button:hover {
+.carousel-slide a.button:hover,.section--white .section--colered a.button:hover {
     transform:scale(1.05);
  }
 
@@ -164,10 +164,7 @@
   background-color: rgb(var(--color-button-text));
   color: #FFFDF8;
 }
-  .section--white .section--colered a.button:hover {
-  transform:scale(1.05);
-}
-
+ 
   
   /* hiding the scrollbar for .glider */
   .glider {
@@ -250,7 +247,7 @@ const rgb = bgColor.match(/\d+/g).map(Number);
 const brightness = (rgb[0] * 299 + rgb[1] * 587 + rgb[2] * 114) / 1000;
  // true if R, G, and B > 240 (almost white)
 
-if (brightness < 200) {
+if (brightness < 100) {
   console.log(section.classList); 
   section.classList.add('section--white');  
   console.log(section.classList);
