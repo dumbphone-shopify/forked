@@ -3617,7 +3617,7 @@ details-disclosure > details {
 }
 
 .button--secondary:hover {
-  transform: scale(1.05) translateX(50px);
+  transform: scale(1.05) translateX(15px);
 
 }
 }
