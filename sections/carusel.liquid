@@ -252,9 +252,9 @@ const brightness = (rgb[0] * 299 + rgb[1] * 587 + rgb[2] * 114) / 1000;
 
 if (brightness < 200) {
   console.log(section.classList); 
-  section.classList.add('section--light');  // background is white (or near white)
+  section.classList.add('section--dark');  
 } else {
-  section.classList.add('section--dark');   // background is not white
+  section.classList.add('section--light');  
 }
   
 });
