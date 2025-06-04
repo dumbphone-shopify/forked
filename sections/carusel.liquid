@@ -244,6 +244,7 @@ const rgb = bgColor.match(/\d+/g).map(Number);
 const isWhite = rgb.every(channel => channel > 240); // true if R, G, and B > 240 (almost white)
 
 if (isWhite) {
+  console.log(section.classList); 
   section.classList.add('section--light');  // background is white (or near white)
 } else {
   section.classList.add('section--dark');   // background is not white
