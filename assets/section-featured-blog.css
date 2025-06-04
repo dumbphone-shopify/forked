@@ -42,6 +42,12 @@
 
 .blog__button {
   margin-top: 3rem;
+  transition: all 0.3 ease;
+}
+
+.blog__button:hover {
+  transform:scale(1.05);
+  
 }
 
 @media screen and (min-width: 750px) {
