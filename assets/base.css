@@ -1302,8 +1302,6 @@ button.shopify-payment-button__button--unbranded {
 
 .button:not([disabled]):hover{
    transform: scale(1.05);
-  color: rgba(var(--color-button), var(--alpha-button-background));
-  background-color:rgb(var(--color-button-text)) ;
    
 }
 
@@ -3630,7 +3628,7 @@ details-disclosure > details {
 }
 
 .button--secondary:hover {
-  transform: scale(1.05) translateX(5%);
+  transform: scale(1.05) translateX(5%) !important;
 
 }
 }
@@ -3739,4 +3737,5 @@ details-disclosure > details {
 .button, button:not(.glider__container button) {
   padding: 1rem 2rem;
   border-radius: 10px;
+  
 }
