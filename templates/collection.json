@@ -26,7 +26,7 @@
         "button_QhzbWE"
       ],
       "custom_css": [
-        "h1{font-size:xx-large;}"
+        "h1 {font-size: xx-large;}"
       ],
       "name": "Hero-sektion",
       "settings": {
@@ -51,6 +51,34 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "blocks": {
+        "button_cxDmqj": {
+          "type": "button",
+          "settings": {
+            "button_label": "Alle",
+            "collection_link": "shopify://collections/all"
+          }
+        },
+        "button_miUgzb": {
+          "type": "button",
+          "settings": {
+            "button_label": "Dumbphones",
+            "collection_link": "shopify://collections/vores-dumbphones"
+          }
+        },
+        "button_qTgCca": {
+          "type": "button",
+          "settings": {
+            "button_label": "Tilbehør",
+            "collection_link": "shopify://collections/tilbehor-og-gadgets"
+          }
+        }
+      },
+      "block_order": [
+        "button_cxDmqj",
+        "button_miUgzb",
+        "button_qTgCca"
+      ],
       "custom_css": [
         "li a {text-decoration: none;}",
         ".grid__item {border-radius: 25px; overflow: hidden; border: solid 1px #3e2103; transition: transform ease-in-out 0.3s !important; transform: scale(1) !important;}",
