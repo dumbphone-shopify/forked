@@ -58,10 +58,18 @@
             "button_label": "Dumbphones",
             "filter_tag": "dumbphone"
           }
+        },
+        "filter_button_t4tGRj": {
+          "type": "filter_button",
+          "settings": {
+            "button_label": "Tilbehør",
+            "filter_tag": "tilbehør"
+          }
         }
       },
       "block_order": [
-        "filter_button_QkYdVz"
+        "filter_button_QkYdVz",
+        "filter_button_t4tGRj"
       ],
       "custom_css": [
         "li a {text-decoration: none;}",
