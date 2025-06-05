@@ -46,10 +46,10 @@
 
   .collection-filters__button {
     text-decoration: none;
-    flex: 1 1 0;
+    /* flex: 1 1 0; */
     padding: 1rem 0.5rem;
-    background: #43668F;
-    color: #FFFDF8;
+    color: #43668F;
+    background: #FFFDF8;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     text-align: center;
     cursor: pointer;
@@ -58,16 +58,18 @@
     transition: background 0.15s
     , color 0.15s
     , border 0.15s;
-    min-width: 120px;
+    min-width: 100px;
     max-width: 100%;
     white-space: normal;
+    border: none;
   }
+
 
   .collection-filters__button-active,
   .collection-filters__button-active:focus,
   .collection-filters__button-active:hover {
-    background: #FFFDF8;
-    color: #43668F;
+    color: #FFFDF8;
+    background: #43668F;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   }
 {%- endstyle -%}
