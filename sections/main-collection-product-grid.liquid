@@ -74,20 +74,15 @@
 
 
 {% comment %} collection filter buttons  {% endcomment %}
-<div class="collection-filters">
+<div class="collection-filters" id="customTagFilters">
+  <button data-filter="all" class="collection-filters__button collection-filters__button-active">Alle</button>
   {% for block in section.blocks %}
-    {% assign link = block.settings.collection_link %}
-    {% assign is_active = false %}
-    {% if request.path == link %}
-      {% assign is_active = true %}
-    {% endif %}
-    <a
-      href="{{ link }}"
-      class="collection-filters__button{% if is_active %} collection-filters__button-active{% endif %}"
-      {% if is_active %}
-      aria-current="page"
-      {% endif %}>{{ block.settings.button_label }}</a>
-  {% endfor %}
+    <button
+    data-filter="{{ block.settings.filter_tag | escape }}"
+    class="collection-filters__button"
+    type="button"
+  >{{ block.settings.button_label }}</button>
+{% endfor %}
 </div>
 
 
@@ -207,6 +202,7 @@
                   {%- assign lazy_load = true -%}
                 {%- endif -%}
                 <li
+                data-tags="{{ product.tags | join: ',' | escape }}"
                   class="grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
                   {% if settings.animations_reveal_on_scroll %}
                   data-cascade
@@ -459,20 +455,20 @@
     ],
     "blocks": [
       {
-        "type": "button",
+        "type": "filter_button",
         "name": "Kollektionknap",
         "settings": [
           {
             "type": "text",
             "id": "button_label",
             "label": "Button label",
-            "default": "Kollektion"
+            "default": "Kollektion efter tag"
           },
           {
-            "type": "url",
-            "id": "collection_link",
-            "label": "Link til kollektioner",
-            "default": "/collections/all"
+            "type": "text",
+            "id": "filter_tag",
+            "label": "Brug det rigtige tag her",
+            "default": "filter"
           }
         ]
       }
@@ -499,3 +495,27 @@
    }
 */
 {% endstyle %}
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const buttons = document.querySelectorAll('#customTagFilters .collection-filters__button');
+  const products = document.querySelectorAll('#product-grid [data-tags]');
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', function() {
+      // Highlight active button
+      buttons.forEach(b => b.classList.remove('collection-filters__button-active'));
+      btn.classList.add('collection-filters__button-active');
+      const filterTag = btn.getAttribute('data-filter');
+      products.forEach(product => {
+        const tags = product.getAttribute('data-tags').split(',').map(tag => tag.trim().toLowerCase());
+        if (filterTag === 'all' || tags.includes(filterTag)) {
+          product.style.display = '';
+        } else {
+          product.style.display = 'none';
+        }
+      });
+    });
+  });
+});
+</script>
