@@ -29,19 +29,21 @@
       <a href="{{ product.url }}" aria-current="page">{{ product.title }}</a>
     </li>
 
-  {% when 'collection' and collection.handle %}
-
-    {% if current_tags %}
-      <li>{{ collection.title | link_to: collection.url }}</li>
-      <li>
-        {% capture tag_url %}{{ collection.url }}/{{ current_tags | join: "+"}}{% endcapture %}
-        <a href="{{ tag_url }}" aria-current="page">{{ current_tags | join: " + "}}</a>
-      </li>
-    {% else %}
-      <li>
-        <a href="{{ collection.url }}" aria-current="page">{{ collection.title }}</a>
-      </li>
-    {% endif %}
+{% if collection and collection.handle %}
+  {% if current_tags %}
+    <li>{{ collection.title | link_to: collection.url }}</li>
+    <li>
+      {% capture tag_url %}{{ collection.url }}/{{ current_tags | join: "+" }}{% endcapture %}
+      <a href="{{ tag_url }}" aria-current="page">{{ current_tags | join: " + " }}</a>
+    </li>
+  {% else %}
+    <li>
+      <a href="{{ collection.url }}" aria-current="page">{{ collection.title }}</a>
+    </li>
+  {% endif %}
+{% else %}
+  <li><a href="/collections/your-collection-handle">Your Collection Title</a></li>
+{% endif %}
 
   {% when 'blog' %}
 
