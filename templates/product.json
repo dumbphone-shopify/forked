@@ -77,7 +77,7 @@
         "h2.title {text-align: center;}",
         ".thumbnail {border-radius: 15px; background: #9cb7aa; padding: 0.5rem; border: 1px;}",
         "@media (max-width: 768px) {span {font-size: 1.5rem !important; }}",
-        ".product__media,.product__media-list {aspect-ratio: 1/1;}"
+        ".product-media-container {border: none;}"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -86,7 +86,7 @@
         "constrain_to_viewport": false,
         "media_fit": "contain",
         "gallery_layout": "thumbnail",
-        "mobile_thumbnails": "hide",
+        "mobile_thumbnails": "show",
         "media_position": "left",
         "image_zoom": "hover",
         "hide_variants": true,
