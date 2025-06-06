@@ -37,21 +37,21 @@
         "tiktok": "TikTok"
       }
     },
-    "continue_shopping": "Continue shopping",
+    "continue_shopping": "Fortsæt med at handle",
     "pagination": {
-      "label": "Pagination",
-      "page": "Page {{ number }}",
-      "next": "Next page",
-      "previous": "Previous page"
+      "label": "Paginering",
+      "page": "Side {{ number }}",
+      "next": "Næste side",
+      "previous": "Forrige side"
     },
     "search": {
-      "search": "Search",
-      "reset": "Clear search term"
+      "search": "Søg",
+      "reset": "Ryd søgeord"
     },
     "cart": {
-      "view": "View cart ({{ count }})",
-      "view_empty_cart": "View cart",
-      "item_added": "Item added to your cart"
+      "view": "Se indkøbskurv({{ count }})",
+      "view_empty_cart": "Se kurv",
+      "item_added": "Vare tilføjet til din indkøbskurv"
     },
     "share": {
       "close": "Close share",
