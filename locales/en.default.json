@@ -290,14 +290,14 @@
       }
     },
     "cart": {
-      "title": "Your cart",
-      "caption": "Cart items",
-      "remove_title": "Remove {{ title }}",
-      "estimated_total": "Estimated total",
-      "new_estimated_total": "New estimated total",
-      "note": "Order special instructions",
-      "checkout": "Check out",
-      "empty": "Your cart is empty",
+      "title": "Din indkøbskurv",
+      "caption": "Varer i indkøbskurven",
+      "remove_title": "Fjern {{ title }}",
+      "estimated_total": "Anslået totalbeløb",
+      "new_estimated_total": "Nyt anslået totalbeløb",
+      "note": "Særlige instruktioner til ordren",
+      "checkout": "Gå til kassen",
+      "empty": "Din indkøbskurv er tom",
       "cart_error": "There was an error while updating your cart. Please try again.",
       "cart_quantity_error_html": "You can only add {{ quantity }} of this item to your cart.",
       "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Duties and taxes included. Discounts and <a href=\"{{ link }}\">shipping</a> calculated at checkout.",
@@ -309,37 +309,37 @@
       "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Taxes, discounts and <a href=\"{{ link }}\">shipping</a> calculated at checkout.",
       "taxes_at_checkout_shipping_at_checkout_without_policy": "Taxes, discounts and shipping calculated at checkout.",
       "headings": {
-        "product": "Product",
-        "price": "Price",
+        "product": "Produkt",
+        "price": "Pris",
         "total": "Total",
-        "quantity": "Quantity",
-        "image": "Product image"
+        "quantity": "Antal",
+        "image": "Produktbillede"
       },
-      "update": "Update",
+      "update": "Opdater",
       "login": {
-        "title": "Have an account?",
+        "title": "Har du et konto?",
         "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Log in</a> to check out faster."
       }
     },
     "footer": {
-      "payment": "Payment methods"
+      "payment": "Betalingsmetode"
     },
     "featured_blog": {
-      "view_all": "View all",
-      "onboarding_title": "Blog post",
+      "view_all": "Vis alle",
+      "onboarding_title": "Blogindlæg",
       "onboarding_content": "Give your customers a summary of your blog post"
     },
     "featured_collection": {
-      "view_all": "View all",
-      "view_all_label": "View all products in the {{ collection_name }} collection"
+      "view_all": "Vis alle",
+      "view_all_label": "Vis alle produkter i {{ collection_name }} kollektionen"
     },
     "collection_list": {
-      "view_all": "View all"
+      "view_all": "Vis alle"
     },
     "collection_template": {
-      "empty": "No products found",
-      "title": "Collection",
-      "use_fewer_filters_html": "Use fewer filters or <a class=\"{{ class }}\" href=\"{{ link }}\">remove all</a>"
+      "empty": "Ingen produkter fundet",
+      "title": "Kollektion",
+      "use_fewer_filters_html": "Brug færre filtre eller <a class=\"{{ class }}\" href=\"{{ link }}\">rfjern alle</a>"
     },
     "video": {
       "load_video": "Load video: {{ description }}"
@@ -354,29 +354,29 @@
       "slide": "Slide"
     },
     "page": {
-      "title": "Page title"
+      "title": "Sidetitel"
     },
     "quick_order_list": {
-      "product_total": "Product subtotal",
-      "view_cart": "View cart",
-      "each": "{{ money }}/ea",
-      "product": "Product",
+      "product_total": "Produktets subtotal",
+      "view_cart": "Se indkøbskurv",
+      "each": "{{ money }}/st",
+      "product": "Produkt",
       "variant": "Variant",
-      "variant_total": "Variant total",
+      "variant_total": "Variant i alt",
       "items_added": {
-        "one": "{{ quantity }} item added",
-        "other": "{{ quantity }} items added"
+        "one": "{{ quantity }} produkt tilføjet",
+        "other": "{{ quantity }} produkter tilføjet"
       },
       "items_removed": {
-        "one": "{{ quantity }} item removed",
-        "other": "{{ quantity }} items removed"
+        "one": "{{ quantity }} produkt fjernet",
+        "other": "{{ quantity }} produkter fjernet"
       },
-      "product_variants": "Product variants",
-      "total_items": "Total items",
-      "remove_all_single_item_confirmation": "Remove 1 item from your cart?",
-      "remove_all_items_confirmation": "Remove all {{ quantity }} items from your cart?",
-      "remove_all": "Remove all",
-      "cancel": "Cancel",
+      "product_variants": "Produktvarianter",
+      "total_items": "Samlet antal varer",
+      "remove_all_single_item_confirmation": "Fjerne 1 vare fra din indkøbskurv?",
+      "remove_all_items_confirmation": "Fjerne alle {{ quantity }} varer fra din indkøbskurv?",
+      "remove_all": "Fjerne alle",
+      "cancel": "Annuller",
       "min_error": "This item has a minimum of {{ min }}",
       "max_error": "This item has a maximum of {{ max }}",
       "step_error": "You can only add this item in increments of {{ step }}"
