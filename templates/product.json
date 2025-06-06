@@ -76,14 +76,15 @@
         ".product__media {border-radius: 25px; background: #9cb7aa;}",
         "h2.title {text-align: center;}",
         ".thumbnail {border-radius: 15px; background: #9cb7aa; padding: 0.5rem;}",
-        "@media (max-width: 768px) {span {font-size: 1.5rem !important; }}"
+        "@media (max-width: 768px) {span {font-size: 1.5rem !important; }}",
+        ".product__media {aspect-ratio: 1 !important; object-fit: cover;}"
       ],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "scheme-1",
         "media_size": "small",
         "constrain_to_viewport": true,
-        "media_fit": "contain",
+        "media_fit": "cover",
         "gallery_layout": "thumbnail_slider",
         "mobile_thumbnails": "hide",
         "media_position": "left",
