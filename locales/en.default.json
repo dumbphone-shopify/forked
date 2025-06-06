@@ -578,5 +578,33 @@
       "signup_form_success": "We will send you an email right before we open!",
       "password_link": "Enter using password"
     }
+  },
+  "shopify": {
+    "sentence": {
+      "two_words_connector": "og",
+      "last_word_connector": ", og"
+    },
+    "checkout": {
+      "general": {
+        "page_title": "Afslut køb",
+        "error_page_title": "Fejl",
+        "skip_to_content": "Spring til indhold",
+        "breadcrumb": "Brødkrumme",
+        "continue_button_label": "Fortsæt",
+        "complete_purchase_button_label": "Fultfør ordre",
+        "pay_now_button_label": "Betal nu",
+        "authenticate_purchase_button_label": "Bekræft betaling",
+        "edit_link_label": "Rediger",
+        "print_policies_link_label": "Udskriv",
+        "cart": "Indkøbskurv",
+        "close_modal_label": "Luk",
+        "close_notice_label": "Luk",
+        "expand_notice_label": "Se mere",
+        "continue_to_shipping_method": "Fortsæt til forsendelse",
+        "continue_to_payment_method": "Fortsæt til betaling",
+        "continue_to_review": "Gennemgå ordre",
+        "back_to_cart": "Tilbage til inkøbskurv"
+      }
+    }
   }
 }
