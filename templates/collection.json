@@ -99,7 +99,8 @@
       "type": "featured-collection",
       "custom_css": [
         ".card {background-color: #9cb7aa;}",
-        ".grid__item {border-radius: 25px; overflow: hidden;}"
+        ".grid__item {border-radius: 25px; overflow: hidden;}",
+        ".slider--tablet > li {min-width: 220px !important; width: 100%; flex: 0 0 300px; }"
       ],
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
