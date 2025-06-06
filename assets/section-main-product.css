@@ -1553,17 +1553,7 @@ a.product__text {
   }
 }
 
-.product__media-wrapper {
-  aspect-ratio: 1 / 1;
-  width: 100%;
-  max-width: 600px;
-  margin: 0 auto;
-  /* background: #f8f8f8;  */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
+
 
 .product__media-wrapper img,
 .product__media-wrapper video {
