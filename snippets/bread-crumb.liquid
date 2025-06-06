@@ -29,7 +29,9 @@
       <a href="{{ product.url }}" aria-current="page">{{ product.title }}</a>
     </li>
 
-{% if collection and collection.handle %}
+  {% when 'collection' and collection.handle %}
+
+   {% if collection and collection.handle %}
   {% if current_tags %}
     <li>{{ collection.title | link_to: collection.url }}</li>
     <li>
@@ -42,8 +44,9 @@
     </li>
   {% endif %}
 {% else %}
-  <li><a href="/collections/your-collection-handle">Your Collection Title</a></li>
+  <li><a href="/collections/your-collection-handle">Vores produkter</a></li>
 {% endif %}
+
 
   {% when 'blog' %}
 
