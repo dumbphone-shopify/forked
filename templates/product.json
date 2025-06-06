@@ -75,16 +75,17 @@
       "custom_css": [
         ".product__media {border-radius: 25px; background: #9cb7aa;}",
         "h2.title {text-align: center;}",
-        ".thumbnail {border-radius: 15px; background: #9cb7aa; padding: 0.5rem;}",
-        "@media (max-width: 768px) {span {font-size: 1.5rem !important; }}"
+        ".thumbnail {border-radius: 15px; background: #9cb7aa; padding: 0.5rem; border: 1px;}",
+        "@media (max-width: 768px) {span {font-size: 1.5rem !important; }}",
+        ".product__media, .media--transparent {aspect-ratio: 1/1;}"
       ],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "scheme-1",
         "media_size": "small",
-        "constrain_to_viewport": true,
-        "media_fit": "cover",
-        "gallery_layout": "thumbnail_slider",
+        "constrain_to_viewport": false,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail",
         "mobile_thumbnails": "hide",
         "media_position": "left",
         "image_zoom": "hover",
