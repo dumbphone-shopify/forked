@@ -55,9 +55,7 @@
     cursor: pointer;
     font-weight: 500;
     border-radius: none;
-    transition: background 0.15s
-    , color 0.15s
-    , border 0.15s;
+    transition: background 0.15s, color 0.15s, border 0.15s, box-shadow 0.15s;
     min-width: 100px;
     max-width: 100%;
     white-space: normal;
@@ -67,11 +65,16 @@
 
 
   .collection-filters__button-active,
-  .collection-filters__button-active:focus,
-  .collection-filters__button-active:hover {
+  .collection-filters__button-active:focus{
     color: #FFFDF8;
     background: #43668F;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    outline: none;
+  }
+
+  .collection-filters__button-active:hover  {
+    color: #FFFDF8;
+    background: #0A2038;
   }
 {%- endstyle -%}
 
