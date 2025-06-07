@@ -623,6 +623,14 @@
         "continue_shopping_button_label": "Fortsæt",
         "go_back_to_cart_button_label": "Gå tilbage til min kurv"
       }
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "in_stock": "På lager",
+          "out_of_stock": "Udsolgt"
+        }
+      }
     }
   }
 }
