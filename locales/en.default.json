@@ -603,7 +603,10 @@
         "continue_to_shipping_method": "Fortsæt til forsendelse",
         "continue_to_payment_method": "Fortsæt til betaling",
         "continue_to_review": "Gennemgå ordre",
-        "back_to_cart": "Tilbage til inkøbskurv"
+        "back_to_cart": "Tilbage til inkøbskurv",
+        "autocomplete_single_item": "1 vare tilgængelig",
+        "autocomplete_multi_item": "{{number}} varer tilgængelige",
+        "autocomplete_zero_item": "Ingen varer tilgængelige"
       },
       "stock": {
         "page_title": "Lagerproblemer",
