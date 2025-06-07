@@ -631,6 +631,23 @@
           "out_of_stock": "Udsolgt"
         }
       }
+    },
+    "collections": {
+      "sorting": {
+        "manual": "Udvalgte",
+        "best_selling": "Bedst sælgende",
+        "az": "Alfabetisk, A-Z",
+        "za": "Alfabetisk, Z-A",
+        "price_ascending": "Pris, lav til høj",
+        "price_descending": "Pris, høj til lav",
+        "date_ascending": "Dato, gammel til ny",
+        "date_descending": "Dato, ny til gammel"
+      }
+    },
+    "search": {
+      "sorting": {
+        "relevance": "Relevans"
+      }
     }
   }
 }
