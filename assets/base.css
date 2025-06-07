@@ -3763,6 +3763,7 @@ details-disclosure > details {
 
 .breadcrumbs a {
   text-decoration: underline;
+  color: #237449;
 }
 
 .breadcrumbs li:not(:last-child):after {  
