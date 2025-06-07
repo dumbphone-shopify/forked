@@ -630,6 +630,10 @@
           "in_stock": "På lager",
           "out_of_stock": "Udsolgt"
         }
+      },
+      "boolean": {
+        "true_label": "Ja",
+        "false_label": "Nej"
       }
     },
     "collections": {
