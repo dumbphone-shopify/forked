@@ -649,5 +649,12 @@
         "relevance": "Relevans"
       }
     }
+  },
+  "customer_accounts": {
+    "orders": {
+      "order_list": {
+        "sort_by": "Sorter: {{option}}"
+      }
+    }
   }
 }
