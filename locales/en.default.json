@@ -604,6 +604,21 @@
         "continue_to_payment_method": "Fortsæt til betaling",
         "continue_to_review": "Gennemgå ordre",
         "back_to_cart": "Tilbage til inkøbskurv"
+      },
+      "stock": {
+        "page_title": "Lagerproblemer",
+        "title": "Udsolgt",
+        "items_unavailable_notice": "Nogle varer er ikke længere tilgængelige",
+        "product_column_header": "Produkter",
+        "quantity_column_header": "Antal",
+        "price_column_header": "Pris",
+        "status_column_header": "Status",
+        "removed_from_cart_notice": "Fjernet fra kurven",
+        "sold_out_label": "Udsolgt",
+        "reduced_label": "Nedsat",
+        "remove_from_cart_button_label": "Fjern fra kurven",
+        "continue_shopping_button_label": "Fortsæt",
+        "go_back_to_cart_button_label": "Gå tilbage til min kurv"
       }
     }
   }
