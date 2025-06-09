@@ -52,13 +52,6 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "blocks": {
-        "filter_button_EUzYbn": {
-          "type": "filter_button",
-          "settings": {
-            "button_label": "hmd",
-            "filter_tag": "103"
-          }
-        },
         "filter_button_QkYdVz": {
           "type": "filter_button",
           "settings": {
@@ -75,7 +68,6 @@
         }
       },
       "block_order": [
-        "filter_button_EUzYbn",
         "filter_button_QkYdVz",
         "filter_button_t4tGRj"
       ],
