@@ -411,8 +411,10 @@
       ],
       "custom_css": [
         "h2 {color: #c55614;}",
-        ".multicolumn-card {border-radius: 25px; border: 1px #3e2103 solid; height: 100%; background: transparent;}",
-        "img {border-radius: 15px;}"
+        "img {border-radius: 15px;}",
+        ".multicolumn-card {border-radius: 25px; border: 1px #3e2103 solid; height: fit-content; background: transparent; width: fit-content; margin: auto; max-width: 500px;}",
+        ".media {height: 100%; width: 100%; object-fit: contain; object-position: center;}",
+        ".multicolumn-card:hover {transition: background-color ease 0.3s; background-color: #fff5ea;}"
       ],
       "settings": {
         "title": "Det kræver at en eller to forældre tager lederskab til disse steps:",

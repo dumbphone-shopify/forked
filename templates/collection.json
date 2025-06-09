@@ -26,7 +26,7 @@
         "button_QhzbWE"
       ],
       "custom_css": [
-        "h1{font-size:xx-large;}"
+        "h1 {font-size: xx-large;}"
       ],
       "name": "Hero-sektion",
       "settings": {
@@ -51,13 +51,34 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "blocks": {
+        "filter_button_QkYdVz": {
+          "type": "filter_button",
+          "settings": {
+            "button_label": "Dumbphones",
+            "filter_tag": "dumbphone"
+          }
+        },
+        "filter_button_t4tGRj": {
+          "type": "filter_button",
+          "settings": {
+            "button_label": "Tilbehør",
+            "filter_tag": "tilbehør"
+          }
+        }
+      },
+      "block_order": [
+        "filter_button_QkYdVz",
+        "filter_button_t4tGRj"
+      ],
       "custom_css": [
         "li a {text-decoration: none;}",
         ".grid__item {border-radius: 25px; overflow: hidden; border: solid 1px #3e2103; transition: transform ease-in-out 0.3s !important; transform: scale(1) !important;}",
         ".grid__item:hover {transform: scale(1.02) !important; transition: transform ease-in-out 0.2s !important;}",
         ".card:not(.ratio) > .card__content {align-items: end;}",
         ".card__inner {aspect-ratio: 1 / 1; overflow: hidden;}",
-        ".card__media img {width: 100%; height: 100%;}"
+        ".card__media img {width: 100%; height: 100%;}",
+        ".pagination-wrapper {display: none;}"
       ],
       "settings": {
         "color_scheme": "scheme-9cb15f53-7587-4f63-bade-50a1282d6270",
@@ -78,7 +99,10 @@
       "type": "featured-collection",
       "custom_css": [
         ".card {background-color: #9cb7aa;}",
-        ".grid__item {border-radius: 25px; overflow: hidden;}"
+        ".grid__item {border-radius: 25px; overflow: hidden;}",
+        ".slider--tablet {place-content: center; justify-content: center;}",
+        ".slider--tablet > li {min-width: 220px !important; width: 100%; flex: 0 0 300px;}",
+        ".button:hover {background-color: #AC3F00;}"
       ],
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
