@@ -52,6 +52,13 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "blocks": {
+        "filter_button_EUzYbn": {
+          "type": "filter_button",
+          "settings": {
+            "button_label": "hmd",
+            "filter_tag": "103"
+          }
+        },
         "filter_button_QkYdVz": {
           "type": "filter_button",
           "settings": {
@@ -68,6 +75,7 @@
         }
       },
       "block_order": [
+        "filter_button_EUzYbn",
         "filter_button_QkYdVz",
         "filter_button_t4tGRj"
       ],
@@ -102,7 +110,7 @@
         ".grid__item {border-radius: 25px; overflow: hidden;}",
         ".slider--tablet {place-content: center; justify-content: center;}",
         ".slider--tablet > li {min-width: 220px !important; width: 100%; flex: 0 0 300px;}",
-        ".button:hover {background-color: #AC3F00;}"
+        ".button:hover {background-color: #ac3f00;}"
       ],
       "name": "t:sections.featured-collection.presets.name",
       "settings": {

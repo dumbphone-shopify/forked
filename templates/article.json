@@ -13,7 +13,8 @@
       "type": "article-section",
       "blocks": {
         "featured_image": {
-          "type": "featured_image"
+          "type": "featured_image",
+          "settings": {}
         },
         "title": {
           "type": "title",
@@ -24,7 +25,6 @@
         },
         "share": {
           "type": "share",
-          "disabled": true,
           "settings": {
             "share_label": "Del"
           }
