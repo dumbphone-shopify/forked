@@ -224,10 +224,6 @@
     }
   },
   "templates": {
-    "404": {
-      "title": "Không tìm thấy trang",
-      "subtext": "404"
-    },
     "search": {
       "no_results": "Không tìm thấy kết quả cho \"{{ terms }}\". Kiểm tra chính tả hoặc sử dụng một từ hoặc cụm từ khác.",
       "results_with_count": {
@@ -271,6 +267,10 @@
         "error_heading": "Vui lòng điều chỉnh các mục sau:",
         "title": "Biểu mẫu liên hệ"
       }
+    },
+    "404": {
+      "title": "Không tìm thấy trang",
+      "subtext": "404"
     }
   },
   "sections": {

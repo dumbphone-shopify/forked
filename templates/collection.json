@@ -97,6 +97,7 @@
     },
     "featured_collection_n9Hc8c": {
       "type": "featured-collection",
+      "disabled": true,
       "custom_css": [
         ".card {background-color: #9cb7aa;}",
         ".grid__item {border-radius: 25px; overflow: hidden;}",
