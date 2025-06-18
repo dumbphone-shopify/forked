@@ -73,10 +73,14 @@
 
   .glider__container .next:hover:not(.disabled),
   .glider__container .prev:hover:not(.disabled) {
-    transform: scale(1.2);
-    transition: all 0.2s ease-in-out;
+    transition: all 0.1s ease-in-out;
 
   }
+
+  .prev:active,
+.next:active {
+  filter: brightness(60%);
+}
 
   .glider {
     display: flex;
