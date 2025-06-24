@@ -15,8 +15,8 @@
         "button_YFHfp6": {
           "type": "button",
           "settings": {
-            "label": "Se vores dumbphones",
-            "link": "shopify://collections/vores-dumbphones",
+            "label": "Se vores produkter",
+            "link": "shopify://collections/all",
             "button_bg_color": "#fffdf8",
             "button_text_color": "#002b0c"
           }
@@ -144,25 +144,62 @@
         "padding_bottom": 52
       }
     },
+    "hero_banner_z8teby": {
+      "type": "hero-banner",
+      "blocks": {
+        "button_FXxnBr": {
+          "type": "button",
+          "settings": {
+            "label": "Vores webshop",
+            "link": "shopify://collections/all",
+            "button_bg_color": "#fffdf8",
+            "button_text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "button_FXxnBr"
+      ],
+      "custom_css": [],
+      "name": "hero-sektion",
+      "settings": {
+        "background_image": "shopify://shop_images/martin-edholm-wtt6puopAvg-unsplash.jpg",
+        "enable_scroll_effect": true,
+        "hero_height": "50vh",
+        "heading": "",
+        "title_color": "#ffffff",
+        "text_alignment": "center",
+        "content_position": "middle-center",
+        "mobile_content_alignment": "center"
+      }
+    },
     "collection_list_3gXFbh": {
       "type": "collection-list",
       "blocks": {
         "featured_collection_7Cb8qD": {
           "type": "featured_collection",
           "settings": {
-            "collection": "vores-dumbphones"
+            "collection": "vores-dumbphones",
+            "use_filtered_link": true,
+            "filtered_handle": ""
           }
         },
         "featured_collection_yLdp8L": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
-            "collection": "tilbehor-og-gadgets"
+            "collection": "tilbehor-og-gadgets",
+            "use_filtered_link": true,
+            "filtered_handle": "tilbehor"
           }
         },
         "featured_collection_DVbR4m": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
-            "collection": "indskoling-klassetilbud"
+            "collection": "indskoling-klassetilbud",
+            "use_filtered_link": false,
+            "filtered_handle": "e.g. wearables"
           }
         }
       },
@@ -171,6 +208,7 @@
         "featured_collection_yLdp8L",
         "featured_collection_DVbR4m"
       ],
+      "disabled": true,
       "custom_css": [
         ".card-wrapper {overflow: hidden; border-radius: 25px; background-color: #d2dfdf; padding: 0 15px;}"
       ],
@@ -599,6 +637,7 @@
     "1747382751afc67ba6",
     "image_with_text_3acgQr",
     "rich_text_apRVFF",
+    "hero_banner_z8teby",
     "collection_list_3gXFbh",
     "carusel_bMcbcV",
     "rich_text_WhwJye",
