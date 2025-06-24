@@ -99,13 +99,14 @@
             {% endif %}>
             {%- assign placeholder_image_index = forloop.index0 | modulo: 4 | plus: 1 -%}
             {%- assign placeholder_image = 'collection-apparel-' | append: placeholder_image_index -%}
-            {% render 'card-collection'
-              , card_collection: block.settings.collection
-              , media_aspect_ratio: section.settings.image_ratio
-              , columns: columns
-              , placeholder_image: placeholder_image
-              , custom_link: block.settings.custom_link
-            %}
+            {% render 'card-collection',
+            card_collection: block.settings.collection,
+            media_aspect_ratio: section.settings.image_ratio,
+            columns: columns,
+            placeholder_image: placeholder_image,
+            use_filtered_link: block.settings.use_filtered_link,
+            filtered_handle: block.settings.filtered_handle
+          %}
           </li>
         {%- endfor -%}
       </ul>
@@ -312,11 +313,19 @@
             "label": "t:sections.collection-list.blocks.featured_collection.settings.collection.label"
           },
           {
-  "type": "text",
-  "id": "custom_link",
-  "label": "Custom link (optional, overrides default collection link)",
-  "default": "-"
-}
+        "type": "checkbox",
+        "id": "use_filtered_link",
+        "label": "Link to /collections/all with filter",
+        "default": false
+      },
+      {
+        "type": "text",
+        "id": "filtered_handle",
+        "label": "Collection handle for filter",
+        "default": "",
+        "info": "Enter the collection handle to use for the filtered link.",
+        "placeholder": "e.g. wearables"
+      }
         ]
       }
     ],
