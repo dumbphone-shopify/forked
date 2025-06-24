@@ -104,6 +104,7 @@
               , media_aspect_ratio: section.settings.image_ratio
               , columns: columns
               , placeholder_image: placeholder_image
+              , use_custom_link: section.settings.use_filtered_all_links
             %}
           </li>
         {%- endfor -%}
@@ -168,6 +169,12 @@
       "groups": ["header", "footer"]
     },
     "settings": [
+      {
+  "type": "checkbox",
+  "id": "use_filtered_all_links",
+  "label": "Link to /collections/all with filter",
+  "default": false
+},
       {
         "type": "inline_richtext",
         "id": "title",
