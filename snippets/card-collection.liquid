@@ -31,7 +31,7 @@
     assign card_style = settings.collection_card_style
   endif
   assign card_link = ''
-  if custom_link != blank
+  if custom_link and custom_link != ' ' and custom_link != blank
     assign card_link = custom_link
   elsif card_collection != blank
     assign card_link = card_collection.url
