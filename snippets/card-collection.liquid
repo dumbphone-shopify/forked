@@ -32,7 +32,7 @@
     assign card_style = settings.collection_card_style
   endif
 
-  assign card_link = ''
+  assign card_link = 'e.g. wearables'
   if use_filtered_link and filtered_handle != blank
     assign card_link = '/collections/all#' | append: filtered_handle
   elsif card_collection != blank
