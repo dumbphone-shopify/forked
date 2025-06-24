@@ -8,6 +8,7 @@
   - extend_height: {Boolean} Card height extends to available container space. Default: false (optional)
   - wrapper_class: {String} Wrapper class for card (optional)
   - placeholder_image: {String} Placeholder image when collection is empty (optional)
+  - custom_link: {String} Optional custom link to override the default collection link
 
   Usage:
   {% render 'card-collection' %}
@@ -28,6 +29,12 @@
   if wrapper_class == null or wrapper_class == 'none'
     assign card_color_scheme = settings.collection_card_color_scheme
     assign card_style = settings.collection_card_style
+  endif
+  assign card_link = ''
+  if custom_link != blank
+    assign card_link = custom_link
+  elsif card_collection != blank
+    assign card_link = card_collection.url
   endif
 -%}
 
@@ -84,14 +91,11 @@
         <div class="card__content">
           <div class="card__information">
             <h3 class="card__heading">
-              <a
-                {% if card_collection == blank %}
-                  role="link" aria-disabled="true"
-                {% else %}
-                  href="{{ card_collection.url }}"
-                {% endif %}
-                class="full-unstyled-link"
-              >
+              {%- if card_collection == blank -%}
+                <a role="link" aria-disabled="true" class="full-unstyled-link">
+              {%- else -%}
+                <a href="{{ card_link }}" class="full-unstyled-link">
+              {%- endif -%}
                 {%- if card_collection.title != blank -%}
                   {{- card_collection.title | escape -}}
                 {%- else -%}
@@ -120,14 +124,11 @@
       <div class="card__content">
         <div class="card__information">
           <h3 class="card__heading">
-            <a
-              {% if card_collection == blank %}
-                role="link" aria-disabled="true"
-              {% else %}
-                href="{{ card_collection.url }}"
-              {% endif %}
-              class="full-unstyled-link"
-            >
+            {%- if card_collection == blank -%}
+              <a role="link" aria-disabled="true" class="full-unstyled-link">
+            {%- else -%}
+              <a href="{{ card_link }}" class="full-unstyled-link">
+            {%- endif -%}
               {%- if card_collection.title != blank -%}
                 {{- card_collection.title | escape -}}
               {%- else -%}

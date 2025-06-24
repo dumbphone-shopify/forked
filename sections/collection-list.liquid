@@ -104,6 +104,7 @@
               , media_aspect_ratio: section.settings.image_ratio
               , columns: columns
               , placeholder_image: placeholder_image
+              , custom_link: block.settings.custom_link
             %}
           </li>
         {%- endfor -%}
@@ -309,7 +310,13 @@
             "type": "collection",
             "id": "collection",
             "label": "t:sections.collection-list.blocks.featured_collection.settings.collection.label"
-          }
+          },
+          {
+  "type": "text",
+  "id": "custom_link",
+  "label": "Custom link (optional, overrides default collection link)",
+  "default": ""
+}
         ]
       }
     ],
