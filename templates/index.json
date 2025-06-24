@@ -36,7 +36,8 @@
         "button_xiCWY6"
       ],
       "custom_css": [
-        "h1 {font-size: xx-large; padding: 5px;}"
+        "h1 {font-size: xx-large; padding: 5px;}",
+        ".button-wrapper {padding: 1em;}"
       ],
       "name": "Hero Banner",
       "settings": {
