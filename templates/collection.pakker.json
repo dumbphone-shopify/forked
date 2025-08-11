@@ -56,6 +56,83 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn_McXrfj": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_iBbqpy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/young-old-using-technology.jpg",
+            "title": "STEP 1:",
+            "text": "<p>Del denne video med forældrene i klassen og tag evt. en snak om det med de andre forældre hvis det er muligt. <br/><br/>Der er et link til videoen her:<br/><a href=\"https://youtu.be/MHh_exH07rE\">https://youtu.be/MHh_exH07rE<strong><br/></strong></a></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_gLGGeE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/MP_logo.png",
+            "title": "STEP 2:",
+            "text": "<p>Modtag tilbagemeldinger om hvem der er klar + modtag betaling fra hver forældre.</p><p><br/></p><p>Brug evt. din egen mobilepay til at samle pengene sammen.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yqBtra": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/96b4ab77-72c1-44bf-9df6-db9c6597f67b.png",
+            "title": "STEP 3:",
+            "text": "<p>Send os en mail på<a href=\"mailto:kontakt@dumbphone.dk\" target=\"_self\"> kontakt@dumbphone.dk</a> eller ring på: <a href=\"tel:40261270\" target=\"_self\">40261270</a> eller skriv en besked i feltet nedenfor. Vi sender dig herefter en rabatkode.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_iBbqpy",
+        "column_gLGGeE",
+        "column_yqBtra"
+      ],
+      "custom_css": [
+        "h2 {color: #c55614;}",
+        "img {border-radius: 15px;}",
+        ".multicolumn-card {border-radius: 25px; border: 1px #3e2103 solid; height: fit-content; background: transparent; width: fit-content; margin: auto; max-width: 500px;}",
+        ".media {height: 100%; width: 100%; object-fit: contain; object-position: center;}",
+        ".multicolumn-card:hover {transition: background-color ease 0.3s; background-color: #fff5ea;}"
+      ],
+      "settings": {
+        "title": "Det kræver at en eller to forældre tager lederskab til disse steps:",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 52
+      }
+    },
+    "contact_form_TyGdag": {
+      "type": "contact-form",
+      "custom_css": [
+        "h2 {color: #ac3f00;}",
+        "input,textarea {background: white;}"
+      ],
+      "settings": {
+        "heading": "Interesseret? Kontakt os her! Ring mig gerne op til en ping pong: 40 26 12 70",
+        "heading_size": "h2",
+        "color_scheme": "scheme-4",
+        "padding_top": 52,
+        "padding_bottom": 36
+      }
+    },
     "image_banner_iTgTEY": {
       "type": "image-banner",
       "blocks": {
@@ -115,48 +192,6 @@
         "padding_bottom": 52
       }
     },
-    "image_with_text_EAwdnQ": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_aL6E7c": {
-          "type": "heading",
-          "settings": {
-            "heading": "Udlej vores dumbphone og skab mere fokus",
-            "heading_size": "h2"
-          }
-        },
-        "text_wYmffA": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Giv jeres team eller elever mulighed for at være til stede uden digitale forstyrrelser. Vores dumbphones hjælper med at skabe ro og fokus i travle hverdagssituationer, hvor nærvær og koncentration er vigtigst. Lej dem, når I vil styrke opmærksomheden og mindske unødvendige afbrydelser.</p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_aL6E7c",
-        "text_wYmffA"
-      ],
-      "custom_css": [
-        ".image-with-text__container {padding: 0;}"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/students-at-coding-workshop.jpg",
-        "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "image_behavior": "none",
-        "content_layout": "no-overlap",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "section_color_scheme": "scheme-2",
-        "color_scheme": "scheme-2",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "image_with_text_VwxAnJ": {
       "type": "image-with-text",
       "blocks": {
@@ -209,6 +244,48 @@
         "color_scheme": "scheme-3",
         "padding_top": 100,
         "padding_bottom": 52
+      }
+    },
+    "image_with_text_EAwdnQ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_aL6E7c": {
+          "type": "heading",
+          "settings": {
+            "heading": "Udlej vores dumbphone og skab mere fokus",
+            "heading_size": "h2"
+          }
+        },
+        "text_wYmffA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Giv jeres team eller elever mulighed for at være til stede uden digitale forstyrrelser. Vores dumbphones hjælper med at skabe ro og fokus i travle hverdagssituationer, hvor nærvær og koncentration er vigtigst. Lej dem, når I vil styrke opmærksomheden og mindske unødvendige afbrydelser.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_aL6E7c",
+        "text_wYmffA"
+      ],
+      "custom_css": [
+        ".image-with-text__container {padding: 0;}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/students-at-coding-workshop.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "banner": {
@@ -370,85 +447,9 @@
         "arrow_color": "#ac3f00"
       }
     },
-    "multicolumn_McXrfj": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_iBbqpy": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/young-old-using-technology.jpg",
-            "title": "STEP 1:",
-            "text": "<p>Del denne video med forældrene i klassen og tag evt. en snak om det med de andre forældre hvis det er muligt. <br/><br/>Der er et link til videoen her:<br/><a href=\"https://youtu.be/MHh_exH07rE\">https://youtu.be/MHh_exH07rE<strong><br/></strong></a></p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_gLGGeE": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/MP_logo.png",
-            "title": "STEP 2:",
-            "text": "<p>Modtag tilbagemeldinger om hvem der er klar + modtag betaling fra hver forældre.</p><p><br/></p><p>Brug evt. din egen mobilepay til at samle pengene sammen.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_yqBtra": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/96b4ab77-72c1-44bf-9df6-db9c6597f67b.png",
-            "title": "STEP 3:",
-            "text": "<p>Send os en mail på<a href=\"mailto:kontakt@dumbphone.dk\" target=\"_self\"> kontakt@dumbphone.dk</a> eller ring på: <a href=\"tel:40261270\" target=\"_self\">40261270</a> eller skriv en besked i feltet nedenfor. Vi sender dig herefter en rabatkode.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_iBbqpy",
-        "column_gLGGeE",
-        "column_yqBtra"
-      ],
-      "custom_css": [
-        "h2 {color: #c55614;}",
-        "img {border-radius: 15px;}",
-        ".multicolumn-card {border-radius: 25px; border: 1px #3e2103 solid; height: fit-content; background: transparent; width: fit-content; margin: auto; max-width: 500px;}",
-        ".media {height: 100%; width: 100%; object-fit: contain; object-position: center;}",
-        ".multicolumn-card:hover {transition: background-color ease 0.3s; background-color: #fff5ea;}"
-      ],
-      "settings": {
-        "title": "Det kræver at en eller to forældre tager lederskab til disse steps:",
-        "heading_size": "h2",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "button_label": "",
-        "button_link": "",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "primary",
-        "color_scheme": "scheme-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 52
-      }
-    },
-    "contact_form_TyGdag": {
-      "type": "contact-form",
-      "custom_css": [
-        "h2 {color: #ac3f00;}",
-        "input,textarea {background: white;}"
-      ],
-      "settings": {
-        "heading": "Interesseret? Kontakt os her!          Så sender vi en rabatkode til jer!",
-        "heading_size": "h2",
-        "color_scheme": "scheme-4",
-        "padding_top": 52,
-        "padding_bottom": 36
-      }
-    },
     "featured_collection_tifA63": {
       "type": "featured-collection",
+      "disabled": true,
       "custom_css": [
         "h2 {color: #ac3f00;}",
         "p {max-width: 600px;}"
@@ -483,6 +484,8 @@
   },
   "order": [
     "image_with_text_LttLM3",
+    "multicolumn_McXrfj",
+    "contact_form_TyGdag",
     "image_banner_iTgTEY",
     "rich_text_r4Ha3q",
     "image_with_text_VwxAnJ",
@@ -492,8 +495,6 @@
     "multicolumn_HbKqAa",
     "product-grid",
     "carusel_ikF49C",
-    "multicolumn_McXrfj",
-    "contact_form_TyGdag",
     "featured_collection_tifA63"
   ]
 }
