@@ -9,6 +9,53 @@
  */
 {
   "sections": {
+    "image_with_text_LttLM3": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_JfCCMc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Køb mindst 10 stk - og få den perfekte første børnetelefon til - 279 kr",
+            "heading_size": "h2"
+          }
+        },
+        "text_VjYqAE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Send os en besked, så sender vi jer en rabatkode til køb af +10 stk. Dette gælder HMD 105 4G<br/><br/><em>*Dette tilbud er kun til forældregrupper. Det er et tilbud, vi har for at hjælpe forældre med at få så mange med som muligt. Vores indkøbspris på telefonen er 258,- kr</em></p>",
+            "text_style": "body"
+          }
+        },
+        "button_hmVERM": {
+          "type": "button",
+          "settings": {
+            "button_label": "Kontakt os",
+            "button_link": "shopify://pages/contact",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_JfCCMc",
+        "text_VjYqAE",
+        "button_hmVERM"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/96b4ab77-72c1-44bf-9df6-db9c6597f67b.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_banner_iTgTEY": {
       "type": "image-banner",
       "blocks": {
@@ -108,53 +155,6 @@
         "color_scheme": "scheme-2",
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "image_with_text_LttLM3": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_JfCCMc": {
-          "type": "heading",
-          "settings": {
-            "heading": "Køb mindst 10 stk - og få den perfekte første børnetelefon til - 279 kr",
-            "heading_size": "h2"
-          }
-        },
-        "text_VjYqAE": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Send os en besked, så sender vi jer en rabatkode til køb af +10 stk. Dette gælder HMD 105 4G<br/><br/><em>*Dette tilbud er kun til forældregrupper. Det er et tilbud, vi har for at hjælpe forældre med at få så mange med som muligt. Vores indkøbspris på telefonen er 258,- kr</em></p>",
-            "text_style": "body"
-          }
-        },
-        "button_hmVERM": {
-          "type": "button",
-          "settings": {
-            "button_label": "Kontakt os",
-            "button_link": "shopify://pages/contact",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_JfCCMc",
-        "text_VjYqAE",
-        "button_hmVERM"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/96b4ab77-72c1-44bf-9df6-db9c6597f67b.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "image_behavior": "none",
-        "content_layout": "no-overlap",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "image_with_text_VwxAnJ": {
@@ -482,11 +482,11 @@
     }
   },
   "order": [
+    "image_with_text_LttLM3",
     "image_banner_iTgTEY",
     "rich_text_r4Ha3q",
-    "image_with_text_EAwdnQ",
-    "image_with_text_LttLM3",
     "image_with_text_VwxAnJ",
+    "image_with_text_EAwdnQ",
     "banner",
     "video_c7yMcg",
     "multicolumn_HbKqAa",
