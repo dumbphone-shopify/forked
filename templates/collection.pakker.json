@@ -80,7 +80,7 @@
           "settings": {
             "image": "shopify://shop_images/young-old-using-technology.jpg",
             "title": "STEP 1:",
-            "text": "<p>Del denne side med forældrene i klassen og tag evt. en snak om det med de andre forældre hvis det er muligt. <a href=\"https://youtu.be/MHh_exH07rE\"><strong><br/></strong></a></p>",
+            "text": "<p>Ring til os hvis i har spørgsmål: <br/>40 26 12 70<br/></p><p>-</p><p>Del denne side med forældrene i klassen og tag evt. en snak om det med de andre forældre hvis det er muligt. </p>",
             "link_label": "",
             "link": ""
           }
@@ -88,7 +88,7 @@
         "column_gLGGeE": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/MP_logo.png",
+            "image": "shopify://shop_images/mp_rgb_notm_logotype-horisontal-blue_1400x788-1.svg",
             "title": "STEP 2:",
             "text": "<p>Modtag tilbagemeldinger om hvem der er klar + modtag betaling fra hver forældre.</p><p><br/></p><p>Brug evt. din egen mobilepay til at samle pengene sammen.</p>",
             "link_label": "",
