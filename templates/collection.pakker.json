@@ -135,6 +135,45 @@
         "padding_bottom": 52
       }
     },
+    "image_with_text_RhD69b": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_H6axWp": {
+          "type": "heading",
+          "settings": {
+            "heading": "Start så tidligt som muligt, så i kan få flere med.",
+            "heading_size": "h1"
+          }
+        },
+        "text_xqXjQb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>I kan ikke starte for tidligt med at udskyde smartphonen. Se det som et forebyggende tiltag som kan hjælpe med at smartphonen ikke kommer pludseligt ind i klassen. </p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_H6axWp",
+        "text_xqXjQb"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/CleanShot_2025-09-08_at_08.54.08.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "contact_form_TyGdag": {
       "type": "contact-form",
       "custom_css": [
@@ -502,6 +541,7 @@
     "image_with_text_LttLM3",
     "video_qdygQy",
     "multicolumn_McXrfj",
+    "image_with_text_RhD69b",
     "contact_form_TyGdag",
     "image_banner_iTgTEY",
     "rich_text_r4Ha3q",
