@@ -135,6 +135,60 @@
         "padding_bottom": 52
       }
     },
+    "multicolumn_Fq4DzK": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_mjhBQM": {
+          "type": "column",
+          "settings": {
+            "title": "Løser kommunikationsbehov",
+            "text": "<p>Ved at give dit barn en knaptelefon hjælper du med at løse et basalt kommunikationsbehov, og muliggør at skubbe smartphonen introduktione en anelse.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_EmkrbU": {
+          "type": "column",
+          "settings": {
+            "title": "I står stærkere, når i er sammen",
+            "text": "<p>Ved at flere børn har den samme knap telefon, bliver det nemmere for alle at udskyde. Vi har haft mange klasser med +15 forældre der går sammen. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_dkEgqi": {
+          "type": "column",
+          "settings": {
+            "title": "Forsigtighedsprincip",
+            "text": "<p>Se udskydelsen af smartphonen som et forsigtighedsprincip. Alle får en smartphone på et tidspunkt, men det skader nok ikke at udskyde dette tidspunkt med 1-2 år.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_mjhBQM",
+        "column_EmkrbU",
+        "column_dkEgqi"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Hvorfor udskyde smartphonen på denne måde?",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "Knaptekst",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_with_text_RhD69b": {
       "type": "image-with-text",
       "blocks": {
@@ -541,6 +595,7 @@
     "image_with_text_LttLM3",
     "video_qdygQy",
     "multicolumn_McXrfj",
+    "multicolumn_Fq4DzK",
     "image_with_text_RhD69b",
     "contact_form_TyGdag",
     "image_banner_iTgTEY",
