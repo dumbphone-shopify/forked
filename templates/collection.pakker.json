@@ -177,7 +177,7 @@
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "button_label": "Knaptekst",
+        "button_label": "",
         "button_link": "",
         "columns_desktop": 3,
         "column_alignment": "left",
@@ -224,6 +224,76 @@
         "mobile_content_alignment": "left",
         "section_color_scheme": "",
         "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_product_AtE9mc": {
+      "type": "featured-product",
+      "blocks": {
+        "text_6i3tEa": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_GG6LJA": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_xVLVAM": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_zUtyQU": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_K9XjPm": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_e7QiN4": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_RdYRFR": {
+          "type": "share",
+          "settings": {
+            "share_label": "Del"
+          }
+        }
+      },
+      "block_order": [
+        "text_6i3tEa",
+        "title_GG6LJA",
+        "price_xVLVAM",
+        "variant_picker_zUtyQU",
+        "quantity_selector_K9XjPm",
+        "buy_buttons_e7QiN4",
+        "share_RdYRFR"
+      ],
+      "name": "t:sections.featured-product.presets.name",
+      "settings": {
+        "product": "hmd-105-4g",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -597,6 +667,7 @@
     "multicolumn_McXrfj",
     "multicolumn_Fq4DzK",
     "image_with_text_RhD69b",
+    "featured_product_AtE9mc",
     "contact_form_TyGdag",
     "image_banner_iTgTEY",
     "rich_text_r4Ha3q",
