@@ -148,7 +148,7 @@
         "text_eeE9z3": {
           "type": "text",
           "settings": {
-            "text": "<p>Hej  kære  forældre i (x) <br/>Vi er nogle forældre der har snakket om</p>",
+            "text": "<p>Hej  kære  forældre i (x) <br/>Vi er nogle forældre der har snakket om de her år hvor de første smartphones begynder at komme ind i klassen. Vi er nogle stykker om gerne vil forsøge at udskyde dette tidspunkt, bare lige et par år. Vi har fundet det her tilbud hvor hvis vi er +5 forældre så får vi en rigtig fin knaptelefon som kan løse de basale behov. Vi får den til 267 kr hvis vi er flere end 5. <br/><br/>Er der nogen der har lyst til at være med og på den måde udskyde den første smartphone, bare lige lidt? </p>",
             "text_style": "body"
           }
         },
@@ -168,9 +168,9 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/unnamed.png",
+        "image": "shopify://shop_images/1200x600wa.png",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "image_first",
         "image_behavior": "none",
         "content_layout": "no-overlap",
