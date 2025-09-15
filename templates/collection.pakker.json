@@ -135,6 +135,54 @@
         "padding_bottom": 52
       }
     },
+    "image_with_text_jm47ei": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_UaVYAe": {
+          "type": "heading",
+          "settings": {
+            "heading": "Billede med tekst",
+            "heading_size": "h1"
+          }
+        },
+        "text_eeE9z3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hej  kære  forældre i (x) <br/>Vi er nogle forældre der har snakket om</p>",
+            "text_style": "body"
+          }
+        },
+        "button_ndLHq3": {
+          "type": "button",
+          "settings": {
+            "button_label": "Knaptekst",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_UaVYAe",
+        "text_eeE9z3",
+        "button_ndLHq3"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/unnamed.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn_Fq4DzK": {
       "type": "multicolumn",
       "blocks": {
@@ -665,6 +713,7 @@
     "image_with_text_LttLM3",
     "video_qdygQy",
     "multicolumn_McXrfj",
+    "image_with_text_jm47ei",
     "multicolumn_Fq4DzK",
     "image_with_text_RhD69b",
     "featured_product_AtE9mc",
