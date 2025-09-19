@@ -94,29 +94,17 @@
             "text": "Nøje udvalgte produkter som kan hjælpe dig med at nedsætte skærmforbruget",
             "text_style": "body"
           }
-        },
-        "buttons_Dj3rNi": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Knaptekst",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Knaptekst",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "heading_kMrABh",
-        "text_YVGAL7",
-        "buttons_Dj3rNi"
+        "text_YVGAL7"
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/CleanShot_2025-02-16_at_15.44.24_2x_89ec348a-0b79-4717-8927-ee82e43a2353.png",
+        "image": "shopify://shop_images/CleanShot_2025-02-16_at_15.40.54_2x_62587c0b-a779-4c34-8a8b-0d98ab9cee91.png",
         "image_overlay_opacity": 30,
-        "image_height": "medium",
+        "image_height": "small",
         "image_behavior": "none",
         "desktop_content_position": "middle-center",
         "desktop_content_alignment": "center",
