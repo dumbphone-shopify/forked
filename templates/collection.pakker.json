@@ -60,7 +60,7 @@
       "type": "video",
       "name": "t:sections.video.presets.name",
       "settings": {
-        "heading": "Gå mindst 5 forældre sammen om at udskyde smartphonen",
+        "heading": "",
         "heading_size": "h1",
         "enable_video_looping": false,
         "video": "shopify://files/videos/001_Dumbphone_Gruppe_Fourth-cut_v1.mp.mp4",
