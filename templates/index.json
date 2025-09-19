@@ -57,6 +57,23 @@
         "include_margins": true
       }
     },
+    "video_67KBNh": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "Video",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify://files/videos/0919.mov",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "cover_image": "shopify://shop_images/CleanShot_2025-09-19_at_08.14.34.png",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "carusel_bMcbcV": {
       "type": "carusel",
       "blocks": {
@@ -636,6 +653,7 @@
   "order": [
     "hero_banner_xc7HTV",
     "1747382751afc67ba6",
+    "video_67KBNh",
     "carusel_bMcbcV",
     "image_with_text_3acgQr",
     "rich_text_apRVFF",
