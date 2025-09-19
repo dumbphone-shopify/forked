@@ -42,8 +42,8 @@
       "name": "Hero Banner",
       "settings": {
         "background_image": "shopify://shop_images/4123213.png",
-        "enable_scroll_effect": false,
-        "hero_height": "auto",
+        "enable_scroll_effect": true,
+        "hero_height": "50vh",
         "heading": "En hjælpende hånd med at styre skærmforbruget",
         "title_color": "#ffffff",
         "text_alignment": "center",
@@ -130,123 +130,6 @@
         "title_color": "#ac3f00",
         "color_scheme": "scheme-1",
         "arrow_color": "#ac3f00"
-      }
-    },
-    "image_with_text_3acgQr": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_eP6Yjq": {
-          "type": "heading",
-          "settings": {
-            "heading": "Velkommen til dumbphone.dk",
-            "heading_size": "h2"
-          }
-        },
-        "text_cbbnAW": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Det handler ikke altid om at være konstant forbundet, men om at finde ro i det enkle. Jeg tror på hjælpe med at skabe nærvær, balance og samtaler uden forstyrrelser.</p><p>Er du nysgerrig på hvem der står bag? Læs mere om min historie her.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_KRxVph": {
-          "type": "button",
-          "settings": {
-            "button_label": "Læs mere om Dumbphone →",
-            "button_link": "shopify://pages/om-dumbphone",
-            "button_style_secondary": true
-          }
-        }
-      },
-      "block_order": [
-        "heading_eP6Yjq",
-        "text_cbbnAW",
-        "button_KRxVph"
-      ],
-      "custom_css": [
-        ".image-with-text__content {border-radius: 25px 0 0 25px;}",
-        ".image-with-text__media {border-radius: 0 25px 25px 0;}",
-        "@media screen and (max-width: 749px) {.image-with-text__content {border-radius: 0 0 25px 25px; } .image-with-text__media {border-radius: 25px 25px 0 0; }}",
-        "a {align-self: flex-end; --border-offset: none;}"
-      ],
-      "name": "velkomst sektion",
-      "settings": {
-        "image": "shopify://shop_images/Arne-and-TIkko-on-a_bike-trip.webp",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "image_behavior": "none",
-        "content_layout": "no-overlap",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "section_color_scheme": "",
-        "color_scheme": "scheme-3",
-        "padding_top": 48,
-        "padding_bottom": 48
-      }
-    },
-    "rich_text_apRVFF": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_xTaQnn": {
-          "type": "heading",
-          "settings": {
-            "heading": "Se vores udvalg",
-            "heading_size": "h1"
-          }
-        },
-        "text_Y8Y786": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Vi sælger ikke bare dumbphones, men også redskaber som hjælper dig</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_xTaQnn",
-        "text_Y8Y786"
-      ],
-      "custom_css": [
-        "h2 {color: #c55614;}"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "scheme-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "hero_banner_z8teby": {
-      "type": "hero-banner",
-      "blocks": {
-        "button_FXxnBr": {
-          "type": "button",
-          "settings": {
-            "label": "Vores webshop",
-            "link": "shopify://collections/all",
-            "button_bg_color": "#fffdf8",
-            "button_text_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "button_FXxnBr"
-      ],
-      "custom_css": [],
-      "name": "hero-sektion",
-      "settings": {
-        "background_image": "shopify://shop_images/martin-edholm-wtt6puopAvg-unsplash.jpg",
-        "enable_scroll_effect": true,
-        "hero_height": "50vh",
-        "heading": "",
-        "title_color": "#ffffff",
-        "text_alignment": "center",
-        "content_position": "middle-center",
-        "mobile_content_alignment": "center"
       }
     },
     "collection_list_3gXFbh": {
@@ -654,9 +537,6 @@
     "1747382751afc67ba6",
     "video_iFUrWH",
     "carusel_bMcbcV",
-    "image_with_text_3acgQr",
-    "rich_text_apRVFF",
-    "hero_banner_z8teby",
     "collection_list_3gXFbh",
     "rich_text_WhwJye",
     "featured_blog_XGYwnV",
