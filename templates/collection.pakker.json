@@ -90,7 +90,7 @@
           "settings": {
             "image": "shopify://shop_images/mp_rgb_notm_logotype-horisontal-blue_1400x788-1.svg",
             "title": "STEP 2:",
-            "text": "<p>Modtag tilbagemeldinger om hvem der er klar + modtag betaling fra hver forældre.</p><p><br/></p><p>Brug evt. din egen mobilepay til at samle pengene sammen.</p>",
+            "text": "<p>Modtag tilbagemeldinger om hvem der er klar + modtag betaling fra hver forældre.<br/></p><p>-</p><p>Brug evt. din egen mobilepay til at samle pengene sammen.</p>",
             "link_label": "",
             "link": ""
           }
@@ -125,12 +125,12 @@
         "image_ratio": "adapt",
         "button_label": "",
         "button_link": "",
-        "columns_desktop": 3,
+        "columns_desktop": 1,
         "column_alignment": "left",
         "background_style": "primary",
         "color_scheme": "scheme-1",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 52
       }
