@@ -41,9 +41,9 @@
       ],
       "name": "Hero Banner",
       "settings": {
-        "background_image": "shopify://shop_images/martin-edholm-wtt6puopAvg-unsplash_07fb0b9a-7522-4bc4-971a-c7a7f010c604.jpg",
-        "enable_scroll_effect": true,
-        "hero_height": "75vh",
+        "background_image": "shopify://shop_images/804898a3-a653-4aae-9403-7c60b004fe6f.jpg",
+        "enable_scroll_effect": false,
+        "hero_height": "auto",
         "heading": "En hjælpende hånd med at styre skærmforbruget",
         "title_color": "#ffffff",
         "text_alignment": "center",
