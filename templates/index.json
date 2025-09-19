@@ -41,7 +41,7 @@
       ],
       "name": "Hero Banner",
       "settings": {
-        "background_image": "shopify://shop_images/804898a3-a653-4aae-9403-7c60b004fe6f.jpg",
+        "background_image": "shopify://shop_images/2931e278-2c16-4ea8-be89-e2c6e80e04fc.jpg",
         "enable_scroll_effect": false,
         "hero_height": "auto",
         "heading": "En hjælpende hånd med at styre skærmforbruget",
@@ -197,7 +197,7 @@
         "padding_bottom": 52,
         "title": "",
         "align_text": "center",
-        "color_scheme": "scheme-2"
+        "color_scheme": "scheme-1"
       }
     },
     "1747382751afc67ba6": {
@@ -261,7 +261,7 @@
         "title": "Dette tilbyder vi",
         "align_text": "left",
         "title_color": "#ac3f00",
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "arrow_color": "#ac3f00"
       }
     },
