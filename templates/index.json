@@ -57,6 +57,65 @@
         "include_margins": true
       }
     },
+    "carusel_bMcbcV": {
+      "type": "carusel",
+      "blocks": {
+        "slide_dYYRxj": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify://shop_images/small-rock-piles-on-log.jpg",
+            "heading": "Vi har telefoner og redskaber som skal kunne hjælpe dig med at nedsætte skræm",
+            "text": "Vi prøver ikke at få folk til at gå tilbage i tiden eller gå 100% offline. Vi søger at hjælpe dig til at finde en balance hvor du kan opleve det gode fra både det digital og det analoge.",
+            "align_text": "left",
+            "link": "shopify://blogs/information",
+            "linktext": "Læs vores guides her"
+          }
+        },
+        "slide_8jixRm": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "scheme-2",
+            "image": "shopify://shop_images/bike-and-phone.jpg",
+            "heading": "Du behøver ikke vælge alt eller intet",
+            "text": "Du behøver ikke skifte helt.\nMange apps, som mail og bank, er svære at undvære.\nMen der findes tilbehør, der kan hjælpe dig med at skabe ro og balance, uden at give helt slip.\n<br>\nSe hvad vi har samlet til dig her.",
+            "align_text": "left",
+            "link": "shopify://collections/all",
+            "linktext": "Se tilbehør og gadgets"
+          }
+        },
+        "slide_6RtGf7": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "scheme-3",
+            "image": "shopify://shop_images/girl-using-sidewalk-chalk.jpg",
+            "heading": "Udskyd introduktionen af smartphone - Bare en smule",
+            "text": "Smartphones kan hurtigt gå fra værktøj til tidsrøver. Jeg tror børn har godt af at starte med en dumbphone i 1.-2. klasse, så de lærer balancen og er mere til stede i skolen, med venner og derhjemme. Dette kan også være en effektiv måde at udskyde introduktionen af smartphonen. <br>",
+            "align_text": "left",
+            "link": "shopify://collections/kits",
+            "linktext": "Se vores klassesæt"
+          }
+        }
+      },
+      "block_order": [
+        "slide_dYYRxj",
+        "slide_8jixRm",
+        "slide_6RtGf7"
+      ],
+      "custom_css": [
+        "h2 {font-size: xx-large;}"
+      ],
+      "name": "Carousel",
+      "settings": {
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "title": "Dette tilbyder vi",
+        "align_text": "left",
+        "title_color": "#ac3f00",
+        "color_scheme": "",
+        "arrow_color": "#ac3f00"
+      }
+    },
     "image_with_text_3acgQr": {
       "type": "image-with-text",
       "blocks": {
@@ -224,65 +283,6 @@
         "swipe_on_mobile": true,
         "padding_top": 0,
         "padding_bottom": 36
-      }
-    },
-    "carusel_bMcbcV": {
-      "type": "carusel",
-      "blocks": {
-        "slide_dYYRxj": {
-          "type": "slide",
-          "settings": {
-            "color_scheme": "scheme-4",
-            "image": "shopify://shop_images/small-rock-piles-on-log.jpg",
-            "heading": "Vi hjælper med at finde balancen",
-            "text": "Vi prøver ikke at få folk til at gå tilbage i tiden eller gå 100% offline. Vi søger at hjælpe dig til at finde en balance hvor du kan opleve det gode fra både det digital og det analoge.",
-            "align_text": "left",
-            "link": "shopify://blogs/information",
-            "linktext": "Læs vores guides her"
-          }
-        },
-        "slide_8jixRm": {
-          "type": "slide",
-          "settings": {
-            "color_scheme": "scheme-2",
-            "image": "shopify://shop_images/bike-and-phone.jpg",
-            "heading": "Du behøver ikke vælge alt eller intet",
-            "text": "Du behøver ikke skifte helt.\nMange apps, som mail og bank, er svære at undvære.\nMen der findes tilbehør, der kan hjælpe dig med at skabe ro og balance, uden at give helt slip.\n<br>\nSe hvad vi har samlet til dig her.",
-            "align_text": "left",
-            "link": "shopify://collections/all",
-            "linktext": "Se tilbehør og gadgets"
-          }
-        },
-        "slide_6RtGf7": {
-          "type": "slide",
-          "settings": {
-            "color_scheme": "scheme-3",
-            "image": "shopify://shop_images/girl-using-sidewalk-chalk.jpg",
-            "heading": "Udskyd introduktionen af smartphone - Bare en smule",
-            "text": "Smartphones kan hurtigt gå fra værktøj til tidsrøver. Jeg tror børn har godt af at starte med en dumbphone i 1.-2. klasse, så de lærer balancen og er mere til stede i skolen, med venner og derhjemme. Dette kan også være en effektiv måde at udskyde introduktionen af smartphonen. <br>",
-            "align_text": "left",
-            "link": "shopify://collections/kits",
-            "linktext": "Se vores klassesæt"
-          }
-        }
-      },
-      "block_order": [
-        "slide_dYYRxj",
-        "slide_8jixRm",
-        "slide_6RtGf7"
-      ],
-      "custom_css": [
-        "h2 {font-size: xx-large;}"
-      ],
-      "name": "Carousel",
-      "settings": {
-        "padding_top": 48,
-        "padding_bottom": 48,
-        "title": "Dette tilbyder vi",
-        "align_text": "left",
-        "title_color": "#ac3f00",
-        "color_scheme": "",
-        "arrow_color": "#ac3f00"
       }
     },
     "rich_text_WhwJye": {
@@ -636,11 +636,11 @@
   "order": [
     "hero_banner_xc7HTV",
     "1747382751afc67ba6",
+    "carusel_bMcbcV",
     "image_with_text_3acgQr",
     "rich_text_apRVFF",
     "hero_banner_z8teby",
     "collection_list_3gXFbh",
-    "carusel_bMcbcV",
     "rich_text_WhwJye",
     "featured_blog_XGYwnV",
     "rich_text_az4UTm",
