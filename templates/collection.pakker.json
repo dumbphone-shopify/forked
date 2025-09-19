@@ -126,10 +126,10 @@
         "button_label": "",
         "button_link": "",
         "columns_desktop": 3,
-        "column_alignment": "center",
+        "column_alignment": "left",
         "background_style": "primary",
         "color_scheme": "scheme-1",
-        "columns_mobile": "1",
+        "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 52
@@ -143,14 +143,14 @@
         "post_limit": 2,
         "heading": "Inspirations tekst til beskeden ud til de andre forældre.",
         "heading_size": "h2",
-        "columns_desktop": 2,
-        "show_view_all": true,
+        "columns_desktop": 1,
+        "show_view_all": false,
         "show_image": true,
         "show_date": false,
         "show_author": false,
         "color_scheme": "",
-        "padding_top": 32,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "multicolumn_Fq4DzK": {
@@ -246,76 +246,6 @@
         "padding_bottom": 36
       }
     },
-    "featured_product_AtE9mc": {
-      "type": "featured-product",
-      "blocks": {
-        "text_6i3tEa": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "title_GG6LJA": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "price_xVLVAM": {
-          "type": "price",
-          "settings": {}
-        },
-        "variant_picker_zUtyQU": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
-          }
-        },
-        "quantity_selector_K9XjPm": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons_e7QiN4": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
-          }
-        },
-        "share_RdYRFR": {
-          "type": "share",
-          "settings": {
-            "share_label": "Del"
-          }
-        }
-      },
-      "block_order": [
-        "text_6i3tEa",
-        "title_GG6LJA",
-        "price_xVLVAM",
-        "variant_picker_zUtyQU",
-        "quantity_selector_K9XjPm",
-        "buy_buttons_e7QiN4",
-        "share_RdYRFR"
-      ],
-      "name": "t:sections.featured-product.presets.name",
-      "settings": {
-        "product": "hmd-105-4g",
-        "color_scheme": "",
-        "secondary_background": false,
-        "media_size": "medium",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "media_position": "left",
-        "image_zoom": "lightbox",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "contact_form_TyGdag": {
       "type": "contact-form",
       "custom_css": [
@@ -323,70 +253,11 @@
         "input,textarea {background: white;}"
       ],
       "settings": {
-        "heading": "Interesseret? Kontakt os her! Vi svarer indenfor 24 timer, også i weekenden - Ring mig også gerne op til en ping pong: 40 26 12 70",
+        "heading": "Interesseret? Kontakt os her! Vi svarer indenfor 24 timer - Ring mig også gerne op til en ping pong: 40 26 12 70",
         "heading_size": "h2",
         "color_scheme": "scheme-4",
         "padding_top": 52,
         "padding_bottom": 36
-      }
-    },
-    "image_banner_iTgTEY": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_kfUtWE": {
-          "type": "heading",
-          "settings": {
-            "heading": "Giv dine elever et bedre forhold til smartphones",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading_kfUtWE"
-      ],
-      "custom_css": [
-        ".banner__box {border-radius: 15px 15px 0 0; min-width: 80vw; width: 100%; padding: 25px 50px; margin: auto auto -55px auto;}",
-        "@media screen and (max-width: 749px) {.banner__box {margin: auto auto auto auto; }}",
-        "img {object-position: top;}",
-        "@media screen and (min-width: 749px) {p {max-width: 700px; margin: auto; }}"
-      ],
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/dumbphone-lecture-at-school.webp",
-        "image_overlay_opacity": 40,
-        "image_height": "medium",
-        "image_behavior": "fixed",
-        "desktop_content_position": "bottom-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": true,
-        "color_scheme": "scheme-1",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": true
-      }
-    },
-    "rich_text_r4Ha3q": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_6LMWV6": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading_6LMWV6"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 52
       }
     },
     "image_with_text_VwxAnJ": {
@@ -420,6 +291,7 @@
         "text_Qx9Vcj",
         "button_hhCMkG"
       ],
+      "disabled": true,
       "custom_css": [
         ".image-with-text__content {border-radius: 0 25px 25px 0;}",
         ".image-with-text__media {border-radius: 25px 0 0 25px;}",
@@ -465,6 +337,7 @@
         "heading_aL6E7c",
         "text_wYmffA"
       ],
+      "disabled": true,
       "custom_css": [
         ".image-with-text__container {padding: 0;}"
       ],
@@ -630,6 +503,7 @@
         "slide_xPKtAW",
         "slide_ibwBna"
       ],
+      "disabled": true,
       "custom_css": [
         "h2 {margin: 0 10px;}"
       ],
@@ -686,10 +560,7 @@
     "featured_blog_HgQJHc",
     "multicolumn_Fq4DzK",
     "image_with_text_RhD69b",
-    "featured_product_AtE9mc",
     "contact_form_TyGdag",
-    "image_banner_iTgTEY",
-    "rich_text_r4Ha3q",
     "image_with_text_VwxAnJ",
     "image_with_text_EAwdnQ",
     "banner",
