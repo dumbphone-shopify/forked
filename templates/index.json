@@ -41,14 +41,163 @@
       ],
       "name": "Hero Banner",
       "settings": {
-        "background_image": "shopify://shop_images/sumeet-singh--_YnzIHeSNw-unsplash.jpg",
-        "enable_scroll_effect": true,
+        "background_image": "shopify://shop_images/Kopi_af_Design_uden_navn_Facebook-cover.png",
+        "enable_scroll_effect": false,
         "hero_height": "75vh",
         "heading": "En hjælpende hånd med at styre skærmforbruget",
         "title_color": "#ffffff",
         "text_alignment": "center",
         "content_position": "bottom-center",
         "mobile_content_alignment": "center"
+      }
+    },
+    "mediaslider_PKNYUf": {
+      "type": "mediaslider",
+      "blocks": {
+        "logo_CPFc3g": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/6.png"
+          }
+        },
+        "logo_gRAhzD": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/7.png"
+          }
+        },
+        "logo_rBpdJ7": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/2.png"
+          }
+        },
+        "logo_qBt8zR": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/5.png"
+          }
+        },
+        "logo_NV9BGg": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/8_1f567831-9671-4dca-88fc-8a36abae11a0.png"
+          }
+        },
+        "logo_9dPNtd": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/1.png"
+          }
+        },
+        "logo_kfAfUM": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/6.png"
+          }
+        },
+        "logo_xgJztP": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/7.png"
+          }
+        },
+        "logo_yMHyGh": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/2.png"
+          }
+        },
+        "logo_yYgcXh": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/5.png"
+          }
+        },
+        "logo_M78jDt": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/8_1f567831-9671-4dca-88fc-8a36abae11a0.png"
+          }
+        },
+        "logo_Rn3zn8": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/1.png"
+          }
+        },
+        "logo_XXWCWw": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/1.png"
+          }
+        },
+        "logo_7KpJph": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/6.png"
+          }
+        },
+        "logo_c49PaT": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/7.png"
+          }
+        },
+        "logo_9tpcbn": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/2.png"
+          }
+        },
+        "logo_4XFGiT": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/5.png"
+          }
+        },
+        "logo_RXdnq3": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/8_1f567831-9671-4dca-88fc-8a36abae11a0.png"
+          }
+        },
+        "logo_8yQB6M": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/1.png"
+          }
+        }
+      },
+      "block_order": [
+        "logo_CPFc3g",
+        "logo_gRAhzD",
+        "logo_rBpdJ7",
+        "logo_qBt8zR",
+        "logo_NV9BGg",
+        "logo_9dPNtd",
+        "logo_kfAfUM",
+        "logo_xgJztP",
+        "logo_yMHyGh",
+        "logo_yYgcXh",
+        "logo_M78jDt",
+        "logo_Rn3zn8",
+        "logo_XXWCWw",
+        "logo_7KpJph",
+        "logo_c49PaT",
+        "logo_9tpcbn",
+        "logo_4XFGiT",
+        "logo_RXdnq3",
+        "logo_8yQB6M"
+      ],
+      "custom_css": [],
+      "name": "Media Logos Slider",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 52,
+        "title": "",
+        "align_text": "center",
+        "color_scheme": "scheme-2"
       }
     },
     "1747382751afc67ba6": {
@@ -482,159 +631,11 @@
         "padding_top": 56,
         "padding_bottom": 0
       }
-    },
-    "mediaslider_PKNYUf": {
-      "type": "mediaslider",
-      "blocks": {
-        "logo_CPFc3g": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/6.png"
-          }
-        },
-        "logo_gRAhzD": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/7.png"
-          }
-        },
-        "logo_rBpdJ7": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/2.png"
-          }
-        },
-        "logo_qBt8zR": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/5.png"
-          }
-        },
-        "logo_NV9BGg": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/8_1f567831-9671-4dca-88fc-8a36abae11a0.png"
-          }
-        },
-        "logo_9dPNtd": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/1.png"
-          }
-        },
-        "logo_kfAfUM": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/6.png"
-          }
-        },
-        "logo_xgJztP": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/7.png"
-          }
-        },
-        "logo_yMHyGh": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/2.png"
-          }
-        },
-        "logo_yYgcXh": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/5.png"
-          }
-        },
-        "logo_M78jDt": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/8_1f567831-9671-4dca-88fc-8a36abae11a0.png"
-          }
-        },
-        "logo_Rn3zn8": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/1.png"
-          }
-        },
-        "logo_XXWCWw": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/1.png"
-          }
-        },
-        "logo_7KpJph": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/6.png"
-          }
-        },
-        "logo_c49PaT": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/7.png"
-          }
-        },
-        "logo_9tpcbn": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/2.png"
-          }
-        },
-        "logo_4XFGiT": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/5.png"
-          }
-        },
-        "logo_RXdnq3": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/8_1f567831-9671-4dca-88fc-8a36abae11a0.png"
-          }
-        },
-        "logo_8yQB6M": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/1.png"
-          }
-        }
-      },
-      "block_order": [
-        "logo_CPFc3g",
-        "logo_gRAhzD",
-        "logo_rBpdJ7",
-        "logo_qBt8zR",
-        "logo_NV9BGg",
-        "logo_9dPNtd",
-        "logo_kfAfUM",
-        "logo_xgJztP",
-        "logo_yMHyGh",
-        "logo_yYgcXh",
-        "logo_M78jDt",
-        "logo_Rn3zn8",
-        "logo_XXWCWw",
-        "logo_7KpJph",
-        "logo_c49PaT",
-        "logo_9tpcbn",
-        "logo_4XFGiT",
-        "logo_RXdnq3",
-        "logo_8yQB6M"
-      ],
-      "custom_css": [],
-      "name": "Media Logos Slider",
-      "settings": {
-        "padding_top": 0,
-        "padding_bottom": 52,
-        "title": "",
-        "align_text": "center",
-        "color_scheme": "scheme-2"
-      }
     }
   },
   "order": [
     "hero_banner_xc7HTV",
+    "mediaslider_PKNYUf",
     "1747382751afc67ba6",
     "carusel_bMcbcV",
     "image_with_text_3acgQr",
@@ -645,7 +646,6 @@
     "featured_blog_XGYwnV",
     "rich_text_az4UTm",
     "multicolumn_keDkMU",
-    "rich_text_WCVTJa",
-    "mediaslider_PKNYUf"
+    "rich_text_WCVTJa"
   ]
 }
