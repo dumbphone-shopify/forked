@@ -9,37 +9,6 @@
  */
 {
   "sections": {
-    "hero_banner_yXXfmr": {
-      "type": "hero-banner",
-      "blocks": {
-        "button_QhzbWE": {
-          "type": "button",
-          "settings": {
-            "label": "Klik her",
-            "link": "",
-            "button_bg_color": "#ffffff",
-            "button_text_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "button_QhzbWE"
-      ],
-      "custom_css": [
-        "h1 {font-size: xx-large;}"
-      ],
-      "name": "Hero-sektion",
-      "settings": {
-        "background_image": "shopify://shop_images/CleanShot_2025-02-16_at_15.41.31_2x_63f56460-6954-48a4-a693-c8002717a034.png",
-        "enable_scroll_effect": true,
-        "hero_height": "50vh",
-        "heading": "Vores produkter",
-        "title_color": "#fffdf8",
-        "text_alignment": "center",
-        "content_position": "middle-center",
-        "mobile_content_alignment": "center"
-      }
-    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -47,6 +16,35 @@
         "show_collection_description": true,
         "show_collection_image": false,
         "color_scheme": "scheme-1"
+      }
+    },
+    "image_banner_PeXdJY": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_NWfkBw": {
+          "type": "heading",
+          "settings": {
+            "heading": "Vores produkter",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NWfkBw"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/CleanShot_2025-02-16_at_15.41.31_2x_63f56460-6954-48a4-a693-c8002717a034.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
       }
     },
     "featured_collection_cDJ6xe": {
@@ -230,8 +228,8 @@
     }
   },
   "order": [
-    "hero_banner_yXXfmr",
     "banner",
+    "image_banner_PeXdJY",
     "featured_collection_cDJ6xe",
     "image_banner_giLG76",
     "featured_collection_ahPJRi",
