@@ -64,8 +64,8 @@
           "settings": {
             "image": "shopify://shop_images/102987250.avif",
             "caption": "Billedtekst",
-            "heading": "Brugt Nokia 2660",
-            "text": "<p>En fliptelefon i enten grøn eller pink. <br/>Kommer i original kasse med opladt batteri og oplader. </p>",
+            "heading": "Brugt Nokia 2660 4G",
+            "text": "<p>En fliptelefon i enten grøn eller pink. Telefonen har kamera.<br/><br/>Telefonen kommer nulstillet og pænt pakket i original kasse med oplader og opladt batteri</p>",
             "button_label": "Se produktet",
             "button_link": "shopify://products/som-ny-nokia-2660-flip-4g-kopi"
           }
@@ -73,9 +73,10 @@
         "row_xtHVKx": {
           "type": "row",
           "settings": {
+            "image": "shopify://shop_images/Frame_3330.png",
             "caption": "Billedtekst",
-            "heading": "Række",
-            "text": "<p>Kombiner tekst med et billede for at fokusere på dit valgte produkt, din valgte kollektion eller dit valgte blogopslag. Tilføj oplysninger om tilgængelighed, stil og eventuelt også en anmeldelse.</p>",
+            "heading": "HMD 105 4G",
+            "text": "<p>Denne telefon er den vi anbefaler hvis der ikke er nogen eller få smartphones i klassen. </p>",
             "button_label": "Knaptekst",
             "button_link": ""
           }
