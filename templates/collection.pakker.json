@@ -218,6 +218,17 @@
         "accessibility_info": "Diasshow om vores brand"
       }
     },
+    "contact_form_Y49T3b": {
+      "type": "contact-form",
+      "name": "t:sections.contact-form.presets.name",
+      "settings": {
+        "heading": "Skriv dig op til information om det nye koncept",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "newsletter_Uecnd3": {
       "type": "newsletter",
       "blocks": {
@@ -700,6 +711,7 @@
     "video_qdygQy",
     "rich_text_mQikUc",
     "slideshow_BjJjLW",
+    "contact_form_Y49T3b",
     "newsletter_Uecnd3",
     "multicolumn_McXrfj",
     "featured_blog_HgQJHc",
