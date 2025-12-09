@@ -156,7 +156,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "full_width": true,
         "padding_top": 20,
         "padding_bottom": 8
@@ -173,7 +173,7 @@
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
-            "button_label": "Kommer til forår 2026 - Skriv dig op nedenfor",
+            "button_label": "Skriv dig op til info nedenfor",
             "link": "",
             "button_style_secondary": false,
             "show_text_box": true,
