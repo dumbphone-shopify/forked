@@ -9,47 +9,41 @@
  */
 {
   "sections": {
-    "rich_text_mQikUc": {
-      "type": "rich-text",
+    "image_banner_kjNf3X": {
+      "type": "image-banner",
       "blocks": {
-        "heading_UryPWE": {
+        "heading_UMxQCC": {
           "type": "heading",
           "settings": {
             "heading": "Nyt koncept kommer til forår 2026",
             "heading_size": "h1"
           }
         },
-        "text_gyRedV": {
+        "text_zrL3pX": {
           "type": "text",
           "settings": {
-            "text": ""
-          }
-        },
-        "button_RYLih8": {
-          "type": "button",
-          "settings": {
-            "button_label": "",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text": "Vi arbejder lige nu hårdt på at få et nyt koncept klar til jer forældre i foråret. Et koncept som både er et bedre produkt og et bedre tilbud!",
+            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "heading_UryPWE",
-        "text_gyRedV",
-        "button_RYLih8"
+        "heading_UMxQCC",
+        "text_zrL3pX"
       ],
-      "name": "t:sections.rich-text.presets.name",
+      "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "full_width": true,
-        "padding_top": 32,
-        "padding_bottom": 24
+        "image": "shopify://shop_images/child-on-playground.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
       }
     },
     "slideshow_BjJjLW": {
@@ -771,7 +765,7 @@
     }
   },
   "order": [
-    "rich_text_mQikUc",
+    "image_banner_kjNf3X",
     "slideshow_BjJjLW",
     "slideshow_UU9ith",
     "contact_form_Y49T3b",
