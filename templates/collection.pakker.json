@@ -9,116 +9,6 @@
  */
 {
   "sections": {
-    "image_with_text_LttLM3": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_JfCCMc": {
-          "type": "heading",
-          "settings": {
-            "heading": "Gå mindst 5 sammen i en forældregruppe - og få den perfekte første børnetelefon.",
-            "heading_size": "h2"
-          }
-        },
-        "text_VjYqAE": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Send os en besked, så sender vi dig en rabatkode til køb af +5 stk. Dette gælder HMD 105 4G og Brugt Nokia 2660. </p><p></p><p><br/><em>*Dette tilbud er kun til forældregrupper. Det er et tilbud, vi har for at hjælpe forældre med at få så mange med som muligt. Skoler og virksomheder må ikke benytte dette tilbud.</em></p>",
-            "text_style": "body"
-          }
-        },
-        "button_hmVERM": {
-          "type": "button",
-          "settings": {
-            "button_label": "Kontakt os",
-            "button_link": "shopify://pages/contact",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_JfCCMc",
-        "text_VjYqAE",
-        "button_hmVERM"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/charlein-gracia--Ux5mdMJNEA-unsplash.jpg",
-        "height": "large",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "image_behavior": "none",
-        "content_layout": "no-overlap",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 0
-      }
-    },
-    "multirow_ng97WQ": {
-      "type": "multirow",
-      "blocks": {
-        "row_KBVVc6": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/102987250.avif",
-            "caption": "",
-            "heading": "Brugt Nokia 2660 4G",
-            "text": "<p>En fliptelefon i enten grøn eller pink. Telefonen kommer nulstillet og pænt pakket i original kasse med oplader og opladt batteri</p><p>- Telefonen har kamera.<br/><br/><br/>Pink eller grøn:<br/>Vores normal pris........399,- kr<br/>Pris ved +5................. 299,- kr</p>",
-            "button_label": "",
-            "button_link": "shopify://products/som-ny-nokia-2660-flip-4g-kopi"
-          }
-        },
-        "row_xtHVKx": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/7cf99e1dffc6415c75fdde05808fb15e.jpg",
-            "caption": "",
-            "heading": "HMD 105 4G",
-            "text": "<p>Denne telefon er den vi anbefaler hvis der ikke er nogen eller få smartphones i klassen. </p><p>- Telefonen har ingen kamera</p><p><br/>Normal pris...........449,- kr<br/>Pris ved +5............275,- kr<br/></p>",
-            "button_label": "",
-            "button_link": "shopify://products/hmd-105-4g"
-          }
-        }
-      },
-      "block_order": [
-        "row_KBVVc6",
-        "row_xtHVKx"
-      ],
-      "name": "t:sections.multirow.presets.name",
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "image_layout": "alternate-right",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video_qdygQy": {
-      "type": "video",
-      "name": "t:sections.video.presets.name",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video": "shopify://files/videos/001_Dumbphone_Gruppe_Fourth-cut_v1.mp.mp4",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "rich_text_mQikUc": {
       "type": "rich-text",
       "blocks": {
@@ -278,8 +168,161 @@
       "type": "contact-form",
       "name": "t:sections.contact-form.presets.name",
       "settings": {
-        "heading": "Skriv dig op til information om det nye koncept",
+        "heading": "Skriv dig op til information om det nye 2026 koncept",
         "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_xpYF8d": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_D6zRTC": {
+          "type": "heading",
+          "settings": {
+            "heading": "Det nuværende koncept er nedenfor:",
+            "heading_size": "h1"
+          }
+        },
+        "text_rJNCjR": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "button_zfAEJk": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_D6zRTC",
+        "text_rJNCjR",
+        "button_zfAEJk"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_LttLM3": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_JfCCMc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Gå mindst 5 sammen i en forældregruppe - og få den perfekte første børnetelefon.",
+            "heading_size": "h2"
+          }
+        },
+        "text_VjYqAE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Send os en besked, så sender vi dig en rabatkode til køb af +5 stk. Dette gælder HMD 105 4G og Brugt Nokia 2660. </p><p></p><p><br/><em>*Dette tilbud er kun til forældregrupper. Det er et tilbud, vi har for at hjælpe forældre med at få så mange med som muligt. Skoler og virksomheder må ikke benytte dette tilbud.</em></p>",
+            "text_style": "body"
+          }
+        },
+        "button_hmVERM": {
+          "type": "button",
+          "settings": {
+            "button_label": "Kontakt os",
+            "button_link": "shopify://pages/contact",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_JfCCMc",
+        "text_VjYqAE",
+        "button_hmVERM"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/charlein-gracia--Ux5mdMJNEA-unsplash.jpg",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "multirow_ng97WQ": {
+      "type": "multirow",
+      "blocks": {
+        "row_KBVVc6": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/102987250.avif",
+            "caption": "",
+            "heading": "Brugt Nokia 2660 4G",
+            "text": "<p>En fliptelefon i enten grøn eller pink. Telefonen kommer nulstillet og pænt pakket i original kasse med oplader og opladt batteri</p><p>- Telefonen har kamera.<br/><br/><br/>Pink eller grøn:<br/>Vores normal pris........399,- kr<br/>Pris ved +5................. 299,- kr</p>",
+            "button_label": "",
+            "button_link": "shopify://products/som-ny-nokia-2660-flip-4g-kopi"
+          }
+        },
+        "row_xtHVKx": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/7cf99e1dffc6415c75fdde05808fb15e.jpg",
+            "caption": "",
+            "heading": "HMD 105 4G",
+            "text": "<p>Denne telefon er den vi anbefaler hvis der ikke er nogen eller få smartphones i klassen. </p><p>- Telefonen har ingen kamera</p><p><br/>Normal pris...........449,- kr<br/>Pris ved +5............275,- kr<br/></p>",
+            "button_label": "",
+            "button_link": "shopify://products/hmd-105-4g"
+          }
+        }
+      },
+      "block_order": [
+        "row_KBVVc6",
+        "row_xtHVKx"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "image_layout": "alternate-right",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_qdygQy": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify://files/videos/001_Dumbphone_Gruppe_Fourth-cut_v1.mp.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
         "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
@@ -728,13 +771,14 @@
     }
   },
   "order": [
-    "image_with_text_LttLM3",
-    "multirow_ng97WQ",
-    "video_qdygQy",
     "rich_text_mQikUc",
     "slideshow_BjJjLW",
     "slideshow_UU9ith",
     "contact_form_Y49T3b",
+    "rich_text_xpYF8d",
+    "image_with_text_LttLM3",
+    "multirow_ng97WQ",
+    "video_qdygQy",
     "multicolumn_McXrfj",
     "featured_blog_HgQJHc",
     "multicolumn_Fq4DzK",
