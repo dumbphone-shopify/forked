@@ -229,40 +229,6 @@
         "padding_bottom": 36
       }
     },
-    "newsletter_Uecnd3": {
-      "type": "newsletter",
-      "blocks": {
-        "heading_bKt44W": {
-          "type": "heading",
-          "settings": {
-            "heading": "Skriv dig op til at få information",
-            "heading_size": "h1"
-          }
-        },
-        "paragraph_pjWLtx": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Vær blandt de første til at få besked når det nye koncept er tilgængeligt. </p>"
-          }
-        },
-        "email_form_itNJGH": {
-          "type": "email_form",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "heading_bKt44W",
-        "paragraph_pjWLtx",
-        "email_form_itNJGH"
-      ],
-      "name": "t:sections.newsletter.presets.name",
-      "settings": {
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "multicolumn_McXrfj": {
       "type": "multicolumn",
       "blocks": {
@@ -712,7 +678,6 @@
     "rich_text_mQikUc",
     "slideshow_BjJjLW",
     "contact_form_Y49T3b",
-    "newsletter_Uecnd3",
     "multicolumn_McXrfj",
     "featured_blog_HgQJHc",
     "multicolumn_Fq4DzK",
