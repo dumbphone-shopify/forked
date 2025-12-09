@@ -56,6 +56,99 @@
         "padding_bottom": 0
       }
     },
+    "multirow_ng97WQ": {
+      "type": "multirow",
+      "blocks": {
+        "row_KBVVc6": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/102987250.avif",
+            "caption": "Billedtekst",
+            "heading": "Brugt Nokia 2660",
+            "text": "<p>En fliptelefon i enten grøn eller pink. <br/>Kommer i original kasse med opladt batteri og oplader. </p>",
+            "button_label": "Se produktet",
+            "button_link": "shopify://products/som-ny-nokia-2660-flip-4g-kopi"
+          }
+        },
+        "row_xtHVKx": {
+          "type": "row",
+          "settings": {
+            "caption": "Billedtekst",
+            "heading": "Række",
+            "text": "<p>Kombiner tekst med et billede for at fokusere på dit valgte produkt, din valgte kollektion eller dit valgte blogopslag. Tilføj oplysninger om tilgængelighed, stil og eventuelt også en anmeldelse.</p>",
+            "button_label": "Knaptekst",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_KBVVc6",
+        "row_xtHVKx"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "image_layout": "alternate-left",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collection_list_QnxTtY": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_8Cgnkb": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "use_filtered_link": false,
+            "filtered_handle": "e.g. wearables"
+          }
+        },
+        "featured_collection_6984Gn": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "use_filtered_link": false,
+            "filtered_handle": "e.g. wearables"
+          }
+        },
+        "featured_collection_tQp4hh": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "use_filtered_link": false,
+            "filtered_handle": "e.g. wearables"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_8Cgnkb",
+        "featured_collection_6984Gn",
+        "featured_collection_tQp4hh"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "Kollektioner",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection_JAnikn": {
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
@@ -545,6 +638,8 @@
   },
   "order": [
     "image_with_text_LttLM3",
+    "multirow_ng97WQ",
+    "collection_list_QnxTtY",
     "featured_collection_JAnikn",
     "video_qdygQy",
     "multicolumn_McXrfj",
