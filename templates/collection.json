@@ -24,7 +24,7 @@
         "heading_NWfkBw": {
           "type": "heading",
           "settings": {
-            "heading": "Vores produkter",
+            "heading": "Vores telefoner",
             "heading_size": "h1"
           }
         }
@@ -53,7 +53,7 @@
       "settings": {
         "collection": "vores-dumbphones",
         "products_to_show": 20,
-        "title": "Vores telefoner",
+        "title": "",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
