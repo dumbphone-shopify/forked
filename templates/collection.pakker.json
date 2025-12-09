@@ -210,6 +210,61 @@
       "settings": {
         "layout": "full_bleed",
         "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 3,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Diasshow om vores brand"
+      }
+    },
+    "slideshow_UU9ith": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_FCEYnf": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-12-09_at_19.57.11.png",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "Brug konceptet som et forebyggende redskab. En tryg overgang.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "bottom-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
+          }
+        },
+        "slide_4WTHCE": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 0,
+            "heading": "Billeddias",
+            "heading_size": "h1",
+            "subheading": "Fortæl dit brands historie gennem billeder",
+            "button_label": "Knaptekst",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_FCEYnf",
+        "slide_4WTHCE"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
         "slider_visual": "counter",
         "auto_rotate": false,
         "change_slides_speed": 5,
@@ -677,6 +732,7 @@
     "video_qdygQy",
     "rich_text_mQikUc",
     "slideshow_BjJjLW",
+    "slideshow_UU9ith",
     "contact_form_Y49T3b",
     "multicolumn_McXrfj",
     "featured_blog_HgQJHc",
