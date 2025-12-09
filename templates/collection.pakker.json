@@ -22,7 +22,7 @@
         "text_VjYqAE": {
           "type": "text",
           "settings": {
-            "text": "<p>Send os en besked, så sender vi dig en rabatkode til køb af +5 stk. Dette gælder HMD 105 4G og Brugt Nokia 2660. </p><p></p><p>HMD 105 4G:<br/>Normal pris : 449,- kr<br/>Pris ved +5: 275,- kr<br/><br/>Brugt Nokia 2660 Flip(Kun pink og grøn):<br/>Vores normal pris: 399,- kr<br/>Pris ved +5: 299,- kr<br/><br/><em>*Dette tilbud er kun til forældregrupper. Det er et tilbud, vi har for at hjælpe forældre med at få så mange med som muligt. Vi har ingen profit på denne service. Skoler og virksomheder må ikke benytte dette tilbud.</em></p>",
+            "text": "<p>Send os en besked, så sender vi dig en rabatkode til køb af +5 stk. Dette gælder HMD 105 4G og Brugt Nokia 2660. </p><p></p><p><br/><em>*Dette tilbud er kun til forældregrupper. Det er et tilbud, vi har for at hjælpe forældre med at få så mange med som muligt. Skoler og virksomheder må ikke benytte dette tilbud.</em></p>",
             "text_style": "body"
           }
         },
@@ -63,10 +63,10 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/102987250.avif",
-            "caption": "Billedtekst",
+            "caption": "",
             "heading": "Brugt Nokia 2660 4G",
-            "text": "<p>En fliptelefon i enten grøn eller pink. </p><p>- Telefonen har kamera.<br/><br/>Telefonen kommer nulstillet og pænt pakket i original kasse med oplader og opladt batteri</p>",
-            "button_label": "Se produktet",
+            "text": "<p>En fliptelefon i enten grøn eller pink. Telefonen kommer nulstillet og pænt pakket i original kasse med oplader og opladt batteri</p><p>- Telefonen har kamera.<br/><br/><br/>Pink eller grøn:<br/>Vores normal pris: 399,- kr<br/>Pris ved +5: 299,- kr<br/></p>",
+            "button_label": "",
             "button_link": "shopify://products/som-ny-nokia-2660-flip-4g-kopi"
           }
         },
@@ -74,10 +74,10 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/7cf99e1dffc6415c75fdde05808fb15e.jpg",
-            "caption": "Billedtekst",
+            "caption": "",
             "heading": "HMD 105 4G",
-            "text": "<p>Denne telefon er den vi anbefaler hvis der ikke er nogen eller få smartphones i klassen. </p><p><br/>- Telefonen har ingen kamera</p>",
-            "button_label": "Se produktet",
+            "text": "<p>Denne telefon er den vi anbefaler hvis der ikke er nogen eller få smartphones i klassen. </p><p>- Telefonen har ingen kamera</p><p><br/>Normal pris : 449,- kr<br/>Pris ved +5: 275,- kr<br/></p>",
+            "button_label": "",
             "button_link": "shopify://products/hmd-105-4g"
           }
         }
@@ -117,6 +117,96 @@
         "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "slideshow_BjJjLW": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_qL9rUM": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-12-09_at_19.24.02.png",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Kommer til forår 2026 - Skriv dig op nedenfor",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "bottom-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
+          }
+        },
+        "slide_dKexbd": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-12-09_at_19.39.01.png",
+            "image_overlay_opacity": 0,
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "Dumbphone bliver i foråret 2026 til et teleselskab for bla. at kunne levere forældre dette tilbud. Skriv dig op til information nedenfor.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "bottom-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_qL9rUM",
+        "slide_dKexbd"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Diasshow om vores brand"
+      }
+    },
+    "newsletter_Uecnd3": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_bKt44W": {
+          "type": "heading",
+          "settings": {
+            "heading": "Skriv dig op til at få information",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_pjWLtx": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Vær blandt de første til at få besked når det nye koncept er tilgængeligt. </p>"
+          }
+        },
+        "email_form_itNJGH": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_bKt44W",
+        "paragraph_pjWLtx",
+        "email_form_itNJGH"
+      ],
+      "name": "t:sections.newsletter.presets.name",
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "multicolumn_McXrfj": {
@@ -565,6 +655,8 @@
     "image_with_text_LttLM3",
     "multirow_ng97WQ",
     "video_qdygQy",
+    "slideshow_BjJjLW",
+    "newsletter_Uecnd3",
     "multicolumn_McXrfj",
     "featured_blog_HgQJHc",
     "multicolumn_Fq4DzK",
