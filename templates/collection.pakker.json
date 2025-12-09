@@ -119,6 +119,49 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_mQikUc": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_UryPWE": {
+          "type": "heading",
+          "settings": {
+            "heading": "Nyt koncept kommer til forår 2026",
+            "heading_size": "h1"
+          }
+        },
+        "text_gyRedV": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "button_RYLih8": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_UryPWE",
+        "text_gyRedV",
+        "button_RYLih8"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 8
+      }
+    },
     "slideshow_BjJjLW": {
       "type": "slideshow",
       "blocks": {
@@ -655,6 +698,7 @@
     "image_with_text_LttLM3",
     "multirow_ng97WQ",
     "video_qdygQy",
+    "rich_text_mQikUc",
     "slideshow_BjJjLW",
     "newsletter_Uecnd3",
     "multicolumn_McXrfj",
