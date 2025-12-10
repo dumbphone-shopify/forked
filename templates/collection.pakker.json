@@ -79,8 +79,8 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "mobile_content_alignment": "left",
-        "section_color_scheme": "",
-        "color_scheme": "",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
         "padding_top": 24,
         "padding_bottom": 0
       }
@@ -180,24 +180,6 @@
     "slideshow_UU9ith": {
       "type": "slideshow",
       "blocks": {
-        "slide_FCEYnf": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Screenshot_2025-12-09_at_22.14.30.png",
-            "image_overlay_opacity": 0,
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "Brug konceptet som et forebyggende redskab. En tryg overgang.",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "show_text_box": false,
-            "box_align": "bottom-center",
-            "text_alignment": "center",
-            "text_alignment_mobile": "center",
-            "color_scheme": ""
-          }
-        },
         "slide_4WTHCE": {
           "type": "slide",
           "settings": {
@@ -218,7 +200,6 @@
         }
       },
       "block_order": [
-        "slide_FCEYnf",
         "slide_4WTHCE"
       ],
       "name": "t:sections.slideshow.presets.name",
