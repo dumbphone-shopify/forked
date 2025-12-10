@@ -163,24 +163,24 @@
         "padding_bottom": 0
       }
     },
-    "image_with_text_aX9jX9": {
+    "image_with_text_fjNgLA": {
       "type": "image-with-text",
       "blocks": {
-        "heading_aXwnLw": {
+        "heading_WXq6rD": {
           "type": "heading",
           "settings": {
-            "heading": "Billede med tekst",
+            "heading": "<strong>Klassesættet er tænkt til at kunne rumme alle forældres ønsker</strong>",
             "heading_size": "h1"
           }
         },
-        "text_hqPX8b": {
+        "text_pPmtTP": {
           "type": "text",
           "settings": {
-            "text": "<p>Kombiner tekst med et billede for at fokusere på dit valgte produkt, din valgte kollektion eller dit valgte blogopslag. Tilføj oplysninger om tilgængelighed, stil og eventuelt også en anmeldelse.</p>",
+            "text": "<p>Hver forældre kan bruge telefonen på den måde som passer bedst ind for dem. Hvis man ikke er klar til at barnet skal have en telefon kan man bruge den som en hjemmetelefon til legeaftaler. Hvis man gerne vil have at barnet skal kunne bruge nogle få apps, kan man supplere med en familie tablet.</p>",
             "text_style": "body"
           }
         },
-        "button_7DL8iB": {
+        "button_kbYYG7": {
           "type": "button",
           "settings": {
             "button_label": "Knaptekst",
@@ -190,16 +190,16 @@
         }
       },
       "block_order": [
-        "heading_aXwnLw",
-        "text_hqPX8b",
-        "button_7DL8iB"
+        "heading_WXq6rD",
+        "text_pPmtTP",
+        "button_kbYYG7"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/CleanShot_2025-12-10_at_10.46.49_394b67f1-2027-42c1-9734-9fcf2a546f80.png",
+        "image": "shopify://shop_images/CleanShot_2025-12-10_at_10.49.30.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "image_behavior": "none",
         "content_layout": "no-overlap",
         "desktop_content_position": "top",
@@ -207,8 +207,8 @@
         "mobile_content_alignment": "left",
         "section_color_scheme": "",
         "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "slideshow_BjJjLW": {
@@ -227,29 +227,6 @@
     },
     "slideshow_UU9ith": {
       "type": "slideshow",
-      "blocks": {
-        "slide_4WTHCE": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Screenshot_2025-12-09_at_22.21.18.png",
-            "image_overlay_opacity": 0,
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "show_text_box": false,
-            "box_align": "middle-center",
-            "text_alignment": "center",
-            "text_alignment_mobile": "center",
-            "color_scheme": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide_4WTHCE"
-      ],
       "name": "t:sections.slideshow.presets.name",
       "settings": {
         "layout": "full_bleed",
@@ -873,7 +850,7 @@
     "image_with_text_hnPAGk",
     "image_with_text_A4fxQ8",
     "image_with_text_KckfbA",
-    "image_with_text_aX9jX9",
+    "image_with_text_fjNgLA",
     "slideshow_BjJjLW",
     "slideshow_UU9ith",
     "contact_form_Y49T3b",
