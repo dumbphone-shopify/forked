@@ -98,7 +98,7 @@
         "text_JiCCDV": {
           "type": "text",
           "settings": {
-            "text": "<p>Tilbuddet  kommer til at se sådan her ud. <br/>Når i er mere end 5 forældre, så får i alle en rabat kode der giver jer børnetelefonen gratis sammen med et perfekt abonnement. <br/>(Binding på abonnement i 6 måneder)</p>",
+            "text": "<p>Tilbuddet  kommer til at se sådan her ud. <br/>Når i er mere end 5 forældre, så får i alle en rabat kode der giver jer børnetelefonen gratis sammen med et perfekt abonnement. <br/><em>(Binding på abonnement i 6 måneder)</em></p>",
             "text_style": "body"
           }
         }
