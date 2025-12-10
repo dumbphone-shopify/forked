@@ -163,6 +163,54 @@
         "padding_bottom": 0
       }
     },
+    "image_with_text_aX9jX9": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_aXwnLw": {
+          "type": "heading",
+          "settings": {
+            "heading": "Billede med tekst",
+            "heading_size": "h1"
+          }
+        },
+        "text_hqPX8b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Kombiner tekst med et billede for at fokusere på dit valgte produkt, din valgte kollektion eller dit valgte blogopslag. Tilføj oplysninger om tilgængelighed, stil og eventuelt også en anmeldelse.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_7DL8iB": {
+          "type": "button",
+          "settings": {
+            "button_label": "Knaptekst",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_aXwnLw",
+        "text_hqPX8b",
+        "button_7DL8iB"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/CleanShot_2025-12-10_at_10.44.15.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "slideshow_BjJjLW": {
       "type": "slideshow",
       "name": "t:sections.slideshow.presets.name",
@@ -825,6 +873,7 @@
     "image_with_text_hnPAGk",
     "image_with_text_A4fxQ8",
     "image_with_text_KckfbA",
+    "image_with_text_aX9jX9",
     "slideshow_BjJjLW",
     "slideshow_UU9ith",
     "contact_form_Y49T3b",
