@@ -46,50 +46,125 @@
         "show_text_below": true
       }
     },
-    "slideshow_BjJjLW": {
-      "type": "slideshow",
+    "image_with_text_hnPAGk": {
+      "type": "image-with-text",
       "blocks": {
-        "slide_qL9rUM": {
-          "type": "slide",
+        "heading_Lbr7Hw": {
+          "type": "heading",
           "settings": {
-            "image": "shopify://shop_images/Screenshot_2025-12-09_at_20.28.07.png",
-            "image_overlay_opacity": 0,
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "Vi får speciallavet en børneudgave af HMD 105 4G",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "show_text_box": true,
-            "box_align": "bottom-center",
-            "text_alignment": "center",
-            "text_alignment_mobile": "center",
-            "color_scheme": ""
+            "heading": "Speciallavet børnetelefon",
+            "heading_size": "h1"
           }
         },
-        "slide_dKexbd": {
-          "type": "slide",
+        "text_eFAUtz": {
+          "type": "text",
           "settings": {
-            "image": "shopify://shop_images/Screenshot_2025-12-09_at_22.17.05.png",
-            "image_overlay_opacity": 0,
-            "heading": "",
-            "heading_size": "h2",
-            "subheading": "Tilbuddet til forældre kommer til at se sådan her ud:",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "show_text_box": false,
-            "box_align": "bottom-center",
-            "text_alignment": "center",
-            "text_alignment_mobile": "center",
-            "color_scheme": ""
+            "text": "<p>Vi får speciallavet en børneudgave af HMD 105 4G</p>",
+            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "slide_qL9rUM",
-        "slide_dKexbd"
+        "heading_Lbr7Hw",
+        "text_eFAUtz"
       ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Screenshot_2025-12-09_at_20.28.07.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 24,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_A4fxQ8": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_wNBfRL": {
+          "type": "heading",
+          "settings": {
+            "heading": "Et bedre koncept, og bedre tilbud",
+            "heading_size": "h1"
+          }
+        },
+        "text_JiCCDV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tilbuddet  kommer til at se sådan her ud. <br/>Når i er mere end 5 forældre, så får i alle en rabat kode der giver jer børnetelefonen gratis sammen med et perfekt abonnement. <br/>(Binding på abonnement i 6 måneder)</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wNBfRL",
+        "text_JiCCDV"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Screenshot_2025-12-09_at_22.17.05.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_KckfbA": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_gaARrP": {
+          "type": "heading",
+          "settings": {
+            "heading": "En tryg overgang",
+            "heading_size": "h1"
+          }
+        },
+        "text_fUAYg7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Brug konceptet som et forebyggende redskab. Ved at introducere konceptet på denne måde kan i sørge for at konceptet kommer ind inden der er for mange smartphones i klassen. </p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gaARrP",
+        "text_fUAYg7"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Screenshot_2025-12-09_at_22.14.30.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "slideshow_BjJjLW": {
+      "type": "slideshow",
       "name": "t:sections.slideshow.presets.name",
       "settings": {
         "layout": "full_bleed",
@@ -766,6 +841,9 @@
   },
   "order": [
     "image_banner_kjNf3X",
+    "image_with_text_hnPAGk",
+    "image_with_text_A4fxQ8",
+    "image_with_text_KckfbA",
     "slideshow_BjJjLW",
     "slideshow_UU9ith",
     "contact_form_Y49T3b",
