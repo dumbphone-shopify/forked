@@ -40,6 +40,13 @@
     "announcement_bar_MD7MFD": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_P3fAyY": {
+          "type": "announcement",
+          "settings": {
+            "text": "Gratis levering ved køb over 699,- kr",
+            "link": ""
+          }
+        },
         "announcement_tit6pt": {
           "type": "announcement",
           "settings": {
@@ -63,6 +70,7 @@
         }
       },
       "block_order": [
+        "announcement_P3fAyY",
         "announcement_tit6pt",
         "announcement_cGVMty",
         "announcement_3TtDk4"
