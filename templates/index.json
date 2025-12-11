@@ -25,7 +25,7 @@
           "type": "button",
           "settings": {
             "label": "Udskyd smartphonen tilbud",
-            "link": "shopify://pages/vores-skoleforlob",
+            "link": "shopify://pages/om-dumbhpone",
             "button_bg_color": "#fffdf8",
             "button_text_color": "#0a2038"
           }
