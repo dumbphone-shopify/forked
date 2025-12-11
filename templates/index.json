@@ -76,6 +76,18 @@
     "carusel_bMcbcV": {
       "type": "carusel",
       "blocks": {
+        "slide_6RtGf7": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "scheme-3",
+            "image": "shopify://shop_images/Screenshot_2025-12-09_at_20.28.07.png",
+            "heading": "Udskyd introduktionen af smartphone - Gå 5 sammen tilbud",
+            "text": "Smartphones kan hurtigt gå fra værktøj til tidsrøver. Gå sammen i jeres forældregruppe omkring en løsning der muliggøre at i kan skubbe introduktionen af smartphone.",
+            "align_text": "left",
+            "link": "shopify://collections/kits",
+            "linktext": "Gå 5 sammen tilbud"
+          }
+        },
         "slide_dYYRxj": {
           "type": "slide",
           "settings": {
@@ -99,24 +111,12 @@
             "link": "shopify://collections/all",
             "linktext": "Se tilbehør og gadgets"
           }
-        },
-        "slide_6RtGf7": {
-          "type": "slide",
-          "settings": {
-            "color_scheme": "scheme-3",
-            "image": "shopify://shop_images/girl-using-sidewalk-chalk.jpg",
-            "heading": "Udskyd introduktionen af smartphone - Gå 5 sammen tilbud",
-            "text": "Smartphones kan hurtigt gå fra værktøj til tidsrøver. Vi tror på at man kan komme langt ved at introducere simple telefon som et slags forebyggende redskab til at udskyde smartphonen en anelse.",
-            "align_text": "left",
-            "link": "shopify://collections/kits",
-            "linktext": "Gå 5 sammen tilbud"
-          }
         }
       },
       "block_order": [
+        "slide_6RtGf7",
         "slide_dYYRxj",
-        "slide_8jixRm",
-        "slide_6RtGf7"
+        "slide_8jixRm"
       ],
       "custom_css": [
         "h2 {font-size: xx-large;}"
