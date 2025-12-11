@@ -11,35 +11,16 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
-    "header": {
-      "type": "header",
-      "custom_css": [
-        "nav a {font-size: 16px;}",
-        ".header-wrapper {background: transparent;}",
-        "header:has(details[open]) {background: rgb(255, 253, 248);}",
-        "header {display: flex; justify-content: space-between; background: rgb(255, 253, 248, 0.2); backdrop-filter: blur(25px); flex-wrap: nowrap; max-width: 1200px; width: 100%; z-index: 10;}",
-        "@media (min-width: 768px) {.header-wrapper {border-radius: 50px; } header {background: rgb(255, 253, 248); border-radius: 50px; border: 1px #3e2103 solid; margin: 0.5em auto; backdrop-filter: none; } .header-wrapper {margin: 0.5em 1rem; }"
-      ],
-      "settings": {
-        "logo_position": "top-left",
-        "mobile_logo_position": "center",
-        "menu": "nyheadermenu",
-        "menu_type_desktop": "dropdown",
-        "sticky_header_type": "on-scroll-up",
-        "show_line_separator": false,
-        "color_scheme": "scheme-1",
-        "menu_color_scheme": "scheme-9478a8b9-aea2-4450-8946-4697bc8b45f9",
-        "enable_country_selector": true,
-        "enable_language_selector": true,
-        "enable_customer_avatar": false,
-        "margin_bottom": 0,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "announcement_bar_MD7MFD": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_Jxehkz": {
+          "type": "announcement",
+          "settings": {
+            "text": "Tak for at du støtter vores arbejde!",
+            "link": ""
+          }
+        },
         "announcement_P3fAyY": {
           "type": "announcement",
           "settings": {
@@ -70,6 +51,7 @@
         }
       },
       "block_order": [
+        "announcement_Jxehkz",
         "announcement_P3fAyY",
         "announcement_tit6pt",
         "announcement_cGVMty",
@@ -78,17 +60,57 @@
       "name": "t:sections.announcement-bar.presets.name",
       "settings": {
         "auto_rotate": false,
-        "change_slides_speed": 5,
+        "change_slides_speed": 3,
         "color_scheme": "scheme-3",
         "show_line_separator": true,
         "show_social": false,
         "enable_country_selector": false,
         "enable_language_selector": false
       }
+    },
+    "announcement_bar_WrUzPN": {
+      "type": "announcement-bar",
+      "name": "t:sections.announcement-bar.presets.name",
+      "settings": {
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "color_scheme": "",
+        "show_line_separator": true,
+        "show_social": false,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
+    },
+    "header": {
+      "type": "header",
+      "custom_css": [
+        "nav a {font-size: 16px;}",
+        ".header-wrapper {background: transparent;}",
+        "header:has(details[open]) {background: rgb(255, 253, 248);}",
+        "header {display: flex; justify-content: space-between; background: rgb(255, 253, 248, 0.2); backdrop-filter: blur(25px); flex-wrap: nowrap; max-width: 1200px; width: 100%; z-index: 10;}",
+        "@media (min-width: 768px) {.header-wrapper {border-radius: 50px; } header {background: rgb(255, 253, 248); border-radius: 50px; border: 1px #3e2103 solid; margin: 0.5em auto; backdrop-filter: none; } .header-wrapper {margin: 0.5em 1rem; }"
+      ],
+      "settings": {
+        "logo_position": "top-left",
+        "mobile_logo_position": "center",
+        "menu": "nyheadermenu",
+        "menu_type_desktop": "dropdown",
+        "sticky_header_type": "on-scroll-up",
+        "show_line_separator": false,
+        "color_scheme": "scheme-1",
+        "menu_color_scheme": "scheme-9478a8b9-aea2-4450-8946-4697bc8b45f9",
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "enable_customer_avatar": false,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
-    "header",
-    "announcement_bar_MD7MFD"
+    "announcement_bar_MD7MFD",
+    "announcement_bar_WrUzPN",
+    "header"
   ]
 }
