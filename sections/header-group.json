@@ -40,6 +40,13 @@
     "announcement_bar_MD7MFD": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_cGVMty": {
+          "type": "announcement",
+          "settings": {
+            "text": "Levering - 2-5 dage",
+            "link": ""
+          }
+        },
         "announcement_3TtDk4": {
           "type": "announcement",
           "settings": {
@@ -49,6 +56,7 @@
         }
       },
       "block_order": [
+        "announcement_cGVMty",
         "announcement_3TtDk4"
       ],
       "name": "t:sections.announcement-bar.presets.name",
