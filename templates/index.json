@@ -24,8 +24,8 @@
         "button_xiCWY6": {
           "type": "button",
           "settings": {
-            "label": "Se vores guides",
-            "link": "shopify://blogs/information",
+            "label": "Udskyd smartphonen tilbud",
+            "link": "shopify://pages/om-dumbphone",
             "button_bg_color": "#fffdf8",
             "button_text_color": "#0a2038"
           }
