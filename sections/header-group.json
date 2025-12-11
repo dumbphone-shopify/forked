@@ -40,6 +40,13 @@
     "announcement_bar_MD7MFD": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_tit6pt": {
+          "type": "announcement",
+          "settings": {
+            "text": "Bestil senest d. 19 december for levering inden juleaften",
+            "link": ""
+          }
+        },
         "announcement_cGVMty": {
           "type": "announcement",
           "settings": {
@@ -56,6 +63,7 @@
         }
       },
       "block_order": [
+        "announcement_tit6pt",
         "announcement_cGVMty",
         "announcement_3TtDk4"
       ],
