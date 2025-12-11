@@ -73,202 +73,9 @@
         "padding_bottom": 44
       }
     },
-    "rich_text_WCVTJa": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_7JUXKx": {
-          "type": "heading",
-          "settings": {
-            "heading": "Omtale i medierne",
-            "heading_size": "h1"
-          }
-        },
-        "text_TARmKf": {
-          "type": "text",
-          "settings": {
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_7JUXKx",
-        "text_TARmKf"
-      ],
-      "custom_css": [],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-2",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "mediaslider_PKNYUf": {
-      "type": "mediaslider",
-      "blocks": {
-        "logo_CPFc3g": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/6.png"
-          }
-        },
-        "logo_gRAhzD": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/7.png"
-          }
-        },
-        "logo_rBpdJ7": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/2.png"
-          }
-        },
-        "logo_qBt8zR": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/5.png"
-          }
-        },
-        "logo_NV9BGg": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/8_1f567831-9671-4dca-88fc-8a36abae11a0.png"
-          }
-        },
-        "logo_9dPNtd": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/1.png"
-          }
-        },
-        "logo_kfAfUM": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/6.png"
-          }
-        },
-        "logo_xgJztP": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/7.png"
-          }
-        },
-        "logo_yMHyGh": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/2.png"
-          }
-        },
-        "logo_yYgcXh": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/5.png"
-          }
-        },
-        "logo_M78jDt": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/8_1f567831-9671-4dca-88fc-8a36abae11a0.png"
-          }
-        },
-        "logo_Rn3zn8": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/1.png"
-          }
-        },
-        "logo_XXWCWw": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/1.png"
-          }
-        },
-        "logo_7KpJph": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/6.png"
-          }
-        },
-        "logo_c49PaT": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/7.png"
-          }
-        },
-        "logo_9tpcbn": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/2.png"
-          }
-        },
-        "logo_4XFGiT": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/5.png"
-          }
-        },
-        "logo_RXdnq3": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/8_1f567831-9671-4dca-88fc-8a36abae11a0.png"
-          }
-        },
-        "logo_8yQB6M": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/1.png"
-          }
-        }
-      },
-      "block_order": [
-        "logo_CPFc3g",
-        "logo_gRAhzD",
-        "logo_rBpdJ7",
-        "logo_qBt8zR",
-        "logo_NV9BGg",
-        "logo_9dPNtd",
-        "logo_kfAfUM",
-        "logo_xgJztP",
-        "logo_yMHyGh",
-        "logo_yYgcXh",
-        "logo_M78jDt",
-        "logo_Rn3zn8",
-        "logo_XXWCWw",
-        "logo_7KpJph",
-        "logo_c49PaT",
-        "logo_9tpcbn",
-        "logo_4XFGiT",
-        "logo_RXdnq3",
-        "logo_8yQB6M"
-      ],
-      "custom_css": [],
-      "name": "Media Logos Slider",
-      "settings": {
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "title": "",
-        "align_text": "center",
-        "color_scheme": "scheme-2"
-      }
-    },
     "carusel_bMcbcV": {
       "type": "carusel",
       "blocks": {
-        "slide_6RtGf7": {
-          "type": "slide",
-          "settings": {
-            "color_scheme": "scheme-3",
-            "image": "shopify://shop_images/child-on-playground.jpg",
-            "heading": "Udskyd introduktionen af smartphone - Gå 5 sammen tilbud",
-            "text": "Smartphones kan hurtigt gå fra værktøj til tidsrøver. Gå sammen i jeres forældregruppe omkring en løsning der muliggøre at i kan skubbe introduktionen af smartphone.",
-            "align_text": "left",
-            "link": "shopify://collections/kits",
-            "linktext": "Gå 5 sammen tilbud"
-          }
-        },
         "slide_dYYRxj": {
           "type": "slide",
           "settings": {
@@ -289,15 +96,27 @@
             "heading": "Foredrag om dumbphone eksperimenter med +2500 elever på 24 forskellige skoler i Danmark.",
             "text": "Tankevækkende foredrag med massere af sjove historier og spændende resultater fra dumbphone eksperimenterne. Det er et foredrag i øjenhøjde uden nogen moralisering. Over 2500 unge mennesker har været igennem et 10 dages dumbphone eksperiment og det er blevet til mange spændende og sjove indsigter.",
             "align_text": "left",
-            "link": "shopify://collections/all",
-            "linktext": "Kontakt Arne: 40 26 12 70"
+            "link": "shopify://pages/contact",
+            "linktext": "Se tilbehør og gadgets"
+          }
+        },
+        "slide_6RtGf7": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "scheme-3",
+            "image": "shopify://shop_images/girl-using-sidewalk-chalk.jpg",
+            "heading": "Udskyd introduktionen af smartphone - Gå 5 sammen tilbud",
+            "text": "Smartphones kan hurtigt gå fra værktøj til tidsrøver. Vi tror på at man kan komme langt ved at introducere simple telefon som et slags forebyggende redskab til at udskyde smartphonen en anelse.",
+            "align_text": "left",
+            "link": "shopify://collections/kits",
+            "linktext": "Gå 5 sammen tilbud"
           }
         }
       },
       "block_order": [
-        "slide_6RtGf7",
         "slide_dYYRxj",
-        "slide_8jixRm"
+        "slide_8jixRm",
+        "slide_6RtGf7"
       ],
       "custom_css": [
         "h2 {font-size: xx-large;}"
@@ -530,19 +349,200 @@
         "padding_top": 12,
         "padding_bottom": 64
       }
+    },
+    "rich_text_WCVTJa": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_7JUXKx": {
+          "type": "heading",
+          "settings": {
+            "heading": "Omtale i medierne",
+            "heading_size": "h1"
+          }
+        },
+        "text_TARmKf": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_7JUXKx",
+        "text_TARmKf"
+      ],
+      "custom_css": [],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 56,
+        "padding_bottom": 0
+      }
+    },
+    "mediaslider_PKNYUf": {
+      "type": "mediaslider",
+      "blocks": {
+        "logo_CPFc3g": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/6.png"
+          }
+        },
+        "logo_gRAhzD": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/7.png"
+          }
+        },
+        "logo_rBpdJ7": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/2.png"
+          }
+        },
+        "logo_qBt8zR": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/5.png"
+          }
+        },
+        "logo_NV9BGg": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/8_1f567831-9671-4dca-88fc-8a36abae11a0.png"
+          }
+        },
+        "logo_9dPNtd": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/1.png"
+          }
+        },
+        "logo_kfAfUM": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/6.png"
+          }
+        },
+        "logo_xgJztP": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/7.png"
+          }
+        },
+        "logo_yMHyGh": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/2.png"
+          }
+        },
+        "logo_yYgcXh": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/5.png"
+          }
+        },
+        "logo_M78jDt": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/8_1f567831-9671-4dca-88fc-8a36abae11a0.png"
+          }
+        },
+        "logo_Rn3zn8": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/1.png"
+          }
+        },
+        "logo_XXWCWw": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/1.png"
+          }
+        },
+        "logo_7KpJph": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/6.png"
+          }
+        },
+        "logo_c49PaT": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/7.png"
+          }
+        },
+        "logo_9tpcbn": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/2.png"
+          }
+        },
+        "logo_4XFGiT": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/5.png"
+          }
+        },
+        "logo_RXdnq3": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/8_1f567831-9671-4dca-88fc-8a36abae11a0.png"
+          }
+        },
+        "logo_8yQB6M": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/1.png"
+          }
+        }
+      },
+      "block_order": [
+        "logo_CPFc3g",
+        "logo_gRAhzD",
+        "logo_rBpdJ7",
+        "logo_qBt8zR",
+        "logo_NV9BGg",
+        "logo_9dPNtd",
+        "logo_kfAfUM",
+        "logo_xgJztP",
+        "logo_yMHyGh",
+        "logo_yYgcXh",
+        "logo_M78jDt",
+        "logo_Rn3zn8",
+        "logo_XXWCWw",
+        "logo_7KpJph",
+        "logo_c49PaT",
+        "logo_9tpcbn",
+        "logo_4XFGiT",
+        "logo_RXdnq3",
+        "logo_8yQB6M"
+      ],
+      "custom_css": [],
+      "name": "Media Logos Slider",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 52,
+        "title": "",
+        "align_text": "center",
+        "color_scheme": "scheme-2"
+      }
     }
   },
   "order": [
     "hero_banner_xc7HTV",
     "1747382751afc67ba6",
     "video_iFUrWH",
-    "rich_text_WCVTJa",
-    "mediaslider_PKNYUf",
     "carusel_bMcbcV",
     "collection_list_3gXFbh",
     "rich_text_WhwJye",
     "featured_blog_XGYwnV",
     "rich_text_az4UTm",
-    "multicolumn_keDkMU"
+    "multicolumn_keDkMU",
+    "rich_text_WCVTJa",
+    "mediaslider_PKNYUf"
   ]
 }
