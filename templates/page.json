@@ -1,1 +1,178 @@
-{"sections":{"featured_blog_thTy4B":{"type":"featured-blog","settings":{"blog":"telefon-til-dit-barn","post_limit":2,"heading":"Den første telefon til mit barn. Hvad gør jeg?","heading_size":"h1","columns_desktop":1,"show_view_all":true,"show_image":true,"show_date":true,"show_author":true,"color_scheme":"","padding_top":36,"padding_bottom":36}},"main":{"type":"main-page","settings":{"padding_top":28,"padding_bottom":28}}},"order":["main","featured_blog_thTy4B"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_iMkd3G": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_D67kaE": {
+          "type": "heading",
+          "settings": {
+            "heading": "Digital balance foredrag/workshop til virksomheder",
+            "heading_size": "h1"
+          }
+        },
+        "text_YbbUNJ": {
+          "type": "text",
+          "settings": {
+            "text": "Workshoppen inspirerer og hjælper til ægte forandring i jeres medarbejdere.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_D67kaE",
+        "text_YbbUNJ"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/bike-and-phone.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "multicolumn_K9Ra9K": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_mtQYMM": {
+          "type": "column",
+          "settings": {
+            "title": "Historier og resultater fra vores store eksperimenter",
+            "text": "<p>Vi har faciliteret 2500 unge mennesker igennem 10-30 dages smartphone frie eksperimenter. Vi kommer til at præsentere sjove og inspirerende historier fra disse eksperimenter. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_MebmLn": {
+          "type": "column",
+          "settings": {
+            "title": "Snak om",
+            "text": "<p>Kombiner tekst med et billede for at fokusere på dit valgte produkt, din valgte kollektion eller dit valgte blogopslag. Tilføj oplysninger om tilgængelighed, stil og eventuelt også en anmeldelse.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_arFM7U": {
+          "type": "column",
+          "settings": {
+            "title": "Kolonne",
+            "text": "<p>Kombiner tekst med et billede for at fokusere på dit valgte produkt, din valgte kollektion eller dit valgte blogopslag. Tilføj oplysninger om tilgængelighed, stil og eventuelt også en anmeldelse.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_mtQYMM",
+        "column_MebmLn",
+        "column_arFM7U"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Foredraget og workshoppen handler om",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "Knaptekst",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_NKrHEn": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_EmqRNF": {
+          "type": "heading",
+          "settings": {
+            "heading": "Alle deltagere låner et digital balance sæt i 14 dage",
+            "heading_size": "h1"
+          }
+        },
+        "text_zPCtDF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Under workshoppen bliver alle deltagere introduceret for hvordan sættet kan og bør bruges.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_LzHReJ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Se produktet som i låner",
+            "button_link": "shopify://products/tidsindstillet-haengelas",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_EmqRNF",
+        "text_zPCtDF",
+        "button_LzHReJ"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Adobe_Express_-_file_6.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "contact_form_RGjhcX": {
+      "type": "contact-form",
+      "name": "t:sections.contact-form.presets.name",
+      "settings": {
+        "heading": "Skriv til os, og vi svarer indenfor 24 timer. Alternativt ring nu på: 40261270",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_iMkd3G",
+    "multicolumn_K9Ra9K",
+    "image_with_text_NKrHEn",
+    "contact_form_RGjhcX"
+  ]
+}
