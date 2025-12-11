@@ -216,7 +216,7 @@
       "name": "Media Logos Slider",
       "settings": {
         "padding_top": 0,
-        "padding_bottom": 52,
+        "padding_bottom": 0,
         "title": "",
         "align_text": "center",
         "color_scheme": "scheme-2"
