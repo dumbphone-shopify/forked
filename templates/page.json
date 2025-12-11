@@ -69,8 +69,8 @@
         "column_MebmLn": {
           "type": "column",
           "settings": {
-            "title": "Snak om",
-            "text": "<p>Kombiner tekst med et billede for at fokusere på dit valgte produkt, din valgte kollektion eller dit valgte blogopslag. Tilføj oplysninger om tilgængelighed, stil og eventuelt også en anmeldelse.</p>",
+            "title": "Facilliteret snak iblandt deltagere om vaner omkring skærme.",
+            "text": "<p>Vi kommer til at tage hånd om jer, og facilitere jer igennem en sjov og tankevækkende snak med jeres kollegaer om skærm vaner. </p>",
             "link_label": "",
             "link": ""
           }
@@ -78,8 +78,8 @@
         "column_arFM7U": {
           "type": "column",
           "settings": {
-            "title": "Kolonne",
-            "text": "<p>Kombiner tekst med et billede for at fokusere på dit valgte produkt, din valgte kollektion eller dit valgte blogopslag. Tilføj oplysninger om tilgængelighed, stil og eventuelt også en anmeldelse.</p>",
+            "title": "Hvad kan man gøre? og hvordan kan du bruge digital balance sættet",
+            "text": "<p>Præsentation af de bedste ting man kan gøre, samt en præsentation af hvordan man kan eksperimentere med digital balance sættet. </p>",
             "link_label": "",
             "link": ""
           }
@@ -96,7 +96,7 @@
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "button_label": "Knaptekst",
+        "button_label": "Ring til Arne: 40 26 12 70",
         "button_link": "",
         "columns_desktop": 3,
         "column_alignment": "left",
