@@ -114,7 +114,7 @@
         "heading_EmqRNF": {
           "type": "heading",
           "settings": {
-            "heading": "Alle deltagere låner et digital balance sæt i 14 dage",
+            "heading": "Alle deltagere låner et digital balance sæt i 7 dage",
             "heading_size": "h1"
           }
         },
