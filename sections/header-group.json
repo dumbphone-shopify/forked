@@ -14,6 +14,13 @@
     "announcement_bar_MD7MFD": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_9LAeqn": {
+          "type": "announcement",
+          "settings": {
+            "text": "2026 - Nye digitale vaner?",
+            "link": ""
+          }
+        },
         "announcement_Jxehkz": {
           "type": "announcement",
           "settings": {
@@ -25,13 +32,6 @@
           "type": "announcement",
           "settings": {
             "text": "Levering: 39 kr - Gratis levering ved køb over 699 kr",
-            "link": ""
-          }
-        },
-        "announcement_tit6pt": {
-          "type": "announcement",
-          "settings": {
-            "text": "Bestil senest d. 19 december for levering inden juleaften",
             "link": ""
           }
         },
@@ -51,9 +51,9 @@
         }
       },
       "block_order": [
+        "announcement_9LAeqn",
         "announcement_Jxehkz",
         "announcement_P3fAyY",
-        "announcement_tit6pt",
         "announcement_cGVMty",
         "announcement_3TtDk4"
       ],
