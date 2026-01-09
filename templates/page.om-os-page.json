@@ -340,9 +340,9 @@
         "padding_bottom": 36,
         "title": "Min rejse indtil videre for at finde digital balance",
         "align_text": "left",
-        "title_color": "#43668f",
+        "title_color": "#3e2103",
         "color_scheme": "scheme-2",
-        "arrow_color": "#43668f"
+        "arrow_color": "#bc7859"
       }
     },
     "main": {
