@@ -46,40 +46,6 @@
         "show_text_below": true
       }
     },
-    "newsletter_TMUEJw": {
-      "type": "newsletter",
-      "blocks": {
-        "heading_iP8XHW": {
-          "type": "heading",
-          "settings": {
-            "heading": "Tilmeld dig information om konceptet",
-            "heading_size": "h1"
-          }
-        },
-        "paragraph_UA66Di": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Vær blandt de første til at få besked når dette koncept er klar!</p>"
-          }
-        },
-        "email_form_4KXDzA": {
-          "type": "email_form",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "heading_iP8XHW",
-        "paragraph_UA66Di",
-        "email_form_4KXDzA"
-      ],
-      "name": "t:sections.newsletter.presets.name",
-      "settings": {
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "image_with_text_hnPAGk": {
       "type": "image-with-text",
       "blocks": {
@@ -872,7 +838,6 @@
   },
   "order": [
     "image_banner_kjNf3X",
-    "newsletter_TMUEJw",
     "image_with_text_hnPAGk",
     "image_with_text_A4fxQ8",
     "image_with_text_KckfbA",
