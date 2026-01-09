@@ -46,6 +46,16 @@
         "show_text_below": true
       }
     },
+    "custom_liquid_a6i3Rj": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n  /* Container styling der matcher standard Shopify bredde */\n  .arne-section-wrapper {\n    padding: 60px 20px;\n    background-color: #ffffff;\n    text-align: center;\n  }\n\n  .arne-content-box {\n    max-width: 800px;\n    margin: 0 auto;\n  }\n\n  /* Overskrift stil */\n  .arne-heading {\n    font-size: 28px;\n    font-weight: 500; /* Semi-bold ligesom 'Speciallavet...' */\n    color: #121212;\n    margin-bottom: 20px;\n    line-height: 1.3;\n    font-family: inherit; /* Bruger temaets font */\n  }\n\n  /* Brødtekst stil */\n  .arne-text {\n    font-size: 18px;\n    line-height: 1.6;\n    color: #4a4a4a;\n    margin-bottom: 30px;\n  }\n\n  /* Telefon-knap stil - matcher den grønne farve fra dit billede */\n  .arne-phone-link {\n    display: inline-block;\n    background-color: #9CAD9F; /* Farven fra boksen i dit screenshot */\n    color: #ffffff;\n    text-decoration: none;\n    padding: 14px 28px;\n    border-radius: 4px;\n    font-size: 18px;\n    font-weight: 600;\n    transition: opacity 0.3s ease;\n  }\n\n  .arne-phone-link:hover {\n    opacity: 0.9;\n  }\n\n  /* Mobil tilpasning */\n  @media (max-width: 750px) {\n    .arne-section-wrapper {\n      padding: 40px 15px;\n    }\n    .arne-heading {\n      font-size: 22px;\n    }\n    .arne-text {\n      font-size: 16px;\n    }\n    .arne-phone-link {\n      width: 100%; /* Gør knappen bred på mobil for nemmere tryk */\n      box-sizing: border-box;\n    }\n  }\n</style>\n\n<div class=\"arne-section-wrapper\">\n  <div class=\"arne-content-box\">\n    <h2 class=\"arne-heading\">Har du spørgsmål eller input til konceptet?</h2>\n    \n    <p class=\"arne-text\">\n      Vi vil meget gerne høre om jeres bekymringer og oplevelser, så vi kan gøre konceptet endnu bedre. \n    </p>\n    \n    <a href=\"tel:+4540261270\" class=\"arne-phone-link\">\n      Ring direkte til Arne: 40 26 12 70\n    </a>\n  </div>\n</div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "image_with_text_hnPAGk": {
       "type": "image-with-text",
       "blocks": {
@@ -838,6 +848,7 @@
   },
   "order": [
     "image_banner_kjNf3X",
+    "custom_liquid_a6i3Rj",
     "image_with_text_hnPAGk",
     "image_with_text_A4fxQ8",
     "image_with_text_KckfbA",
