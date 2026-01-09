@@ -46,6 +46,40 @@
         "show_text_below": true
       }
     },
+    "newsletter_TMUEJw": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_iP8XHW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tilmeld dig vores mails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_UA66Di": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Vær blandt de første til at få besked når dette koncept er klar!</p>"
+          }
+        },
+        "email_form_4KXDzA": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_iP8XHW",
+        "paragraph_UA66Di",
+        "email_form_4KXDzA"
+      ],
+      "name": "t:sections.newsletter.presets.name",
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "image_with_text_hnPAGk": {
       "type": "image-with-text",
       "blocks": {
@@ -179,20 +213,11 @@
             "text": "<p>Hver forældre kan bruge telefonen på den måde som passer bedst ind for dem. Hvis man ikke er klar til at barnet skal have en telefon kan man bruge den som en hjemmetelefon til legeaftaler. Hvis man gerne vil have at barnet skal kunne bruge nogle få apps, kan man supplere med en familie tablet.</p>",
             "text_style": "body"
           }
-        },
-        "button_kbYYG7": {
-          "type": "button",
-          "settings": {
-            "button_label": "Knaptekst",
-            "button_link": "",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
         "heading_WXq6rD",
-        "text_pPmtTP",
-        "button_kbYYG7"
+        "text_pPmtTP"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
@@ -847,6 +872,7 @@
   },
   "order": [
     "image_banner_kjNf3X",
+    "newsletter_TMUEJw",
     "image_with_text_hnPAGk",
     "image_with_text_A4fxQ8",
     "image_with_text_KckfbA",

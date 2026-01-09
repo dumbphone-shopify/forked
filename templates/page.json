@@ -166,6 +166,16 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "custom_liquid_8RChim": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -173,6 +183,7 @@
     "image_banner_iMkd3G",
     "multicolumn_K9Ra9K",
     "image_with_text_NKrHEn",
-    "contact_form_RGjhcX"
+    "contact_form_RGjhcX",
+    "custom_liquid_8RChim"
   ]
 }
