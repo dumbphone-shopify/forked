@@ -20,7 +20,7 @@
     "spacing_sections": 0,
     "spacing_grid_horizontal": 20,
     "spacing_grid_vertical": 8,
-    "animations_reveal_on_scroll": false,
+    "animations_reveal_on_scroll": true,
     "animations_hover_elements": "default",
     "buttons_border_thickness": 1,
     "buttons_border_opacity": 100,
@@ -68,7 +68,7 @@
     "blog_card_style": "card",
     "blog_card_image_padding": 0,
     "blog_card_text_alignment": "left",
-    "blog_card_color_scheme": "scheme-2",
+    "blog_card_color_scheme": "scheme-5",
     "blog_card_border_thickness": 0,
     "blog_card_border_opacity": 10,
     "blog_card_corner_radius": 0,
@@ -147,10 +147,10 @@
     "color_schemes": {
       "scheme-1": {
         "settings": {
-          "background": "#fffdf8",
+          "background": "#fdfbf7",
           "background_gradient": "",
           "text": "#3e2103",
-          "button": "#3e2103",
+          "button": "#bc7859",
           "button_label": "#fffdf8",
           "secondary_button_label": "#3e2103",
           "shadow": "#f3f3f3"
@@ -158,9 +158,9 @@
       },
       "scheme-2": {
         "settings": {
-          "background": "#d2dfdf",
+          "background": "#194046",
           "background_gradient": "",
-          "text": "#0a2038",
+          "text": "#e6e0d6",
           "button": "#fffdf8",
           "button_label": "#0a2038",
           "secondary_button_label": "#fffdf8",
@@ -191,13 +191,13 @@
       },
       "scheme-5": {
         "settings": {
-          "background": "#43668f",
+          "background": "#194046",
           "background_gradient": "",
-          "text": "#fefeff",
-          "button": "#43668f",
-          "button_label": "#fffdf8",
-          "secondary_button_label": "#43668f",
-          "shadow": "#43668f"
+          "text": "#3e2103",
+          "button": "#fffdf9",
+          "button_label": "#092038",
+          "secondary_button_label": "#fffdf9",
+          "shadow": "#f3f3f3"
         }
       },
       "scheme-6": {
