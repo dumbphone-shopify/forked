@@ -9,6 +9,107 @@
  */
 {
   "sections": {
+    "image_with_text_Rm4FVw": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_zy79qG": {
+          "type": "heading",
+          "settings": {
+            "heading": "Et  foredrag omkring hvordan i kan udskyde smartphonen",
+            "heading_size": "h1"
+          }
+        },
+        "text_3htG9X": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Arne kommer og holder et foredrag for indskolingsforældrene. Foredraget består af en præsentation af hvordan man som forældregruppe effektivt kan udskyde smartphonen. <br/><br/>Der vil være massere plads til at forældre kan stille kritiske spørgsmål! Dette er tit den bedste måde at stress teste vores ideer.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zy79qG",
+        "text_3htG9X"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/image_3.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_MjxjEU": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_6cm8aC": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Historier og resultater fra 2500 elever",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_KwAQqi": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Hvorfor det er vigtigt at snakke om at udskyde smartphonen",
+            "icon": "check_mark",
+            "row_content": "<p>Arne taler her ind i hvorfor det er så unikt et tidspunkt de her år inden at de første smartphones kommer ind i klassen.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_kUh64V": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Hvilke måder man kan udskyde smartphonen på",
+            "icon": "check_mark",
+            "row_content": "<p>Her præsentere Arne de forskellige måder man kan udskyde smartphonen på. For der er ikke kun en måde at gøre dette på.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_fC8xc9": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Metoden vi foreslår",
+            "icon": "check_mark",
+            "row_content": "<p>Der vil være en præsentation af udskyd sammen konceptet og forklaring af hvorfor vi mener det her er den bedste måde at udskyde smartphonen på.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_6cm8aC",
+        "collapsible_row_KwAQqi",
+        "collapsible_row_kUh64V",
+        "collapsible_row_fC8xc9"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Et gratis foredrag om",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -16,9 +117,23 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "contact_form_MYxxH8": {
+      "type": "contact-form",
+      "name": "t:sections.contact-form.presets.name",
+      "settings": {
+        "heading": "Kontaktformular",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "image_with_text_Rm4FVw",
+    "collapsible_content_MjxjEU",
+    "main",
+    "contact_form_MYxxH8"
   ]
 }
