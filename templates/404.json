@@ -12,9 +12,20 @@
     "main": {
       "type": "main-404",
       "settings": {}
+    },
+    "custom_liquid_cX3G4q": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "custom_liquid_cX3G4q"
   ]
 }
