@@ -17,6 +17,43 @@
         "padding_bottom": 28
       }
     },
+    "image_banner_niKeAr": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_cqGRXH": {
+          "type": "heading",
+          "settings": {
+            "heading": "Foredrag og workshops",
+            "heading_size": "h1"
+          }
+        },
+        "text_GLVhLh": {
+          "type": "text",
+          "settings": {
+            "text": "Vi laver typisk mere end blot foredrag, vi ligger op til direkte løsningsorienteret handling eller til en eksperimentperiode.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_cqGRXH",
+        "text_GLVhLh"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/bike-and-phone.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
     "custom_liquid_k7rkdc": {
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
@@ -93,6 +130,7 @@
   },
   "order": [
     "main",
+    "image_banner_niKeAr",
     "custom_liquid_k7rkdc",
     "multicolumn_qqVYwC"
   ]
