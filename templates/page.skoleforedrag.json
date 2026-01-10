@@ -19,6 +19,7 @@
     },
     "video_eDrjwr": {
       "type": "video",
+      "disabled": true,
       "custom_css": [],
       "name": "t:sections.video.presets.name",
       "settings": {
