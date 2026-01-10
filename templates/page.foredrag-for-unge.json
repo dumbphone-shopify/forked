@@ -92,12 +92,76 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "multicolumn_bPfj8Q": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_7e7MBG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/testimonal_billede_dumbphone.jpg",
+            "title": "Tage Jepsen<em><strong> </strong></em>Forstander, Venø Efterskole",
+            "text": "<p>\"Et super godt forløb for vores efterskoleelever - det har virkelig givet stof til eftertanke. Det her forsøg har givet en oplevelse, som vi kan bruge i vores samtale med eleverne om brugen af smartphones\"</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6LjYCF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/billede3_testimonial_dumbphone.png",
+            "title": "Karen Friis<strong> </strong>Forstander, Nørgaards Højskole",
+            "text": "<p>“Arne taler i øjenhøjde, smitter med sin entusiasme og er omhyggelig med at gøre set-uppet involverende og interessant...”.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_cTrVew": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/billede_testimonial_dumbphone.png",
+            "title": "Mette Sanggaard Forstander, Ollerup Efterskole",
+            "text": "<p>“Han har en fantastisk energi og tilgang til eleverne. Han oplyser, men uden moralske pegefingre, hvilket har skabt et stort engagement omkring eksperimentet...”</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_7e7MBG",
+        "column_6LjYCF",
+        "column_cTrVew"
+      ],
+      "custom_css": [
+        ".multicolumn-card {border-radius: 25px; border: 1px #3e2103 solid; height: fit-content; background: transparent; width: fit-content; margin: auto; max-width: 500px;}",
+        ".multicolumn-card__image-wrapper {aspect-ratio: 1; height: 80px; border-radius: 50%; overflow: hidden; padding-top: 0; margin-top: 2.5rem;}",
+        ".media {height: 100%; width: 100%; object-fit: contain; object-position: center;}",
+        ".multicolumn-card:hover {transition: background-color ease 0.3s; background-color: #fff5ea;}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 12,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
     "image_banner_4trW86",
     "image_with_text_TXAwiL",
     "main",
-    "contact_form_thUR4g"
+    "contact_form_thUR4g",
+    "multicolumn_bPfj8Q"
   ]
 }
