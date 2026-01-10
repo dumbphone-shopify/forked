@@ -1,0 +1,217 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_iMkd3G": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_D67kaE": {
+          "type": "heading",
+          "settings": {
+            "heading": "Digital balance foredrag/workshop til virksomheder",
+            "heading_size": "h1"
+          }
+        },
+        "text_YbbUNJ": {
+          "type": "text",
+          "settings": {
+            "text": "Workshoppen inspirerer og hjælper til ægte forandring for jeres medarbejdere.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_D67kaE",
+        "text_YbbUNJ"
+      ],
+      "disabled": true,
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/bike-and-phone.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "custom_liquid_htjc3f": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n  /* --- CSS VARIABLES & SETUP --- */\n  :root {\n    --color-sand: #FDFBF7;\n    --color-fjord: #2E4053;\n    --color-clay: #BC7859;\n    --color-white: #FFFFFF;\n    \n    /* Shopify Font Fallbacks */\n    --font-stack-heading: var(--font-heading-family), 'Playfair Display', serif;\n    --font-stack-body: var(--font-body-family), sans-serif;\n  }\n\n  /* Reset for this section only */\n  .cp-split-section * {\n    box-sizing: border-box;\n    margin: 0;\n    padding: 0;\n  }\n\n  .cp-split-section {\n    width: 100%;\n    display: flex;\n    flex-wrap: wrap; /* Allows stacking on mobile */\n    min-height: 600px; /* Ensures substantial height */\n    font-family: var(--font-stack-body);\n  }\n\n  /* --- COLUMNS --- */\n  .cp-column {\n    position: relative;\n    width: 50%; /* Desktop split */\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    padding: 60px 40px;\n    text-align: center;\n    background-size: cover;\n    background-position: center;\n    overflow: hidden;\n  }\n\n  /* --- OVERLAYS --- */\n  .cp-column::before {\n    content: '';\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    z-index: 1;\n    transition: opacity 0.3s ease;\n  }\n\n  /* Content wrapper z-index to sit above overlay */\n  .cp-content {\n    position: relative;\n    z-index: 2;\n    max-width: 500px; /* Slightly wider to accommodate longer text */\n  }\n\n  /* --- LEFT COLUMN (SKOLER) --- */\n  .cp-col-left {\n    background-color: var(--color-sand);\n    /* PLACEHOLDER IMAGE: Schools */\n    background-image: url('https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80'); \n  }\n\n  .cp-col-left::before {\n    background-color: var(--color-sand);\n    /* Lower opacity so the image is more visible (was 0.90) */\n    opacity: 0.65; \n  }\n\n  .cp-col-left h2, \n  .cp-col-left p {\n    color: var(--color-fjord);\n  }\n\n  /* --- RIGHT COLUMN (VIRKSOMHEDER) --- */\n  .cp-col-right {\n    background-color: var(--color-fjord);\n    /* PLACEHOLDER IMAGE: Corporate */\n    background-image: url('https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');\n  }\n\n  .cp-col-right::before {\n    background-color: var(--color-fjord);\n    /* Slightly lower opacity (was 0.85) */\n    opacity: 0.80; \n  }\n\n  .cp-col-right h2, \n  .cp-col-right p {\n    color: var(--color-sand);\n  }\n\n  /* --- TYPOGRAPHY --- */\n  .cp-content h2 {\n    font-family: var(--font-stack-heading);\n    font-size: 2.5rem;\n    font-weight: 700;\n    margin-bottom: 1rem;\n    letter-spacing: 0.02em;\n    line-height: 1.2;\n  }\n\n  .cp-content p {\n    font-family: var(--font-stack-body);\n    font-size: 1.1rem;\n    margin-bottom: 2.5rem;\n    opacity: 0.95;\n    letter-spacing: 0.05em;\n    text-transform: uppercase;\n    font-weight: 500;\n    line-height: 1.5;\n  }\n\n  /* --- BADGE (GRATIS BOKS) --- */\n  .cp-badge {\n    display: inline-block;\n    background-color: var(--color-white);\n    color: var(--color-fjord);\n    padding: 8px 16px;\n    border-radius: 4px;\n    font-size: 0.8rem;\n    font-weight: 700;\n    text-transform: uppercase;\n    letter-spacing: 0.05em;\n    margin-bottom: 15px;\n    box-shadow: 0 2px 4px rgba(0,0,0,0.1);\n    border: 1px solid rgba(46, 64, 83, 0.1);\n  }\n\n  /* --- BUTTONS --- */\n  .cp-btn {\n    display: inline-block;\n    background-color: var(--color-clay);\n    color: var(--color-white);\n    padding: 18px 36px;\n    border-radius: 8px;\n    text-decoration: none;\n    font-family: var(--font-stack-body);\n    font-weight: 700;\n    text-transform: uppercase;\n    font-size: 0.9rem;\n    letter-spacing: 0.1em;\n    transition: all 0.3s ease;\n    border: none;\n    cursor: pointer;\n    box-shadow: 0 4px 6px rgba(0,0,0,0.1);\n  }\n\n  .cp-btn:hover {\n    transform: translateY(-2px);\n    box-shadow: 0 8px 15px rgba(0,0,0,0.15);\n    background-color: #a86548;\n    color: var(--color-white);\n  }\n\n  /* --- RESPONSIVE MOBILE STYLES --- */\n  @media only screen and (max-width: 768px) {\n    .cp-column {\n      width: 100%;\n      min-height: 450px;\n      padding: 40px 20px;\n    }\n\n    .cp-content h2 {\n      font-size: 2rem;\n    }\n  }\n</style>\n\n<!-- HTML STRUCTURE -->\n<div class=\"cp-split-section\">\n  \n  <!-- Left Column: Skoler -->\n  <div class=\"cp-column cp-col-left\">\n    <div class=\"cp-content\">\n      <div class=\"cp-badge\">Gratis foredrag til indskolingsforældre</div>\n      <h2>SKOLER</h2>\n      <p>Foredrag for alle årgange</p>\n      <a href=\"/pages/skoler\" class=\"cp-btn\">Læs mere</a>\n    </div>\n  </div>\n\n  <!-- Right Column: Virksomheder -->\n  <div class=\"cp-column cp-col-right\">\n    <div class=\"cp-content\">\n      <h2>VIRKSOMHEDER</h2>\n      <p>Foredrag, Workshops &<br>Skærmforbrugs Eksperimenter</p>\n      <a href=\"/pages/virksomheder\" class=\"cp-btn\">Se Muligheder</a>\n    </div>\n  </div>\n\n</div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_xTdynd": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n  /* --- CSS VARIABLES & SETUP --- */\n  :root {\n    /* Farver */\n    --cp-sand: #FDFBF7;    /* Baggrund venstre */\n    --cp-blue: #2E4053;    /* Baggrund højre (Den du kunne lide) */\n    --cp-text: #3E2103;    /* Mørkebrun tekst (Kun tekst) */\n    --cp-clay: #BC7859;    /* Knapper */\n    --cp-white: #FFFDF8;   /* Tekst på blå baggrund */\n    --cp-leaf: #5E8C61;    /* Grøn badge */\n    \n    --font-head: var(--font-heading-family), 'Playfair Display', serif;\n    --font-body: var(--font-body-family), sans-serif;\n  }\n\n  .cp-split-section * { box-sizing: border-box; margin: 0; padding: 0; }\n  .cp-split-section {\n    width: 100%; display: flex; flex-wrap: wrap; min-height: 650px;\n    font-family: var(--font-body);\n  }\n\n  .cp-column {\n    position: relative; width: 50%; display: flex; flex-direction: column;\n    justify-content: center; align-items: center; padding: 80px 40px;\n    text-align: center; background-size: cover; background-position: center; overflow: hidden;\n  }\n\n  /* Overlay for at gøre tekst læsbar ovenpå billeder */\n  .cp-column::before {\n    content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%;\n    z-index: 1; transition: opacity 0.3s ease;\n  }\n\n  .cp-content {\n    position: relative; z-index: 2; max-width: 600px; width: 100%;\n    display: flex; flex-direction: column; align-items: center; margin-top: 30px;\n  }\n\n  /* VENSTRE KOLONNE (SKOLER) - Sand baggrund, Brun tekst */\n  .cp-col-left {\n    background-color: var(--cp-sand);\n    /* Billede URL - Skift denne */\n    background-image: url('https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80'); \n  }\n  .cp-col-left::before { background-color: var(--cp-sand); opacity: 0.85; }\n  \n  /* Her bruger vi den brune tekstfarve */\n  .cp-col-left h2, .cp-col-left p { color: var(--cp-text); }\n\n  /* HØJRE KOLONNE (VIRKSOMHEDER) - Blå baggrund, Lys tekst */\n  .cp-col-right {\n    background-color: var(--cp-blue);\n    /* Billede URL - Skift denne */\n    background-image: url('https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');\n  }\n  .cp-col-right::before { background-color: var(--cp-blue); opacity: 0.85; }\n  \n  /* Her bruger vi lys tekst fordi baggrunden er mørkeblå */\n  .cp-col-right h2, .cp-col-right p { color: var(--cp-white); }\n\n  /* TYPOGRAFI */\n  .cp-content h2 {\n    font-family: var(--font-head); font-size: 3.5rem; font-weight: 700;\n    margin-bottom: 20px; letter-spacing: 0.02em; line-height: 1.1;\n  }\n  .cp-content p {\n    font-family: var(--font-body); font-size: 1.25rem; margin-bottom: 40px;\n    opacity: 0.95; letter-spacing: 0.05em; text-transform: uppercase; font-weight: 600;\n    line-height: 1.5; max-width: 90%; min-height: 80px; \n    display: flex; align-items: flex-start; justify-content: center;\n  }\n\n  /* BADGE */\n  .cp-badge {\n    position: absolute; top: -65px; left: 50%;\n    background-color: var(--cp-leaf); color: #FFFFFF;\n    padding: 10px 22px; border-radius: 50px; font-size: 0.85rem; font-weight: 700;\n    text-transform: uppercase; letter-spacing: 0.08em;\n    box-shadow: 0 4px 10px rgba(0,0,0,0.15); border: 2px solid rgba(255,255,255,0.2);\n    white-space: nowrap; animation: cp-float 3s ease-in-out infinite;\n  }\n  @keyframes cp-float {\n    0% { transform: translate(-50%, -5px); } 50% { transform: translate(-50%, 0px); } 100% { transform: translate(-50%, -5px); }\n  }\n\n  /* KNAPPER */\n  .cp-btn {\n    display: inline-block; background-color: var(--cp-clay); color: var(--cp-white);\n    padding: 20px 42px; border-radius: 8px; text-decoration: none;\n    font-family: var(--font-body); font-weight: 700; text-transform: uppercase;\n    font-size: 1rem; letter-spacing: 0.1em; transition: all 0.3s ease; border: none; cursor: pointer;\n    box-shadow: 0 4px 6px rgba(0,0,0,0.1);\n  }\n  .cp-btn:hover {\n    transform: translateY(-2px); box-shadow: 0 8px 15px rgba(0,0,0,0.15);\n    background-color: #a86548; color: var(--cp-white);\n  }\n\n  @media only screen and (max-width: 768px) {\n    .cp-column { width: 100%; min-height: 500px; padding: 60px 20px; }\n    .cp-content { margin-top: 20px; }\n    .cp-content h2 { font-size: 2.5rem; }\n    .cp-content p { font-size: 1rem; min-height: auto; margin-bottom: 30px; }\n    .cp-badge {\n      position: relative; top: auto; left: auto; transform: none;\n      animation: none; margin-bottom: 15px; transform: translateY(-5px);\n    }\n  }\n</style>\n\n<div class=\"cp-split-section\">\n  <!-- Venstre: Skoler -->\n  <div class=\"cp-column cp-col-left\">\n    <div class=\"cp-content\">\n      <div class=\"cp-badge\">Gratis foredrag til indskolingsforældre</div>\n      <h2>SKOLER</h2>\n      <p>Foredrag for alle årgange</p>\n      <a href=\"https://dumbphone.dk/pages/skoleforedrag\" class=\"cp-btn\">Se Muligheder</a>\n    </div>\n  </div>\n  <!-- Højre: Virksomheder -->\n  <div class=\"cp-column cp-col-right\">\n    <div class=\"cp-content\">\n      <h2>VIRKSOMHEDER</h2>\n      <p>Foredrag, Workshops &<br>Skærmforbrugs Eksperimenter</p>\n      <a href=\"/pages/virksomheder\" class=\"cp-btn\">Se Muligheder</a>\n    </div>\n  </div>\n</div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_K9Ra9K": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_mtQYMM": {
+          "type": "column",
+          "settings": {
+            "title": "Historier og resultater fra vores store eksperimenter",
+            "text": "<p>Vi har faciliteret 2500 unge mennesker igennem 10-30 dages smartphone frie eksperimenter. Vi kommer til at præsentere sjove og inspirerende historier fra disse eksperimenter. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_MebmLn": {
+          "type": "column",
+          "settings": {
+            "title": "Facilliteret snak iblandt deltagere om vaner omkring skærme.",
+            "text": "<p>Vi kommer til at tage hånd om jer, og facilitere jer igennem en sjov og tankevækkende snak med jeres kollegaer om skærm vaner. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_arFM7U": {
+          "type": "column",
+          "settings": {
+            "title": "Hvad kan man gøre? og hvordan kan du bruge digital balance sættet",
+            "text": "<p>Præsentation af de bedste ting man kan gøre, samt en præsentation af hvordan man kan eksperimentere med digital balance sættet. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_mtQYMM",
+        "column_MebmLn",
+        "column_arFM7U"
+      ],
+      "disabled": true,
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Foredraget og workshoppen handler om",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "Ring til Arne: 40 26 12 70",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_NKrHEn": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_EmqRNF": {
+          "type": "heading",
+          "settings": {
+            "heading": "Alle deltagere låner et digital balance sæt i 7 dage",
+            "heading_size": "h1"
+          }
+        },
+        "text_zPCtDF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Under workshoppen bliver alle deltagere introduceret for hvordan sættet kan og bør bruges. Det er en invitation til at eksperimentere med at tidslåse sin smartphone i perioder.<br/><br/>Evt. fra kl 20 til kl. 7. <br/><br/>På den måde får mande sidste timer om aftenen uden smartphonen og den første time om morgenen.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_LzHReJ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Se produktet som i låner",
+            "button_link": "shopify://products/tidsindstillet-haengelas",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_EmqRNF",
+        "text_zPCtDF",
+        "button_LzHReJ"
+      ],
+      "disabled": true,
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Adobe_Express_-_file_6.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "padding_top": 8,
+        "padding_bottom": 0
+      }
+    },
+    "contact_form_RGjhcX": {
+      "type": "contact-form",
+      "disabled": true,
+      "name": "t:sections.contact-form.presets.name",
+      "settings": {
+        "heading": "Skriv til os, og vi svarer indenfor 24 timer. Alternativt ring nu på: 40261270",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_k7rkdc": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n  /* --- CSS VARIABLES & SETUP --- */\n  :root {\n    /* Farver */\n    --cp-sand: #FDFBF7;    /* Baggrund venstre */\n    --cp-blue: #2E4053;    /* Baggrund højre (Den du kunne lide) */\n    --cp-text: #3E2103;    /* Mørkebrun tekst (Kun tekst) */\n    --cp-clay: #BC7859;    /* Knapper */\n    --cp-white: #FFFDF8;   /* Tekst på blå baggrund */\n    --cp-leaf: #5E8C61;    /* Grøn badge */\n    \n    --font-head: var(--font-heading-family), 'Playfair Display', serif;\n    --font-body: var(--font-body-family), sans-serif;\n  }\n\n  .cp-split-section * { box-sizing: border-box; margin: 0; padding: 0; }\n  .cp-split-section {\n    width: 100%; display: flex; flex-wrap: wrap; min-height: 650px;\n    font-family: var(--font-body);\n  }\n\n  .cp-column {\n    position: relative; width: 50%; display: flex; flex-direction: column;\n    justify-content: center; align-items: center; padding: 80px 40px;\n    text-align: center; background-size: cover; background-position: center; overflow: hidden;\n  }\n\n  /* Overlay for at gøre tekst læsbar ovenpå billeder */\n  .cp-column::before {\n    content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%;\n    z-index: 1; transition: opacity 0.3s ease;\n  }\n\n  .cp-content {\n    position: relative; z-index: 2; max-width: 600px; width: 100%;\n    display: flex; flex-direction: column; align-items: center; margin-top: 30px;\n  }\n\n  /* VENSTRE KOLONNE (SKOLER) - Sand baggrund, Brun tekst */\n  .cp-col-left {\n    background-color: var(--cp-sand);\n    /* Billede URL - Skift denne */\n    background-image: url('https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80'); \n  }\n  .cp-col-left::before { background-color: var(--cp-sand); opacity: 0.85; }\n  \n  /* Her bruger vi den brune tekstfarve */\n  .cp-col-left h2, .cp-col-left p { color: var(--cp-text); }\n\n  /* HØJRE KOLONNE (VIRKSOMHEDER) - Blå baggrund, Lys tekst */\n  .cp-col-right {\n    background-color: var(--cp-blue);\n    /* Billede URL - Skift denne */\n    background-image: url('https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');\n  }\n  .cp-col-right::before { background-color: var(--cp-blue); opacity: 0.85; }\n  \n  /* Her bruger vi lys tekst fordi baggrunden er mørkeblå */\n  .cp-col-right h2, .cp-col-right p { color: var(--cp-white); }\n\n  /* TYPOGRAFI */\n  .cp-content h2 {\n    font-family: var(--font-head); font-size: 3.5rem; font-weight: 700;\n    margin-bottom: 20px; letter-spacing: 0.02em; line-height: 1.1;\n  }\n  .cp-content p {\n    font-family: var(--font-body); font-size: 1.25rem; margin-bottom: 40px;\n    opacity: 0.95; letter-spacing: 0.05em; text-transform: uppercase; font-weight: 600;\n    line-height: 1.5; max-width: 90%; min-height: 80px; \n    display: flex; align-items: flex-start; justify-content: center;\n  }\n\n  /* BADGE */\n  .cp-badge {\n    position: absolute; top: -65px; left: 50%;\n    background-color: var(--cp-leaf); color: #FFFFFF;\n    padding: 10px 22px; border-radius: 50px; font-size: 0.85rem; font-weight: 700;\n    text-transform: uppercase; letter-spacing: 0.08em;\n    box-shadow: 0 4px 10px rgba(0,0,0,0.15); border: 2px solid rgba(255,255,255,0.2);\n    white-space: nowrap; animation: cp-float 3s ease-in-out infinite;\n  }\n  @keyframes cp-float {\n    0% { transform: translate(-50%, -5px); } 50% { transform: translate(-50%, 0px); } 100% { transform: translate(-50%, -5px); }\n  }\n\n  /* KNAPPER */\n  .cp-btn {\n    display: inline-block; background-color: var(--cp-clay); color: var(--cp-white);\n    padding: 20px 42px; border-radius: 8px; text-decoration: none;\n    font-family: var(--font-body); font-weight: 700; text-transform: uppercase;\n    font-size: 1rem; letter-spacing: 0.1em; transition: all 0.3s ease; border: none; cursor: pointer;\n    box-shadow: 0 4px 6px rgba(0,0,0,0.1);\n  }\n  .cp-btn:hover {\n    transform: translateY(-2px); box-shadow: 0 8px 15px rgba(0,0,0,0.15);\n    background-color: #a86548; color: var(--cp-white);\n  }\n\n  @media only screen and (max-width: 768px) {\n    .cp-column { width: 100%; min-height: 500px; padding: 60px 20px; }\n    .cp-content { margin-top: 20px; }\n    .cp-content h2 { font-size: 2.5rem; }\n    .cp-content p { font-size: 1rem; min-height: auto; margin-bottom: 30px; }\n    .cp-badge {\n      position: relative; top: auto; left: auto; transform: none;\n      animation: none; margin-bottom: 15px; transform: translateY(-5px);\n    }\n  }\n</style>\n\n<div class=\"cp-split-section\">\n  <!-- Venstre: Skoler -->\n  <div class=\"cp-column cp-col-left\">\n    <div class=\"cp-content\">\n      <div class=\"cp-badge\">Gratis foredrag til indskolingsforældre</div>\n      <h2>SKOLER</h2>\n      <p>Foredrag for alle årgange</p>\n      <a href=\"https://dumbphone.dk/pages/skoleforedrag\" class=\"cp-btn\">Se Muligheder</a>\n    </div>\n  </div>\n  <!-- Højre: Virksomheder -->\n  <div class=\"cp-column cp-col-right\">\n    <div class=\"cp-content\">\n      <h2>VIRKSOMHEDER</h2>\n      <p>Foredrag, Workshops &<br>Skærmforbrugs Eksperimenter</p>\n      <a href=\"/pages/virksomheder\" class=\"cp-btn\">Se Muligheder</a>\n    </div>\n  </div>\n</div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_iMkd3G",
+    "custom_liquid_htjc3f",
+    "custom_liquid_xTdynd",
+    "multicolumn_K9Ra9K",
+    "image_with_text_NKrHEn",
+    "contact_form_RGjhcX",
+    "custom_liquid_k7rkdc"
+  ]
+}
