@@ -1,0 +1,35 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "custom_liquid_k7rkdc": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n  /* --- CSS VARIABLES & SETUP --- */\n  :root {\n    /* Farver */\n    --cp-sand: #FDFBF7;    /* Baggrund venstre */\n    --cp-blue: #2E4053;    /* Baggrund højre */\n    --cp-text: #3E2103;    /* Mørkebrun tekst */\n    --cp-clay: #BC7859;    /* Knapper */\n    --cp-white: #FFFDF8;   /* Tekst på blå baggrund */\n    --cp-leaf: #5E8C61;    /* Grøn badge */\n    \n    --font-head: var(--font-heading-family), 'Playfair Display', serif;\n    --font-body: var(--font-body-family), sans-serif;\n  }\n\n  .cp-split-section * { box-sizing: border-box; margin: 0; padding: 0; }\n  .cp-split-section {\n    width: 100%; display: flex; flex-wrap: wrap; min-height: 650px;\n    font-family: var(--font-body);\n  }\n\n  .cp-column {\n    position: relative; width: 50%; display: flex; flex-direction: column;\n    justify-content: center; align-items: center; padding: 80px 40px;\n    text-align: center; background-size: cover; background-position: center; overflow: hidden;\n  }\n\n  /* Overlay for at gøre tekst læsbar ovenpå billeder */\n  .cp-column::before {\n    content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%;\n    z-index: 1; transition: opacity 0.3s ease;\n  }\n\n  .cp-content {\n    position: relative; z-index: 2; max-width: 600px; width: 100%;\n    display: flex; flex-direction: column; align-items: center; margin-top: 30px;\n  }\n\n  /* VENSTRE KOLONNE (SKOLER) - Sand baggrund, Brun tekst */\n  .cp-col-left {\n    background-color: var(--cp-sand);\n    /* Billede URL - Skift denne */\n    background-image: url('https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80'); \n  }\n  .cp-col-left::before { background-color: var(--cp-sand); opacity: 0.85; }\n  \n  /* Her bruger vi den brune tekstfarve */\n  .cp-col-left h2, .cp-col-left p { color: var(--cp-text); }\n\n  /* HØJRE KOLONNE (VIRKSOMHEDER) - Blå baggrund, Lys tekst */\n  .cp-col-right {\n    background-color: var(--cp-blue);\n    /* Billede URL - Skift denne */\n    background-image: url('https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');\n  }\n  .cp-col-right::before { background-color: var(--cp-blue); opacity: 0.85; }\n  \n  /* Her bruger vi lys tekst fordi baggrunden er mørkeblå */\n  .cp-col-right h2, .cp-col-right p { color: var(--cp-white); }\n\n  /* TYPOGRAFI */\n  .cp-content h2 {\n    font-family: var(--font-head); font-size: 3rem; font-weight: 700;\n    margin-bottom: 20px; letter-spacing: 0.02em; line-height: 1.1;\n  }\n  .cp-content p {\n    font-family: var(--font-body); font-size: 1.25rem; margin-bottom: 40px;\n    opacity: 0.95; letter-spacing: 0.05em; text-transform: uppercase; font-weight: 600;\n    line-height: 1.6; max-width: 90%; min-height: 80px; \n    display: flex; align-items: flex-start; justify-content: center;\n  }\n\n  /* BADGE */\n  .cp-badge {\n    position: absolute; top: -65px; left: 50%;\n    background-color: var(--cp-leaf); color: #FFFFFF;\n    padding: 10px 22px; border-radius: 50px; font-size: 0.85rem; font-weight: 700;\n    text-transform: uppercase; letter-spacing: 0.08em;\n    box-shadow: 0 4px 10px rgba(0,0,0,0.15); border: 2px solid rgba(255,255,255,0.2);\n    white-space: nowrap; animation: cp-float 3s ease-in-out infinite;\n  }\n  @keyframes cp-float {\n    0% { transform: translate(-50%, -5px); } 50% { transform: translate(-50%, 0px); } 100% { transform: translate(-50%, -5px); }\n  }\n\n  /* KNAPPER */\n  .cp-btn {\n    display: inline-block; background-color: var(--cp-clay); color: var(--cp-white);\n    padding: 20px 42px; border-radius: 8px; text-decoration: none;\n    font-family: var(--font-body); font-weight: 700; text-transform: uppercase;\n    font-size: 1rem; letter-spacing: 0.1em; transition: all 0.3s ease; border: none; cursor: pointer;\n    box-shadow: 0 4px 6px rgba(0,0,0,0.1);\n  }\n  .cp-btn:hover {\n    transform: translateY(-2px); box-shadow: 0 8px 15px rgba(0,0,0,0.15);\n    background-color: #a86548; color: var(--cp-white);\n  }\n\n  @media only screen and (max-width: 768px) {\n    .cp-column { width: 100%; min-height: 500px; padding: 60px 20px; }\n    .cp-content { margin-top: 20px; }\n    .cp-content h2 { font-size: 2.2rem; }\n    .cp-content p { font-size: 1rem; min-height: auto; margin-bottom: 30px; }\n    .cp-badge {\n      position: relative; top: auto; left: auto; transform: none;\n      animation: none; margin-bottom: 15px; transform: translateY(-5px);\n    }\n  }\n</style>\n\n<div class=\"cp-split-section\">\n  <!-- Venstre: Skoler -->\n  <div class=\"cp-column cp-col-left\">\n    <div class=\"cp-content\">\n      <div class=\"cp-badge\">Gratis foredrag til indskolingsforældre</div>\n      <h2>SKOLER</h2>\n      <p>Foredrag for alle årgange</p>\n      <a href=\"https://dumbphone.dk/pages/skoleforedrag\" class=\"cp-btn\">Se Muligheder</a>\n    </div>\n  </div>\n  <!-- Højre: Virksomheder -->\n  <div class=\"cp-column cp-col-right\">\n    <div class=\"cp-content\">\n      <h2>VIRKSOMHEDER</h2>\n      <p>Foredrag, Workshops &<br>Skærmforbrugs Eksperimenter</p>\n      <a href=\"https://dumbphone.dk/pages/virksomhed-foredrag\" class=\"cp-btn\">Se Muligheder</a>\n    </div>\n  </div>\n</div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_k7rkdc"
+  ]
+}
