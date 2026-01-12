@@ -77,6 +77,158 @@
         "padding_bottom": 52
       }
     },
+    "image_banner_HHyMbB": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_nwhtJJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Presenteeism",
+            "heading_size": "h1"
+          }
+        },
+        "text_E7fDUR": {
+          "type": "text",
+          "settings": {
+            "text": "De fleste virksomheder fokuserer på sygefravær, men den virkelige omkostning er \"Presenteeism\" – når medarbejderen er fysisk til stede, men mentalt \"checket ud\".",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nwhtJJ",
+        "text_E7fDUR"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "multicolumn_dKKRWj": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_HGNNmK": {
+          "type": "column",
+          "settings": {
+            "title": "Tab af fokus",
+            "text": "<p>Det tager i gennemsnit 23 minutter at genvinde dyb fokus efter en digital afbrydelse.</p><p>- </p><p>For en afdeling på 50 mand kan bare 30 minutters daglig digital spildtid koste over 2 mio. kr. årligt.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_iAthVK": {
+          "type": "column",
+          "settings": {
+            "title": "Kolonne",
+            "text": "<p>Kombiner tekst med et billede for at fokusere på dit valgte produkt, din valgte kollektion eller dit valgte blogopslag. Tilføj oplysninger om tilgængelighed, stil og eventuelt også en anmeldelse.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_WWdNde": {
+          "type": "column",
+          "settings": {
+            "title": "Kolonne",
+            "text": "<p>Kombiner tekst med et billede for at fokusere på dit valgte produkt, din valgte kollektion eller dit valgte blogopslag. Tilføj oplysninger om tilgængelighed, stil og eventuelt også en anmeldelse.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_HGNNmK",
+        "column_iAthVK",
+        "column_WWdNde"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Hvorfor?",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "Knaptekst",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_KweGPG": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_3NdAVQ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Række, der kan skjules",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_ekzT7q": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Række, der kan skjules",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_KhixkT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Række, der kan skjules",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_UBrmFM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Række, der kan skjules",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_3NdAVQ",
+        "collapsible_row_ekzT7q",
+        "collapsible_row_KhixkT",
+        "collapsible_row_UBrmFM"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Indhold, der kan skjules",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -100,6 +252,9 @@
   "order": [
     "image_banner_rQenad",
     "rich_text_PM8rBX",
+    "image_banner_HHyMbB",
+    "multicolumn_dKKRWj",
+    "collapsible_content_KweGPG",
     "main",
     "contact_form_A4ycDe"
   ]
