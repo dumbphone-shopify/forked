@@ -155,7 +155,7 @@
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "button_label": "Knaptekst",
+        "button_label": "",
         "button_link": "",
         "columns_desktop": 3,
         "column_alignment": "left",
@@ -163,6 +163,113 @@
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_fjcYW7": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_NyaWyX": {
+          "type": "heading",
+          "settings": {
+            "heading": "FORLØBET",
+            "heading_size": "h1"
+          }
+        },
+        "text_yQK3ig": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NyaWyX",
+        "text_yQK3ig"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/CleanShot_2025-02-16_at_15.41.31_2x_63f56460-6954-48a4-a693-c8002717a034.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "multirow_C8RtFT": {
+      "type": "multirow",
+      "blocks": {
+        "row_NPpbML": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/woman-taking-notes-during-team-meeting.jpg",
+            "caption": "",
+            "heading": "Fase 1 - Sparing med ledelsen",
+            "text": "<p><strong>Sparring:</strong> 30-60 min. møde med ledelsen. Vi afstemmer forventninger: Hvilket problem vil I løse? (Stress, effektivitet, kultur?).</p><p><strong>Tilpasning:</strong> Vi skræddersyr budskabet til jeres kultur (Nordisk tillidsmodel).</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_htcFkM": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/IMG_4016.png",
+            "caption": "Billedtekst",
+            "heading": "Fase 2 - Kick-off Workshop",
+            "text": "<p><strong>Hype & Viden:</strong> Et engagerende, uhøjtideligt foredrag baseret på erfaringer fra over 2.500 deltagere (skoler/højskoler). Ingen skam, ingen pegefingre – kun nysgerrighed.</p><p><strong>Adfærdsdesign:</strong> Vi præsenterer \"Låsekassen\". Det er ikke bare en kasse; det er en <em>Commitment Device</em>, der fjerner den konstante indre forhandling (\"skal/skal ikke tjekke?\").</p><p><strong>Planlægning:</strong> Hver medarbejder får et fysisk \"Eksperiment-skema\" (lækkert design), hvor de vælger deres egne \"låse-zoner\". Det er 100% frivilligt.</p><p><strong>Udstyr:</strong> Vi uddeler grej på dagen. Medarbejdere kan låne udstyr til sig selv (sleeves/bokse) og – som noget unikt – til <em>hele familien</em>.</p>",
+            "button_label": "Knaptekst",
+            "button_link": ""
+          }
+        },
+        "row_TjDcQB": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/CleanShot_2025-02-16_at_15.40.54_2x_62587c0b-a779-4c34-8a8b-0d98ab9cee91.png",
+            "caption": "",
+            "heading": "Fase 3 -  10 dage - Eksperiment",
+            "text": "<p>Medarbejderne lever med deres valgte eksperiment.</p><p><strong>Support:</strong> Adgang til hotline/support, hvis teknikken driller, eller man har brug for sparring.</p><p><strong>Ingen overvågning:</strong> Vi bruger analoge bokse. Ingen apps, ingen tracking, ingen datahøst. 100% privatliv.</p>",
+            "button_label": "Knaptekst",
+            "button_link": ""
+          }
+        },
+        "row_fWzdJq": {
+          "type": "row",
+          "settings": {
+            "caption": "Billedtekst",
+            "heading": "Fase 4 - Evaluering & Indsamling",
+            "text": "<p>Kombiner tekst med et billede for at fokusere på dit valgte produkt, din valgte kollektion eller dit valgte blogopslag. Tilføj oplysninger om tilgængelighed, stil og eventuelt også en anmeldelse.</p>",
+            "button_label": "Knaptekst",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_NPpbML",
+        "row_htcFkM",
+        "row_TjDcQB",
+        "row_fWzdJq"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "image_layout": "alternate-left",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -254,6 +361,8 @@
     "rich_text_PM8rBX",
     "image_banner_HHyMbB",
     "multicolumn_dKKRWj",
+    "image_banner_fjcYW7",
+    "multirow_C8RtFT",
     "collapsible_content_KweGPG",
     "main",
     "contact_form_A4ycDe"
