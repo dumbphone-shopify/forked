@@ -120,7 +120,7 @@
           "type": "column",
           "settings": {
             "title": "Tab af fokus",
-            "text": "<p>Det tager i gennemsnit 23 minutter at genvinde dyb fokus efter en digital afbrydelse.</p><p>- </p><p>For en afdeling på 50 mand kan bare 30 minutters daglig digital spildtid koste over 2 mio. kr. årligt.</p>",
+            "text": "<p>Det tager i gennemsnit 23 minutter at genvinde dyb fokus efter en digital afbrydelse.</p>",
             "link_label": "",
             "link": ""
           }
@@ -128,8 +128,8 @@
         "column_iAthVK": {
           "type": "column",
           "settings": {
-            "title": "Kolonne",
-            "text": "<p>Kombiner tekst med et billede for at fokusere på dit valgte produkt, din valgte kollektion eller dit valgte blogopslag. Tilføj oplysninger om tilgængelighed, stil og eventuelt også en anmeldelse.</p>",
+            "title": "Søvn",
+            "text": "<p>For rigtig mange spiller skærme en stor rolle i forbindelse med søvnproblemer. I vores eksperimenter med 2500 elever er søvn det primære positive resultat.</p>",
             "link_label": "",
             "link": ""
           }
@@ -137,8 +137,8 @@
         "column_WWdNde": {
           "type": "column",
           "settings": {
-            "title": "Kolonne",
-            "text": "<p>Kombiner tekst med et billede for at fokusere på dit valgte produkt, din valgte kollektion eller dit valgte blogopslag. Tilføj oplysninger om tilgængelighed, stil og eventuelt også en anmeldelse.</p>",
+            "title": "Work life balance",
+            "text": "<p>Mange har svært ved at slappe ordenligt af når de har fri da arbejdet idag er blevet så tæt forbundet med telefonen.</p>",
             "link_label": "",
             "link": ""
           }
