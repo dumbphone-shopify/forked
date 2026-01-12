@@ -248,7 +248,7 @@
             "caption": "Billedtekst",
             "heading": "Fase 4 - Evaluering & Indsamling",
             "text": "<ul><li><strong>Afsluttende Workshop:</strong> Vi kommer ud igen. Vi faciliterer en samtale om erfaringerne: Hvad gjorde det ved mødekulturen? Hvad skete der hjemme ved middagsbordet?</li><li><strong>Logistik:</strong> Vi medbringer returkasser og labels. Vi håndterer indsamlingen af udstyr.</li><li><strong>Afrapportering:</strong> Ledelsen modtager en opsamling på forløbet (anonymiseret), som kan bruges direkte i ESG-rapportering (ESRS S1 – Own Workforce / Work-Life Balance).</li></ul>",
-            "button_label": "Knaptekst",
+            "button_label": "",
             "button_link": ""
           }
         }
@@ -274,6 +274,49 @@
         "row_color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "rich_text_iaUE98": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wyPPXE": {
+          "type": "heading",
+          "settings": {
+            "heading": "Kontakt Arne for spørgsmål",
+            "heading_size": "h1"
+          }
+        },
+        "text_ka3itw": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "button_m7QWBm": {
+          "type": "button",
+          "settings": {
+            "button_label": "40 26 12 70",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_wyPPXE",
+        "text_ka3itw",
+        "button_m7QWBm"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "main": {
@@ -303,6 +346,7 @@
     "multicolumn_dKKRWj",
     "image_banner_fjcYW7",
     "multirow_C8RtFT",
+    "rich_text_iaUE98",
     "main",
     "contact_form_A4ycDe"
   ]
