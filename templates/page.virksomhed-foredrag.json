@@ -9,20 +9,57 @@
  */
 {
   "sections": {
+    "image_banner_rQenad": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_HHWUk9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Virksomhedsforløbet \"Fokus, Ro & Forbindelse\"",
+            "heading_size": "h1"
+          }
+        },
+        "text_TEjx8N": {
+          "type": "text",
+          "settings": {
+            "text": "Dette er ikke bare et foredrag. Det er et adfærdsdesignet eksperiment, der giver en oplevelsesbasseret indsigt i digital distraktion .",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HHWUk9",
+        "text_TEjx8N"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/bike-and-phone.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
     "rich_text_PM8rBX": {
       "type": "rich-text",
       "blocks": {
         "heading_irgeTa": {
           "type": "heading",
           "settings": {
-            "heading": "Et foredrag med eksperiment",
+            "heading": "",
             "heading_size": "h1"
           }
         },
         "text_WCymg4": {
           "type": "text",
           "settings": {
-            "text": "<p>Dette er ikke blot et foredrag, for hvor meget gør et foredrag uden konkret handling faktisk?<br/>Derfor består vores virksomhedsforedrag altid af et eksperiment efterfølgende. Et eksperiment på 7 dage hvor medarbejder kan eksperimentere med skærmforbruget. <br/>Vi udlåner alt udstyr der er nødvendigt. <br/><br/>Ring for at høre mere: 40 26 12 70<br/><br/>Eller skriv os en besked nedenfor.</p>"
+            "text": "<p>Vi tilbyder virksomheder et 10-dages forløb, hvor medarbejderne frivilligt eksperimenterer med at låse deres smartphones væk i udvalgte tidsrum – både på arbejdet og hjemme hos familien. Vi leverer det fysiske udstyr (låsekasser), den faglige ramme (workshops) og datagrundlaget til jeres ESG-rapportering.</p><p><strong>Værdiløftet:</strong> Vi løser ikke kun et trivselsproblem; vi løser et produktivitetsproblem, der koster virksomheder millioner i tabt fokus (Presenteeism). Vi gør det uden løftede pegefingre, men med nysgerrighed og fysiske værktøjer.</p>"
           }
         }
       },
@@ -61,6 +98,7 @@
     }
   },
   "order": [
+    "image_banner_rQenad",
     "rich_text_PM8rBX",
     "main",
     "contact_form_A4ycDe"
