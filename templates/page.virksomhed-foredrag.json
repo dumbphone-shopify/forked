@@ -225,7 +225,7 @@
             "caption": "Billedtekst",
             "heading": "Fase 2 - Kick-off Workshop",
             "text": "<p><strong>Hype & Viden:</strong> Et engagerende, uhøjtideligt foredrag baseret på erfaringer fra over 2.500 deltagere (skoler/højskoler). Ingen skam, ingen pegefingre – kun nysgerrighed.</p><p><strong>Adfærdsdesign:</strong> Vi præsenterer \"Låsekassen\". Det er ikke bare en kasse; det er en <em>Commitment Device</em>, der fjerner den konstante indre forhandling (\"skal/skal ikke tjekke?\").</p><p><strong>Planlægning:</strong> Hver medarbejder får et fysisk \"Eksperiment-skema\" (lækkert design), hvor de vælger deres egne \"låse-zoner\". Det er 100% frivilligt.</p><p><strong>Udstyr:</strong> Vi uddeler grej på dagen. Medarbejdere kan låne udstyr til sig selv (sleeves/bokse) og – som noget unikt – til <em>hele familien</em>.</p>",
-            "button_label": "Knaptekst",
+            "button_label": "",
             "button_link": ""
           }
         },
@@ -236,16 +236,17 @@
             "caption": "",
             "heading": "Fase 3 -  10 dage - Eksperiment",
             "text": "<p>Medarbejderne lever med deres valgte eksperiment.</p><p><strong>Support:</strong> Adgang til hotline/support, hvis teknikken driller, eller man har brug for sparring.</p><p><strong>Ingen overvågning:</strong> Vi bruger analoge bokse. Ingen apps, ingen tracking, ingen datahøst. 100% privatliv.</p>",
-            "button_label": "Knaptekst",
+            "button_label": "",
             "button_link": ""
           }
         },
         "row_fWzdJq": {
           "type": "row",
           "settings": {
+            "image": "shopify://shop_images/students-working-on-project.jpg",
             "caption": "Billedtekst",
             "heading": "Fase 4 - Evaluering & Indsamling",
-            "text": "<p>Kombiner tekst med et billede for at fokusere på dit valgte produkt, din valgte kollektion eller dit valgte blogopslag. Tilføj oplysninger om tilgængelighed, stil og eventuelt også en anmeldelse.</p>",
+            "text": "<ul><li><strong>Afsluttende Workshop:</strong> Vi kommer ud igen. Vi faciliterer en samtale om erfaringerne: Hvad gjorde det ved mødekulturen? Hvad skete der hjemme ved middagsbordet?</li><li><strong>Logistik:</strong> Vi medbringer returkasser og labels. Vi håndterer indsamlingen af udstyr.</li><li><strong>Afrapportering:</strong> Ledelsen modtager en opsamling på forløbet (anonymiseret), som kan bruges direkte i ESG-rapportering (ESRS S1 – Own Workforce / Work-Life Balance).</li></ul>",
             "button_label": "Knaptekst",
             "button_link": ""
           }
@@ -270,68 +271,6 @@
         "mobile_content_alignment": "left",
         "section_color_scheme": "",
         "row_color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "collapsible_content_KweGPG": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_3NdAVQ": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Række, der kan skjules",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_ekzT7q": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Række, der kan skjules",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_KhixkT": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Række, der kan skjules",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_UBrmFM": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Række, der kan skjules",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_3NdAVQ",
-        "collapsible_row_ekzT7q",
-        "collapsible_row_KhixkT",
-        "collapsible_row_UBrmFM"
-      ],
-      "name": "t:sections.collapsible_content.presets.name",
-      "settings": {
-        "caption": "",
-        "heading": "Indhold, der kan skjules",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "container_color_scheme": "",
-        "color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -363,7 +302,6 @@
     "multicolumn_dKKRWj",
     "image_banner_fjcYW7",
     "multirow_C8RtFT",
-    "collapsible_content_KweGPG",
     "main",
     "contact_form_A4ycDe"
   ]
