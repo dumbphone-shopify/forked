@@ -324,7 +324,7 @@
       "custom_css": [],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<!-- Start Shopify PDF Button Code -->\n<style>\n  .pdf-btn-zavih9 {\n    background-color: #000000;\n    color: #ffffff;\n    padding: 12px 24px;\n    border-radius: 4px;\n    text-decoration: none;\n    display: inline-block;\n    font-weight: 600;\n    transition: opacity 0.3s ease, transform 0.1s ease;\n    border: none;\n    cursor: pointer;\n    text-align: center;\n  }\n  \n  .pdf-btn-zavih9:hover {\n    opacity: 0.85;\n    color: #ffffff; /* Ensures link color doesn't change on hover by theme defaults */\n  }\n\n  .pdf-btn-zavih9:active {\n    transform: scale(0.98);\n  }\n</style>\n\n<div style=\"margin: 10px 0;\">\n  <a href=\"https://cdn.shopify.com/s/files/1/0870/8033/7704/files/Virksomhedsforloeb.pdf?v=1768730230\" \n     class=\"pdf-btn-zavih9\" \n     target=\"_blank\" \n     download>\n    Download PDF\n  </a>\n</div>\n<!-- End Shopify PDF Button Code -->",
+        "custom_liquid": "<!-- Start Shopify PDF Button Code -->\n<style>\n  .pdf-btn-qi03ss {\n    background-color: #000000;\n    color: #ffffff;\n    padding: 12px 24px;\n    border-radius: 4px;\n    text-decoration: none;\n    display: inline-block;\n    font-weight: 600;\n    transition: opacity 0.3s ease, transform 0.1s ease;\n    border: none;\n    cursor: pointer;\n    text-align: center;\n  }\n  \n  .pdf-btn-qi03ss:hover {\n    opacity: 0.85;\n    color: #ffffff; /* Ensures link color doesn't change on hover by theme defaults */\n  }\n\n  .pdf-btn-qi03ss:active {\n    transform: scale(0.98);\n  }\n</style>\n\n<div style=\"margin: 10px 0; text-align: center;\">\n  <a href=\"https://cdn.shopify.com/s/files/1/0870/8033/7704/files/Virksomhedsforloeb.pdf?v=1768730230\" \n     class=\"pdf-btn-qi03ss\" \n     target=\"_blank\" \n     download>\n    Download PDF beskrivelse af forløbet\n  </a>\n</div>\n<!-- End Shopify PDF Button Code -->",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
@@ -357,8 +357,8 @@
     "multicolumn_dKKRWj",
     "image_banner_fjcYW7",
     "multirow_C8RtFT",
-    "rich_text_iaUE98",
     "custom_liquid_ByACda",
+    "rich_text_iaUE98",
     "main",
     "contact_form_A4ycDe"
   ]
