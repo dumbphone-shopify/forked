@@ -59,7 +59,7 @@
         "text_WCymg4": {
           "type": "text",
           "settings": {
-            "text": "<p>Vi tilbyder virksomheder et 10-dages forløb, hvor medarbejderne frivilligt eksperimenterer med at låse deres smartphones væk i udvalgte tidsrum – både på arbejdet og hjemme hos familien. Vi leverer det fysiske udstyr (låsekasser), den faglige ramme (workshops) og datagrundlaget til jeres ESG-rapportering.</p><p><strong>Værdiløftet:</strong> Vi løser ikke kun et trivselsproblem; vi løser et produktivitetsproblem, der koster virksomheder millioner i tabt fokus (Presenteeism). Vi gør det uden løftede pegefingre, men med nysgerrighed og fysiske værktøjer.</p>"
+            "text": "<p>Vi tilbyder virksomheder et 10-dages forløb, hvor medarbejderne frivilligt eksperimenterer med at låse deres smartphones væk i udvalgte tidsrum – både på arbejdet og hjemme hos familien. Vi leverer det fysiske udstyr (låsekasser), den faglige ramme (workshops). <br/><br/>Alt er taget hånd om for at tilføje en god digital balance oplevelse for jer.</p><p><strong>Værdiløftet:</strong> Vi løser ikke kun et trivselsproblem; vi løser et produktivitetsproblem, der koster virksomheder millioner i tabt fokus (Presenteeism). Vi gør det uden løftede pegefingre, men med nysgerrighed og fysiske værktøjer.</p>"
           }
         }
       },
@@ -276,6 +276,17 @@
         "padding_bottom": 36
       }
     },
+    "custom_liquid_ByACda": {
+      "type": "custom-liquid",
+      "custom_css": [],
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<!-- Start Shopify PDF Button Code -->\n<style>\n  .pdf-btn-qi03ss {\n    background-color: #000000;\n    color: #ffffff;\n    padding: 12px 24px;\n    border-radius: 4px;\n    text-decoration: none;\n    display: inline-block;\n    font-weight: 600;\n    transition: opacity 0.3s ease, transform 0.1s ease;\n    border: none;\n    cursor: pointer;\n    text-align: center;\n  }\n  \n  .pdf-btn-qi03ss:hover {\n    opacity: 0.85;\n    color: #ffffff; /* Ensures link color doesn't change on hover by theme defaults */\n  }\n\n  .pdf-btn-qi03ss:active {\n    transform: scale(0.98);\n  }\n</style>\n\n<div style=\"margin: 10px 0; text-align: center;\">\n  <a href=\"https://cdn.shopify.com/s/files/1/0870/8033/7704/files/Virksomhedsforloeb.pdf?v=1768730230\" \n     class=\"pdf-btn-qi03ss\" \n     target=\"_blank\" \n     download>\n    Download PDF beskrivelse af forløbet\n  </a>\n</div>\n<!-- End Shopify PDF Button Code -->",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "rich_text_iaUE98": {
       "type": "rich-text",
       "blocks": {
@@ -315,17 +326,6 @@
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "custom_liquid_ByACda": {
-      "type": "custom-liquid",
-      "custom_css": [],
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<!-- Start Shopify PDF Button Code -->\n<style>\n  .pdf-btn-qi03ss {\n    background-color: #000000;\n    color: #ffffff;\n    padding: 12px 24px;\n    border-radius: 4px;\n    text-decoration: none;\n    display: inline-block;\n    font-weight: 600;\n    transition: opacity 0.3s ease, transform 0.1s ease;\n    border: none;\n    cursor: pointer;\n    text-align: center;\n  }\n  \n  .pdf-btn-qi03ss:hover {\n    opacity: 0.85;\n    color: #ffffff; /* Ensures link color doesn't change on hover by theme defaults */\n  }\n\n  .pdf-btn-qi03ss:active {\n    transform: scale(0.98);\n  }\n</style>\n\n<div style=\"margin: 10px 0; text-align: center;\">\n  <a href=\"https://cdn.shopify.com/s/files/1/0870/8033/7704/files/Virksomhedsforloeb.pdf?v=1768730230\" \n     class=\"pdf-btn-qi03ss\" \n     target=\"_blank\" \n     download>\n    Download PDF beskrivelse af forløbet\n  </a>\n</div>\n<!-- End Shopify PDF Button Code -->",
-        "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
       }
