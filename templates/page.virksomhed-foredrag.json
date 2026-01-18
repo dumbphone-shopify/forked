@@ -247,7 +247,7 @@
             "image": "shopify://shop_images/students-working-on-project.jpg",
             "caption": "",
             "heading": "Fase 4 - Evaluering & Indsamling",
-            "text": "<ul><li><strong>Afsluttende Workshop:</strong> Vi kommer ud igen. Vi faciliterer en samtale om erfaringerne: Hvad gjorde det ved mødekulturen? Hvad skete der hjemme ved middagsbordet?</li><li><strong>Logistik:</strong> Vi medbringer returkasser og labels. Vi håndterer indsamlingen af udstyr.</li><li><strong>Afrapportering:</strong> Ledelsen modtager en opsamling på forløbet (anonymiseret), som kan bruges direkte i ESG-rapportering (ESRS S1 – Own Workforce / Work-Life Balance).</li></ul>",
+            "text": "<p><strong>Afsluttende Workshop:</strong> Vi kommer ud igen. Vi faciliterer en samtale om erfaringerne: Hvad gjorde det ved mødekulturen? Hvad skete der hjemme ved middagsbordet? Vi snakker her særligt om hvordan eventuelle nye gode vaner kan fortsætte.</p><p><strong><br/>Logistik:</strong> I beholder alle låsekasserne, og derved er det nemt at fortsætte hvis medarbejderen ønsker det. <br/><strong><br/>Afrapportering:</strong> Ledelsen modtager en opsamling på forløbet (anonymiseret), som kan bruges direkte i ESG-rapportering (ESRS S1 – Own Workforce / Work-Life Balance).</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -274,6 +274,99 @@
         "row_color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "collapsible_content_LnDRGP": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_3TEfiU": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Introworkshop",
+            "icon": "check_mark",
+            "row_content": "<p>Vi facilitere en 2 timers workshop med jeres medarbejdere<br/><br/>Ca. 15-20.000 ex. moms + kørselgodtgørelse <br/><em>Kan variere afhængigt af hvor mange deltagere der er.</em></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_E4K9pw": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Række, der kan skjules",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_RqXwaB": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Række, der kan skjules",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_rbkNiW": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Række, der kan skjules",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_3TEfiU",
+        "collapsible_row_E4K9pw",
+        "collapsible_row_RqXwaB",
+        "collapsible_row_rbkNiW"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Priser:",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_CtBfRN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Dzi8fH": {
+          "type": "heading",
+          "settings": {
+            "heading": "Vi håber på at høre fra jer!",
+            "heading_size": "h1"
+          }
+        },
+        "text_TeQF6p": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_Dzi8fH",
+        "text_TeQF6p"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "custom_liquid_ByACda": {
@@ -357,6 +450,8 @@
     "multicolumn_dKKRWj",
     "image_banner_fjcYW7",
     "multirow_C8RtFT",
+    "collapsible_content_LnDRGP",
+    "rich_text_CtBfRN",
     "custom_liquid_ByACda",
     "rich_text_iaUE98",
     "main",
