@@ -223,7 +223,7 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/IMG_4016.png",
-            "caption": "Billedtekst",
+            "caption": "",
             "heading": "Fase 2 - Kick-off Workshop",
             "text": "<p><strong>Hype & Viden:</strong> Et engagerende, uhøjtideligt foredrag baseret på erfaringer fra over 2.500 deltagere (skoler/højskoler). Ingen skam, ingen pegefingre – kun nysgerrighed.</p><p><strong>Adfærdsdesign:</strong> Vi præsenterer \"Låsekassen\". Det er ikke bare en kasse; det er en <em>Commitment Device</em>, der fjerner den konstante indre forhandling (\"skal/skal ikke tjekke?\").</p><p><strong>Planlægning:</strong> Hver medarbejder får et fysisk \"Eksperiment-skema\" (lækkert design), hvor de vælger deres egne \"låse-zoner\". Det er 100% frivilligt.</p><p><strong>Udstyr:</strong> Vi uddeler grej på dagen. Medarbejdere kan låne udstyr til sig selv (sleeves/bokse) og – som noget unikt – til <em>hele familien</em>.</p>",
             "button_label": "",
@@ -245,7 +245,7 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/students-working-on-project.jpg",
-            "caption": "Billedtekst",
+            "caption": "",
             "heading": "Fase 4 - Evaluering & Indsamling",
             "text": "<ul><li><strong>Afsluttende Workshop:</strong> Vi kommer ud igen. Vi faciliterer en samtale om erfaringerne: Hvad gjorde det ved mødekulturen? Hvad skete der hjemme ved middagsbordet?</li><li><strong>Logistik:</strong> Vi medbringer returkasser og labels. Vi håndterer indsamlingen af udstyr.</li><li><strong>Afrapportering:</strong> Ledelsen modtager en opsamling på forløbet (anonymiseret), som kan bruges direkte i ESG-rapportering (ESRS S1 – Own Workforce / Work-Life Balance).</li></ul>",
             "button_label": "",
