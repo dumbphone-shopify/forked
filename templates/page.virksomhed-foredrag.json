@@ -279,6 +279,15 @@
     "collapsible_content_LnDRGP": {
       "type": "collapsible-content",
       "blocks": {
+        "collapsible_row_rbkNiW": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Sparring med ledelsen",
+            "icon": "check_mark",
+            "row_content": "<p>Denne sparring er inkluderet i prisen for introworkshoppen</p>",
+            "page": ""
+          }
+        },
         "collapsible_row_3TEfiU": {
           "type": "collapsible_row",
           "settings": {
@@ -302,25 +311,16 @@
           "settings": {
             "heading": "Afsluttende workshop",
             "icon": "check_mark",
-            "row_content": "<p>1-2 timers afsluttende workshop<br/>- Reflektion og snak om perioden og oplevelser<br/>- Reflektion og snak om hvordan evt. nye gode vaner kan fortsætte.<br/><br/>10-15.000 ex moms + kørselgodtgørelse<br/><em>Kan variere afhængigt af hvor mange deltagere der er.</em></p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_rbkNiW": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Række, der kan skjules",
-            "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>1-2 timers afsluttende workshop<br/>- Reflektion og snak om perioden og oplevelser<br/>- Reflektion og snak om hvordan evt. nye gode vaner kan fortsætte.<br/><br/>10-15.000 ex moms + kørselgodtgørelse</p>",
             "page": ""
           }
         }
       },
       "block_order": [
+        "collapsible_row_rbkNiW",
         "collapsible_row_3TEfiU",
         "collapsible_row_E4K9pw",
-        "collapsible_row_RqXwaB",
-        "collapsible_row_rbkNiW"
+        "collapsible_row_RqXwaB"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
