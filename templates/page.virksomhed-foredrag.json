@@ -291,9 +291,9 @@
         "collapsible_row_E4K9pw": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Række, der kan skjules",
+            "heading": "Udstyr til eksperiment",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>350 kr ex moms pr medarbejder</p>",
             "page": ""
           }
         },
