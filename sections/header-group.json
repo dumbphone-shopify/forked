@@ -14,6 +14,13 @@
     "announcement_bar_MD7MFD": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_NLxYqJ": {
+          "type": "announcement",
+          "settings": {
+            "text": "Ordre sendes fra vores lager i Århus",
+            "link": ""
+          }
+        },
         "announcement_9LAeqn": {
           "type": "announcement",
           "settings": {
@@ -51,6 +58,7 @@
         }
       },
       "block_order": [
+        "announcement_NLxYqJ",
         "announcement_9LAeqn",
         "announcement_Jxehkz",
         "announcement_P3fAyY",
