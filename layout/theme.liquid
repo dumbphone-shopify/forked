@@ -454,88 +454,68 @@ body {
       <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
 
-    <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        // Vi leder efter alt der ligner en luk-knap i popup/modals
-        // Tilføj gerne flere klasser her, hvis din knap hedder noget andet (f.eks. .close-icon)
-        var closeButtons = document.querySelectorAll('.modal__close, .modal-close-button, .icon-close, .popup-close, .close-video, button[name="close"], .js-modal-close'); 
-
-        closeButtons.forEach(function(btn) {
-            btn.addEventListener('click', function() {
-                // 1. Find alle YouTube/Vimeo iframes og nulstil dem
-                var iframes = document.querySelectorAll('iframe');
-                iframes.forEach(function(iframe) {
-                    // Vi tjekker om det er en video-tjeneste
-                    if (iframe.src.includes('youtube') || iframe.src.includes('vimeo')) {
-                        var tempSrc = iframe.src;
-                        iframe.src = tempSrc; // Dette tvinger videoen til at genstarte/stoppe
-                    }
-                });
-                
-                // 2. Find alle HTML5 (uploadede) videoer og sæt på pause
-                var videos = document.querySelectorAll('video');
-                videos.forEach(function(video) {
-                    video.pause();
-                });
-            });
-        });
-    });
-    </script>
    <script>
-document.addEventListener('click', function(event) {
-    // 1. Tjek om det, der bliver klikket på, er en luk-knap eller baggrunden
-    // Vi bruger .closest() for at fange klikket, selvom man rammer ikonet inde i knappen
-    if (
-        event.target.matches('.modal-overlay') || 
-        event.target.closest('[aria-label*="Close"]') || 
-        event.target.closest('[class*="close"]') || 
-        event.target.closest('.product-popup-modal__toggle') ||
-        event.target.closest('.js-modal-close-button')
-    ) {
-        // 2. Hvis vi ramte en luk-knap -> Stop alle videoer
-        
-        // Stop YouTube/Vimeo
-        var iframes = document.querySelectorAll('iframe');
+document.addEventListener('DOMContentLoaded', function() {
+    
+    // Funktion: Slukker for videoer (både YouTube, Vimeo og MP4)
+    function killSound(container) {
+        // 1. Nulstil YouTube/Vimeo
+        var searchScope = container || document;
+        var iframes = searchScope.querySelectorAll('iframe');
         iframes.forEach(function(iframe) {
             if (iframe.src.includes('youtube') || iframe.src.includes('vimeo')) {
-                var tempSrc = iframe.src;
-                iframe.src = tempSrc; // Genstarter rammen og dræber lyden
+                // Vi tvinger den til at genindlæse (hvilket dræber lyden)
+                var currentSrc = iframe.src;
+                iframe.src = currentSrc; 
             }
         });
-
-        // Stop HTML5 videoer
-        var videos = document.querySelectorAll('video');
+        
+        // 2. Pause MP4 videoer
+        var videos = searchScope.querySelectorAll('video');
         videos.forEach(function(video) {
             video.pause();
         });
     }
-});
-</script> <script>
-document.addEventListener('click', function(e) {
-    // 1. Find ud af, hvad der blev klikket på (selv hvis det er et ikon inde i en knap)
-    var target = e.target.closest('button, .modal-overlay, div[class*="close"], span[class*="close"]');
 
-    // 2. Tjek om vi ramte noget, der kunne være en luk-knap
-    // (Vi reagerer på knapper, baggrunden, eller ting der hedder "close")
-    if (target) {
-        // Find alle YouTube og Vimeo iframes på siden
+    // METODE 1: Den "Rigtige" Shopify-måde (<details> elementer)
+    // Dette fanger når popup-vinduer åbner/lukker i dit tema
+    var allDetails = document.querySelectorAll('details');
+    allDetails.forEach(function(detail) {
+        detail.addEventListener('toggle', function() {
+            // Hvis boksen lige er blevet lukket (ikke åben længere)
+            if (!detail.open) {
+                killSound(detail); // Dræb kun lyden i denne boks
+            }
+        });
+    });
+
+    // METODE 2: "Vagthunden" (Backup til mobilen og hvis klik ikke virker)
+    // Tjekker hvert halve sekund om en video spiller, mens den er usynlig/skjult
+    setInterval(function() {
         var iframes = document.querySelectorAll('iframe[src*="youtube"], iframe[src*="vimeo"]');
         
         iframes.forEach(function(iframe) {
-            // Gem videoens adresse
-            var currentSrc = iframe.src;
-            
-            // Tving browseren til at genindlæse adressen (dette dræber lyden øjeblikkeligt)
-            // Vi gør det kun, hvis videoen faktisk er synlig, eller hvis vi tror popup'en lukkes
-            iframe.src = currentSrc;
+            // Tjek om iframe er visuelt skjult 
+            var style = window.getComputedStyle(iframe);
+            // Hvis den er usynlig, gennemsigtig, eller har mistet sin plads
+            var isHidden = style.display === 'none' || style.visibility === 'hidden' || style.opacity === '0' || iframe.offsetParent === null;
+            // Eller hvis den ligger inde i en lukket <details> boks
+            var insideClosedDetails = iframe.closest('details:not([open])');
+
+            if (isHidden || insideClosedDetails) {
+                // Vi bruger en 'data-marker' så vi ikke genstarter den i ring
+                if (!iframe.getAttribute('data-sound-killed')) {
+                    console.log('Video er skjult - dræber lyd!');
+                    var src = iframe.src;
+                    iframe.src = src; // DRÆB LYDEN
+                    iframe.setAttribute('data-sound-killed', 'true');
+                }
+            } else {
+                // Hvis videoen bliver synlig igen, gør vi den klar til næste gang
+                iframe.removeAttribute('data-sound-killed');
+            }
         });
-        
-        // Find og stop også almindelige videofiler (MP4)
-        var videos = document.querySelectorAll('video');
-        videos.forEach(function(video) {
-            video.pause();
-        });
-    }
-}, true); // 'true' her gør, at vi fanger klikket før andre scripts
-</script></body>
+    }, 500); 
+});
+</script> </body>
 </html>
