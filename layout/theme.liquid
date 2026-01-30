@@ -454,68 +454,57 @@ body {
       <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
 
-   <script>
+  <script>
 document.addEventListener('DOMContentLoaded', function() {
     
-    // Funktion: Slukker for videoer (både YouTube, Vimeo og MP4)
-    function killSound(container) {
-        // 1. Nulstil YouTube/Vimeo
-        var searchScope = container || document;
-        var iframes = searchScope.querySelectorAll('iframe');
-        iframes.forEach(function(iframe) {
-            if (iframe.src.includes('youtube') || iframe.src.includes('vimeo')) {
-                // Vi tvinger den til at genindlæse (hvilket dræber lyden)
-                var currentSrc = iframe.src;
-                iframe.src = currentSrc; 
-            }
-        });
-        
-        // 2. Pause MP4 videoer
-        var videos = searchScope.querySelectorAll('video');
-        videos.forEach(function(video) {
-            video.pause();
-        });
+    // Denne funktion sender et "PAUSE" signal direkte ind i video-afspilleren
+    function forcePause(iframe) {
+        var src = iframe.src;
+        // YouTube Kommando
+        if (src.includes('youtube')) {
+            iframe.contentWindow.postMessage(JSON.stringify({ event: 'command', func: 'pauseVideo' }), '*');
+        } 
+        // Vimeo Kommando
+        else if (src.includes('vimeo')) {
+            iframe.contentWindow.postMessage(JSON.stringify({ method: 'pause' }), '*');
+        }
     }
 
-    // METODE 1: Den "Rigtige" Shopify-måde (<details> elementer)
-    // Dette fanger når popup-vinduer åbner/lukker i dit tema
-    var allDetails = document.querySelectorAll('details');
-    allDetails.forEach(function(detail) {
-        detail.addEventListener('toggle', function() {
-            // Hvis boksen lige er blevet lukket (ikke åben længere)
-            if (!detail.open) {
-                killSound(detail); // Dræb kun lyden i denne boks
-            }
-        });
-    });
-
-    // METODE 2: "Vagthunden" (Backup til mobilen og hvis klik ikke virker)
-    // Tjekker hvert halve sekund om en video spiller, mens den er usynlig/skjult
+    // VAGTHUND: Tjekker hvert halve sekund
     setInterval(function() {
-        var iframes = document.querySelectorAll('iframe[src*="youtube"], iframe[src*="vimeo"]');
+        // 1. Find alle iframes
+        var iframes = document.querySelectorAll('iframe');
         
         iframes.forEach(function(iframe) {
-            // Tjek om iframe er visuelt skjult 
-            var style = window.getComputedStyle(iframe);
-            // Hvis den er usynlig, gennemsigtig, eller har mistet sin plads
-            var isHidden = style.display === 'none' || style.visibility === 'hidden' || style.opacity === '0' || iframe.offsetParent === null;
-            // Eller hvis den ligger inde i en lukket <details> boks
-            var insideClosedDetails = iframe.closest('details:not([open])');
+            // Hvis det ikke er en video, så spring over
+            if (!iframe.src.includes('youtube') && !iframe.src.includes('vimeo')) return;
 
-            if (isHidden || insideClosedDetails) {
-                // Vi bruger en 'data-marker' så vi ikke genstarter den i ring
-                if (!iframe.getAttribute('data-sound-killed')) {
-                    console.log('Video er skjult - dræber lyd!');
-                    var src = iframe.src;
-                    iframe.src = src; // DRÆB LYDEN
-                    iframe.setAttribute('data-sound-killed', 'true');
-                }
-            } else {
-                // Hvis videoen bliver synlig igen, gør vi den klar til næste gang
-                iframe.removeAttribute('data-sound-killed');
+            // Tjek om videoen er skjult
+            var style = window.getComputedStyle(iframe);
+            var isHidden = style.display === 'none' || style.visibility === 'hidden' || style.opacity === '0' || iframe.offsetParent === null;
+            
+            // Tjek også om den ligger inde i en lukket <details> boks (Shopify standard)
+            var closedDetails = iframe.closest('details:not([open])');
+            
+            // Tjek om den ligger i en lukket deferred-media (specifikt for dit tema)
+            var inactiveMedia = iframe.closest('deferred-media:not(.is-active)');
+
+            // HVIS videoen er skjult på en af måderne...
+            if (isHidden || closedDetails || inactiveMedia) {
+                forcePause(iframe); // ... så send PAUSE signalet!
             }
         });
-    }, 500); 
+
+        // 2. Tjek også almindelige HTML5 videoer (MP4)
+        var videos = document.querySelectorAll('video');
+        videos.forEach(function(video) {
+            var style = window.getComputedStyle(video);
+            if (style.display === 'none' || style.visibility === 'hidden' || video.offsetParent === null || video.closest('details:not([open])')) {
+                video.pause();
+            }
+        });
+
+    }, 500); // Kører 2 gange i sekundet
 });
 </script> </body>
 </html>
