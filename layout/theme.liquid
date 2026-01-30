@@ -450,5 +450,36 @@ body {
     {%- if settings.cart_type == 'drawer' -%}
       <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-  </body>
+  {%- if settings.cart_type == 'drawer' -%}
+      <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
+    {%- endif -%}
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Vi leder efter alt der ligner en luk-knap i popup/modals
+        // Tilføj gerne flere klasser her, hvis din knap hedder noget andet (f.eks. .close-icon)
+        var closeButtons = document.querySelectorAll('.modal__close, .modal-close-button, .icon-close, .popup-close, .close-video, button[name="close"], .js-modal-close'); 
+
+        closeButtons.forEach(function(btn) {
+            btn.addEventListener('click', function() {
+                // 1. Find alle YouTube/Vimeo iframes og nulstil dem
+                var iframes = document.querySelectorAll('iframe');
+                iframes.forEach(function(iframe) {
+                    // Vi tjekker om det er en video-tjeneste
+                    if (iframe.src.includes('youtube') || iframe.src.includes('vimeo')) {
+                        var tempSrc = iframe.src;
+                        iframe.src = tempSrc; // Dette tvinger videoen til at genstarte/stoppe
+                    }
+                });
+                
+                // 2. Find alle HTML5 (uploadede) videoer og sæt på pause
+                var videos = document.querySelectorAll('video');
+                videos.forEach(function(video) {
+                    video.pause();
+                });
+            });
+        });
+    });
+    </script>
+    </body>
 </html>
