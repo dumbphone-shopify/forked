@@ -456,50 +456,70 @@ body {
 
   <script>
 document.addEventListener('DOMContentLoaded', function() {
-    
-    // Denne funktion fjerner "autoplay=1" fra adressen, så videoen holder kæft
-    function stopVideo(iframe) {
-        var src = iframe.src;
+
+    // Funktion der nulstiller en video-sektion helt (fjerner iframe, viser cover-billede igen)
+    function resetMedia(deferredMedia) {
+        if (!deferredMedia) return;
         
-        // Hvis videoen er sat til at starte automatisk, så stop det!
-        if (src.includes('autoplay=1')) {
-            var newSrc = src.replace('autoplay=1', 'autoplay=0');
-            iframe.src = newSrc; // Genindlæs videoen UDEN autoplay
-        } else {
-            // Hvis der ikke er autoplay, sender vi bare et pause-signal
-            iframe.contentWindow.postMessage(JSON.stringify({ event: 'command', func: 'pauseVideo' }), '*');
-            iframe.contentWindow.postMessage(JSON.stringify({ method: 'pause' }), '*');
+        // 1. Fjern "is-active" klassen så cover-billedet kommer tilbage
+        deferredMedia.classList.remove('is-active');
+        
+        // 2. Find og SLET selve YouTube/Vimeo afspilleren
+        var iframe = deferredMedia.querySelector('iframe');
+        if (iframe) {
+            iframe.remove(); // Dette fjerner elementet fysisk = lyden dør 100%
+        }
+        
+        // 3. Find og SLET evt. HTML5 video tags
+        var video = deferredMedia.querySelector('video');
+        if (video) {
+            video.pause();
+            video.remove();
+        }
+
+        // 4. Vis play-knappen igen
+        var button = deferredMedia.querySelector('button');
+        if (button) {
+            button.style.display = 'block';
         }
     }
 
-    // Vagthund: Tjekker hvert halve sekund
+    // VAGTHUND: Tjekker hvert halve sekund om en aktiv video er blevet skjult
     setInterval(function() {
-        var iframes = document.querySelectorAll('iframe');
-        
-        iframes.forEach(function(iframe) {
-            // Vi gider kun kigge på YouTube/Vimeo
-            if (!iframe.src.includes('youtube') && !iframe.src.includes('vimeo')) return;
+        // Find alle video-sektioner der spiller lige nu
+        var activeMedias = document.querySelectorAll('deferred-media.is-active, .is-active > deferred-media');
 
-            // Tjek om videoen er usynlig/skjult
-            var style = window.getComputedStyle(iframe);
-            var isHidden = style.display === 'none' || style.visibility === 'hidden' || style.opacity === '0' || iframe.offsetParent === null;
-            var closedDetails = iframe.closest('details:not([open])');
-            var inactiveMedia = iframe.closest('deferred-media:not(.is-active)');
+        activeMedias.forEach(function(media) {
+            // Tjek om videoen faktisk kan ses på skærmen
+            var rect = media.getBoundingClientRect();
+            
+            // En video er "skjult", hvis den fylder 0 pixels (lukket modal) eller er usynlig
+            var isHidden = (rect.width === 0 && rect.height === 0) || 
+                           (window.getComputedStyle(media).display === 'none') ||
+                           (media.closest('details:not([open])')); // Hvis den ligger i en lukket Shopify-boks
 
-            // HVIS videoen er skjult...
-            if (isHidden || closedDetails || inactiveMedia) {
-                // ...og vi ikke allerede har stoppet den
-                if (!iframe.getAttribute('data-is-stopped')) {
-                    console.log('Fandt skjult video med autoplay - stopper den!');
-                    stopVideo(iframe);
-                    iframe.setAttribute('data-is-stopped', 'true');
-                }
-            } else {
-                // Hvis den bliver synlig igen, fjerner vi "stoppet"-mærkatet
-                iframe.removeAttribute('data-is-stopped');
+            if (isHidden) {
+                console.log('Video er skjult - nulstiller den helt!');
+                resetMedia(media);
             }
         });
     }, 500);
+
+    // KLIK-LYTTER (Capture Phase): Fanger klik FØR dit tema stopper dem
+    document.addEventListener('click', function(e) {
+        // Tjek om man klikker på noget der ligner en luk-knap eller baggrund
+        var target = e.target;
+        if (target.matches('.modal-overlay') || 
+            target.closest('[class*="close"]') || 
+            target.closest('button[aria-label*="Close"]')) {
+            
+            // Vent 50ms så animationen starter, og ryd så op
+            setTimeout(function() {
+                var activeMedias = document.querySelectorAll('deferred-media.is-active');
+                activeMedias.forEach(resetMedia);
+            }, 50);
+        }
+    }, true); // 'true' her er vigtigt! Det tvinger lytteren til at virke.
 });
 </script> </body>
 </html>
