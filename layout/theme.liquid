@@ -481,5 +481,34 @@ body {
         });
     });
     </script>
-    </body>
+   <script>
+document.addEventListener('click', function(event) {
+    // 1. Tjek om det, der bliver klikket på, er en luk-knap eller baggrunden
+    // Vi bruger .closest() for at fange klikket, selvom man rammer ikonet inde i knappen
+    if (
+        event.target.matches('.modal-overlay') || 
+        event.target.closest('[aria-label*="Close"]') || 
+        event.target.closest('[class*="close"]') || 
+        event.target.closest('.product-popup-modal__toggle') ||
+        event.target.closest('.js-modal-close-button')
+    ) {
+        // 2. Hvis vi ramte en luk-knap -> Stop alle videoer
+        
+        // Stop YouTube/Vimeo
+        var iframes = document.querySelectorAll('iframe');
+        iframes.forEach(function(iframe) {
+            if (iframe.src.includes('youtube') || iframe.src.includes('vimeo')) {
+                var tempSrc = iframe.src;
+                iframe.src = tempSrc; // Genstarter rammen og dræber lyden
+            }
+        });
+
+        // Stop HTML5 videoer
+        var videos = document.querySelectorAll('video');
+        videos.forEach(function(video) {
+            video.pause();
+        });
+    }
+});
+</script> </body>
 </html>
