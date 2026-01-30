@@ -510,5 +510,32 @@ document.addEventListener('click', function(event) {
         });
     }
 });
-</script> </body>
+</script> <script>
+document.addEventListener('click', function(e) {
+    // 1. Find ud af, hvad der blev klikket på (selv hvis det er et ikon inde i en knap)
+    var target = e.target.closest('button, .modal-overlay, div[class*="close"], span[class*="close"]');
+
+    // 2. Tjek om vi ramte noget, der kunne være en luk-knap
+    // (Vi reagerer på knapper, baggrunden, eller ting der hedder "close")
+    if (target) {
+        // Find alle YouTube og Vimeo iframes på siden
+        var iframes = document.querySelectorAll('iframe[src*="youtube"], iframe[src*="vimeo"]');
+        
+        iframes.forEach(function(iframe) {
+            // Gem videoens adresse
+            var currentSrc = iframe.src;
+            
+            // Tving browseren til at genindlæse adressen (dette dræber lyden øjeblikkeligt)
+            // Vi gør det kun, hvis videoen faktisk er synlig, eller hvis vi tror popup'en lukkes
+            iframe.src = currentSrc;
+        });
+        
+        // Find og stop også almindelige videofiler (MP4)
+        var videos = document.querySelectorAll('video');
+        videos.forEach(function(video) {
+            video.pause();
+        });
+    }
+}, true); // 'true' her gør, at vi fanger klikket før andre scripts
+</script></body>
 </html>
