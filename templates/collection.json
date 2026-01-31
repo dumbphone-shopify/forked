@@ -47,6 +47,49 @@
         "show_text_below": true
       }
     },
+    "rich_text_X7GRBj": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_KqkPeb": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ring hvis du har brug for vejledning",
+            "heading_size": "h1"
+          }
+        },
+        "text_TeTDDj": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "button_8yjMWa": {
+          "type": "button",
+          "settings": {
+            "button_label": "40 26 12 70",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_KqkPeb",
+        "text_TeTDDj",
+        "button_8yjMWa"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 32,
+        "padding_bottom": 20
+      }
+    },
     "featured_collection_cDJ6xe": {
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
@@ -230,6 +273,7 @@
   "order": [
     "banner",
     "image_banner_PeXdJY",
+    "rich_text_X7GRBj",
     "featured_collection_cDJ6xe",
     "image_banner_giLG76",
     "featured_collection_ahPJRi",
