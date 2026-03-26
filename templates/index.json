@@ -73,49 +73,6 @@
         "padding_bottom": 44
       }
     },
-    "rich_text_Lj6fTq": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_cciKCV": {
-          "type": "heading",
-          "settings": {
-            "heading": "Ring hvis du har brug for vejledning",
-            "heading_size": "h1"
-          }
-        },
-        "text_4LTwwU": {
-          "type": "text",
-          "settings": {
-            "text": ""
-          }
-        },
-        "button_RqfDzH": {
-          "type": "button",
-          "settings": {
-            "button_label": "40 26 12 70",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_cciKCV",
-        "text_4LTwwU",
-        "button_RqfDzH"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 20,
-        "padding_bottom": 20
-      }
-    },
     "mediaslider_PKNYUf": {
       "type": "mediaslider",
       "blocks": {
@@ -263,6 +220,49 @@
         "title": "",
         "align_text": "center",
         "color_scheme": "scheme-2"
+      }
+    },
+    "rich_text_Lj6fTq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_cciKCV": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ring hvis du har brug for vejledning",
+            "heading_size": "h1"
+          }
+        },
+        "text_4LTwwU": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "button_RqfDzH": {
+          "type": "button",
+          "settings": {
+            "button_label": "40 26 12 70",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_cciKCV",
+        "text_4LTwwU",
+        "button_RqfDzH"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "carusel_bMcbcV": {
