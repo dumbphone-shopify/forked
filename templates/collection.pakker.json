@@ -820,7 +820,7 @@
       ],
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "collection": "kits",
+        "collection": "udskydsammen",
         "products_to_show": 2,
         "title": "Udlejning af dumbphones",
         "heading_size": "h1",

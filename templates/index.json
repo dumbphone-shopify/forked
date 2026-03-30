@@ -25,7 +25,7 @@
           "type": "button",
           "settings": {
             "label": "Udskyd smartphonen tilbud",
-            "link": "shopify://collections/kits",
+            "link": "shopify://collections/udskydsammen",
             "button_bg_color": "#fffdf8",
             "button_text_color": "#0a2038"
           }
@@ -300,7 +300,7 @@
             "heading": "Udskyd introduktionen af smartphone - Gå 5 sammen tilbud",
             "text": "Smartphones kan hurtigt gå fra værktøj til tidsrøver. Vi tror på at man kan komme langt ved at introducere simple telefon som et slags forebyggende redskab til at udskyde smartphonen en anelse.",
             "align_text": "left",
-            "link": "shopify://collections/kits",
+            "link": "shopify://collections/udskydsammen",
             "linktext": "Gå 5 sammen tilbud"
           }
         }
