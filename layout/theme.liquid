@@ -1,6 +1,19 @@
 <!doctype html>
 <html class="js" lang="{{ request.locale.iso_code }}">
   <head>
+  <script>
+  (function() {
+    var path = window.location.pathname;
+    var isAllowed = path.startsWith('/checkouts/') 
+                 || path === '/cart' 
+                 || path.startsWith('/cart/') 
+                 || path.startsWith('/account/') 
+                 || path.startsWith('/policies/');
+    if (!isAllowed) {
+      window.location.replace('https://dumbphone.dk' + path + window.location.search);
+    }
+  })();
+</script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
