@@ -38,7 +38,7 @@
   </li>
 
 
-  {% when 'collection' and collection.handle %}
+  {% when 'collection' %}
 
    {% if collection and collection.handle %}
   {% if current_tags %}
@@ -90,4 +90,13 @@
 </nav>
 {% endunless %}
 
-</div>
+</div>{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% when 'collection' and collection.handle %}"
+  to: "{% when 'collection' %}"
+  position: 946..969
+{%- endcomment -%}
